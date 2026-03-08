@@ -11,4 +11,3 @@ pytz==2025.2
 sqlparse==0.5.5
 tzdata==2025.3
 whitenoise==6.5.0
-python-3.11.9
