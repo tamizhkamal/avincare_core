@@ -11,6 +11,24 @@ def dashboard(request):
 def about(request):
     return render(request, 'about.html')
 
+def vision(request):
+    return render(request, 'vision.html')
+
+def board(request):
+    return render(request, 'board.html')
+
+def quality(request):
+    return render(request, 'quality.html')
+
+def products(request):
+    return render(request, 'products.html')
+
+def responsibility(request):
+    return render(request, 'responsibility.html')
+
+def company(request):
+    return render(request, 'company.html')
+
 def profile(request):
     return render(request, 'profile.html')
 
