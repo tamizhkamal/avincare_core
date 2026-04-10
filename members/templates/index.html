@@ -3,7 +3,7 @@
 
 {% block content %}
 
-<!-- Carousel Start -->
+<!-- Hero Section Start -->
 <div class="container-fluid header-carousel px-0 mb-5">
     <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -13,10 +13,10 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-lg-7 text-start">
-                                <h1 class="display-4 text-white animated slideInRight mb-3">Global Standards,<br>Local Impact – Pharma Solutions for Every Need</h1>
-                                <p class="mb-5 animated slideInRight">Avin Shukri Pharmaceuticals - Delivering trusted and affordable healthcare solutions through innovation, quality manufacturing, and ethical practices.</p>
+                                <h1 class="display-4 text-white animated slideInRight mb-3">ENDURING GOODNESS<br>IN EVERY DOSE</h1>
+                                <p class="mb-5 animated slideInRight">Avin Shukri Pharmaceuticals Private Limited is a rapidly growing pharmaceutical company, specializing in the marketing and distribution of high-quality affordable medicines, cosmetics and surgical products.</p>
                                 <a href="{% url 'about' %}" class="btn btn-primary py-3 px-5 animated slideInRight">Learn More</a>
-                                <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                <a href="{% url 'products' %}" class="btn btn-primary py-3 px-5 animated slideInRight">Explore Products</a>
                             </div>
                         </div>
                     </div>
@@ -28,12 +28,9 @@
                     <div class="container">
                         <div class="row justify-content-end">
                             <div class="col-lg-7 text-end">
-                                <h1 class="display-1 text-white animated slideInLeft mb-3">Expet Doctors & Lab
-                                    Assistants</h1>
-                                <p class="mb-5 animated slideInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.
-                                    Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus.</p>
-                                <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Explore More</a>
+                                <h1 class="display-1 text-white animated slideInLeft mb-3">15+ Pharmaceutical<br>Brands & Global Presence</h1>
+                                <p class="mb-5 animated slideInLeft">Established in 2023 with operations in Republic of Chad, Djibouti, and expanding to Sudan, Bangladesh, Seychelles, Egypt, and Yemen. Delivering quality healthcare solutions worldwide.</p>
+                                <a href="{% url 'company' %}" class="btn btn-primary py-3 px-5 animated slideInLeft">Our Global Operations</a>
                             </div>
                         </div>
                     </div>
@@ -50,359 +47,258 @@
         </button>
     </div>
 </div>
-<!-- Carousel End -->
+<!-- Hero Section End -->
 
-
-<!-- About Start -->
-<div class="container-fluid py-5">
-    <div class="container pb-5">
-        <div class="row g-5">
-            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                <div class="row g-0">
-                    <div class="col-6">
-                        <img class="img-fluid" src="{% static 'img/about-1.jpg' %}">
-                    </div>
-                    <div class="col-6">
-                        <img class="img-fluid" src="{% static 'img/about-2.jpg' %}">
-                    </div>
-                    <div class="col-6">
-                        <img class="img-fluid" src="{% static 'img/about-3.jpg' %}">
-                    </div>
-                    <div class="col-6">
-                        <div
-                            class="bg-primary w-100 h-100 mt-n5 ms-n5 d-flex flex-column align-items-center justify-content-center">
-                            <div class="icon-box-light">
-                                <i class="bi bi-award text-dark"></i>
-                            </div>
-                            <h1 class="display-1 text-white mb-0" data-toggle="counter-up">25</h1>
-                            <small class="fs-5 text-white">Years Experience</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                <h1 class="display-6 mb-4">Trusted Lab Experts and Latest Lab Technologies</h1>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis
-                    id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla
-                    risus. Pellentesque eu consequat augue.</p>
-                <div class="row g-4 g-sm-5 justify-content-center">
-                    <div class="col-sm-6">
-                        <div class="about-fact btn-square flex-column rounded-circle bg-primary ms-sm-auto">
-                            <p class="text-white mb-0">Awards Winning</p>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">9999</h1>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 text-start">
-                        <div class="about-fact btn-square flex-column rounded-circle bg-secondary me-sm-auto">
-                            <p class="text-white mb-0">Complete Cases</p>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">9999</h1>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="about-fact mt-n130 btn-square flex-column rounded-circle bg-dark mx-sm-auto">
-                            <p class="text-white mb-0">Happy Clients</p>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">9999</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- About End -->
-
-
-<!-- Service Start -->
-<div class="container-fluid container-service py-5">
-    <div class="container pt-5">
-        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-            <h1 class="display-6 mb-3">Reliable & High-Quality Laboratory Service</h1>
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id
-                elit eget, ultrices pulvinar tortor.</p>
-        </div>
-        <div class="row g-4">
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item">
-                    <div class="icon-box-primary mb-4">
-                        <i class="bi bi-heart-pulse text-dark"></i>
-                    </div>
-                    <h5 class="mb-3">Pathology Testing</h4>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.
-                        </p>
-                        <a class="btn btn-light px-3" href="">Read More<i
-                                class="bi bi-chevron-double-right ms-1"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item">
-                    <div class="icon-box-primary mb-4">
-                        <i class="bi bi-lungs text-dark"></i>
-                    </div>
-                    <h5 class="mb-3">Microbiology Tests</h4>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.
-                        </p>
-                        <a class="btn btn-light px-3" href="">Read More<i
-                                class="bi bi-chevron-double-right ms-1"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="service-item">
-                    <div class="icon-box-primary mb-4">
-                        <i class="bi bi-virus text-dark"></i>
-                    </div>
-                    <h5 class="mb-3">Biochemistry Tests</h4>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.
-                        </p>
-                        <a class="btn btn-light px-3" href="">Read More<i
-                                class="bi bi-chevron-double-right ms-1"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                <div class="service-item">
-                    <div class="icon-box-primary mb-4">
-                        <i class="bi bi-capsule-pill text-dark"></i>
-                    </div>
-                    <h5 class="mb-3">Histopatology Tests</h4>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.
-                        </p>
-                        <a class="btn btn-light px-3" href="">Read More<i
-                                class="bi bi-chevron-double-right ms-1"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item">
-                    <div class="icon-box-primary mb-4">
-                        <i class="bi bi-capsule text-dark"></i>
-                    </div>
-                    <h5 class="mb-3">Urine Tests</h4>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.
-                        </p>
-                        <a class="btn btn-light px-3" href="">Read More<i
-                                class="bi bi-chevron-double-right ms-1"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item">
-                    <div class="icon-box-primary mb-4">
-                        <i class="bi bi-prescription2 text-dark"></i>
-                    </div>
-                    <h5 class="mb-3">Blood Tests</h4>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.
-                        </p>
-                        <a class="btn btn-light px-3" href="">Read More<i
-                                class="bi bi-chevron-double-right ms-1"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="service-item">
-                    <div class="icon-box-primary mb-4">
-                        <i class="bi bi-clipboard2-pulse text-dark"></i>
-                    </div>
-                    <h5 class="mb-3">Fever Tests</h4>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.
-                        </p>
-                        <a class="btn btn-light px-3" href="">Read More<i
-                                class="bi bi-chevron-double-right ms-1"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                <div class="service-item">
-                    <div class="icon-box-primary mb-4">
-                        <i class="bi bi-file-medical text-dark"></i>
-                    </div>
-                    <h5 class="mb-3">Allergy Tests</h4>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.
-                        </p>
-                        <a class="btn btn-light px-3" href="">Read More<i
-                                class="bi bi-chevron-double-right ms-1"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Service End -->
-
-
-<!-- Appoinment Start -->
+<!-- About Section Start -->
 <div class="container-fluid py-5">
     <div class="container">
-        <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="display-6 mb-4">We Ensure You Will Always Get The Best Result</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit
-                    eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus.
-                    Pellentesque eu consequat augue.</p>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis
-                    id elit eget, ultrices pulvinar tortor.</p>
-                <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.3s">
-                    <div class="icon-box-primary">
-                        <i class="bi bi-geo-alt text-dark fs-1"></i>
-                    </div>
-                    <div class="ms-3">
-                        <h5>Office Address</h5>
-                        <span>123 Street, New York, USA</span>
-                    </div>
-                </div>
-                <hr>
-                <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.4s">
-                    <div class="icon-box-primary">
-                        <i class="bi bi-clock text-dark fs-1"></i>
-                    </div>
-                    <div class="ms-3">
-                        <h5>Office Time</h5>
-                        <span>Mon-Sat 09am-5pm, Sun Closed</span>
-                    </div>
-                </div>
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+                <h1 class="mb-4">AVIN SHUKRI PHARMACEUTICALS PRIVATE LIMITED</h1>
+                <h2 class="mb-4 text-primary">"ENDURING GOODNESS IN EVERY DOSE"</h2>
+                <p class="mb-4">Avin Shukri Pharmaceuticals Private Limited is a rapidly growing pharmaceutical company, specializing in the marketing and distribution of high-quality affordable medicines, cosmetics and surgical products.</p>
+                <p class="mb-4">Our comprehensive product portfolio includes Injections, tablets, capsules, ointments, creams, dry syrups, and oral suspensions - serving both generic and branded markets with a strong presence in India and strategic international markets.</p>
+                <p class="mb-4">We are committed to addressing global healthcare needs across two continents backed by a focus on quality, regulatory compliance, and customer trust.</p>
+                <p class="mb-4">Avin shukri pharmaceuticals Pvt.Ltd, is highly committed to delivering high-quality pharmaceutical solutions with uncompromising standards guided by our philosophy of "Imperishable Goodness". We continuously strive to expand our reach and bring reliable healthcare solution to the universal markets.</p>
             </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                <h2 class="mb-4">Online Appoinment</h2>
-                <div class="row g-3">
-                    <div class="col-sm-6">
-                        <div class="form-floating">
-                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                            <label for="name">Your Name</label>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-floating">
-                            <input type="email" class="form-control" id="mail" placeholder="Your Email">
-                            <label for="mail">Your Email</label>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-floating">
-                            <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
-                            <label for="mobile">Your Mobile</label>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-floating">
-                            <select class="form-select" id="service">
-                                <option selected>Pathology Testing</option>
-                                <option value="">Microbiology Tests</option>
-                                <option value="">Biochemistry Tests</option>
-                                <option value="">Histopatology Tests</option>
-                            </select>
-                            <label for="service">Choose A Service</label>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                style="height: 130px"></textarea>
-                            <label for="message">Message</label>
-                        </div>
-                    </div>
-                    <div class="col-12 text-center">
-                        <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
-                    </div>
-                </div>
+            <div class="col-lg-6">
+                <img src="{% static 'img/avin_about_1.jpg' %}" class="img-fluid rounded" alt="About Us">
+            </div>
+            <div class="col-lg-6">
+                <img src="{% static 'img/avin_about_2.jpg' %}" class="img-fluid rounded" alt="About Us">
             </div>
         </div>
     </div>
 </div>
-<!-- Appoinment Start -->
+<!-- About Section End -->
 
-
-<!-- Team Start -->
-<div class="container-fluid container-team py-5">
-    <div class="container pb-5">
-        <div class="row g-5 align-items-center mb-5">
-            <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
-                <img class="img-fluid w-100" src="{% static 'img/team-1.jpg' %}" alt="">
-            </div>
-            <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
-                <h1 class="display-6 mb-3">Dr. John Martin</h1>
-                <p class="mb-1">CEO & Founder</p>
-                <p class="mb-5">Labsky, New York, USA</p>
-                <h3 class="mb-3">Biography</h3>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis
-                    id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla
-                    risus. Pellentesque eu consequat augue.</p>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis
-                    id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla
-                    risus. Pellentesque eu consequat augue.</p>
-                <div class="d-flex">
-                    <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
-                </div>
-            </div>
+<!-- Company Highlights Start -->
+<div class="container-fluid py-5 bg-light">
+    <div class="container">
+        <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+            <h1 class="display-5 mb-4">Company Highlights</h1>
+            <p class="mb-0">A pharmaceutical marketing and export company established in 2023. With a strong commitment to quality, innovation, and accessibility, we are dedicated to delivering reliable pharmaceutical products across domestic and international markets.</p>
         </div>
         <div class="row g-4">
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="{% static 'img/team-2.jpg' %}" alt="">
-                        <div class="team-social">
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+            <div class="col-md-6 col-lg-3">
+                <div class="counter-item bg-white rounded p-4 text-center">
+                    <i class="fas fa-building fa-3x text-primary mb-3"></i>
+                    <h3 class="mb-3">2023</h3>
+                    <p class="mb-0">Established Year</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="counter-item bg-white rounded p-4 text-center">
+                    <i class="fas fa-pills fa-3x text-primary mb-3"></i>
+                    <h3 class="mb-3">15+</h3>
+                    <p class="mb-0">Pharmaceutical Brands</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="counter-item bg-white rounded p-4 text-center">
+                    <i class="fas fa-rocket fa-3x text-primary mb-3"></i>
+                    <h3 class="mb-3">10</h3>
+                    <p class="mb-0">New Products Launching Soon</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="counter-item bg-white rounded p-4 text-center">
+                    <i class="fas fa-globe fa-3x text-primary mb-3"></i>
+                    <h3 class="mb-3">7+</h3>
+                    <p class="mb-0">Countries Presence</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Company Highlights End -->
+
+<!-- Global Presence Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+            <h1 class="display-5 mb-4">Our Global Presence</h1>
+            <p class="mb-0">With a portfolio of 15 pharmaceutical brands and 10 additional brands launching soon, we are expanding across multiple therapeutic segments to support healthcare professionals and patients worldwide.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <h3 class="mb-4 text-primary">Current Market Presence</h3>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-3"></i>
+                            <span>Republic of Chad (Registered & Operational)</span>
                         </div>
                     </div>
-                    <div class="text-center p-4">
-                        <h5 class="mb-1">Alex Robin</h5>
-                        <span>Lab Assistant</span>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-3"></i>
+                            <span>Djibouti</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="{% static 'img/team-3.jpg' %}" alt="">
-                        <div class="team-social">
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+            <div class="col-lg-6">
+                <h3 class="mb-4 text-primary">Upcoming Markets</h3>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-clock text-warning me-3"></i>
+                            <span>Sudan</span>
                         </div>
                     </div>
-                    <div class="text-center p-4">
-                        <h5 class="mb-1">Andrew Bon</h5>
-                        <span>Lab Assistant</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="{% static 'img/team-4.jpg' %}" alt="">
-                        <div class="team-social">
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-clock text-warning me-3"></i>
+                            <span>Bangladesh</span>
                         </div>
                     </div>
-                    <div class="text-center p-4">
-                        <h5 class="mb-1">Martin Tompson</h5>
-                        <span>Lab Assistant</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="{% static 'img/team-5.jpg' %}" alt="">
-                        <div class="team-social">
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-square btn-light mx-1" href=""><i class="fab fa-youtube"></i></a>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-clock text-warning me-3"></i>
+                            <span>Seychelles</span>
                         </div>
                     </div>
-                    <div class="text-center p-4">
-                        <h5 class="mb-1">Clarabelle Samber</h5>
-                        <span>Lab Assistant</span>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-clock text-warning me-3"></i>
+                            <span>Egypt</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-clock text-warning me-3"></i>
+                            <span>Yemen</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Team End -->
+<!-- Global Presence End -->
 
+<!-- Products Section Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+            <h1 class="display-5 mb-4">Our Products</h1>
+            <p class="mb-0">Avin Shukri Pharmaceuticals currently markets 15 pharmaceutical brands across different therapeutic segments, with 10 additional products scheduled for launch.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="service-item bg-white rounded p-4 text-center">
+                    <i class="fas fa-capsules fa-3x text-primary mb-3"></i>
+                    <h4>Antibiotics</h4>
+                    <p class="mb-0">Quality antibiotic medications for various infections</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="service-item bg-white rounded p-4 text-center">
+                    <i class="fas fa-tablets fa-3x text-primary mb-3"></i>
+                    <h4>Anti-inflammatory</h4>
+                    <p class="mb-0">Effective pain and inflammation management solutions</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="service-item bg-white rounded p-4 text-center">
+                    <i class="fas fa-stomach fa-3x text-primary mb-3"></i>
+                    <h4>Gastrointestinal</h4>
+                    <p class="mb-0">Comprehensive GI tract treatment medications</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="service-item bg-white rounded p-4 text-center">
+                    <i class="fas fa-pills fa-3x text-primary mb-3"></i>
+                    <h4>Vitamins & Supplements</h4>
+                    <p class="mb-0">Essential nutrients for overall health and wellness</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <p class="mb-0">All products are sourced from WHO-GMP certified manufacturing partners.</p>
+        </div>
+    </div>
+</div>
+<!-- Products Section End -->
+
+<!-- Vision & Mission Start -->
+<div class="container-fluid py-5 bg-light">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6">
+                <div class="vision-item">
+                    <h3 class="mb-4 text-primary">Our Vision</h3>
+                    <p>To become a globally recognized pharmaceutical company delivering high-quality, affordable medicines while contributing to improved healthcare outcomes across emerging and developing markets.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="mission-item">
+                    <h3 class="mb-4 text-primary">Our Mission</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Provide high-quality and affordable pharmaceutical products</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Expand presence across global healthcare markets</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Build strong partnerships with reliable manufacturers and distributors</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Ensure ethical marketing and responsible business practices</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Establish our own pharmaceutical manufacturing facilities in the future</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Vision & Mission End -->
+
+<!-- Core Values Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+            <h1 class="display-5 mb-4">Core Values</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="value-item bg-white rounded p-4 text-center">
+                    <i class="fas fa-shield-alt fa-3x text-primary mb-3"></i>
+                    <h4>Quality</h4>
+                    <p class="mb-0">Ensuring high pharmaceutical standards</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="value-item bg-white rounded p-4 text-center">
+                    <i class="fas fa-handshake fa-3x text-primary mb-3"></i>
+                    <h4>Integrity</h4>
+                    <p class="mb-0">Transparent and ethical business practices</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="value-item bg-white rounded p-4 text-center">
+                    <i class="fas fa-lightbulb fa-3x text-primary mb-3"></i>
+                    <h4>Innovation</h4>
+                    <p class="mb-0">Continuous improvement and expansion</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="value-item bg-white rounded p-4 text-center">
+                    <i class="fas fa-globe-americas fa-3x text-primary mb-3"></i>
+                    <h4>Global Responsibility</h4>
+                    <p class="mb-0">Improving access to medicines worldwide</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Core Values End -->
+
+<!-- CTA Section Start -->
+<div class="container-fluid py-5 bg-primary">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="text-white mb-4">Ready to Partner With Us?</h2>
+            <p class="text-white mb-4">Join us in our mission to deliver quality healthcare solutions worldwide.</p>
+            <a href="{% url 'contact' %}" class="btn btn-light py-3 px-5">Contact Us Today</a>
+        </div>
+    </div>
+</div>
+<!-- CTA Section End -->
 
 {% endblock %}

@@ -3,56 +3,254 @@
 
 {% block content %}
 
+<!-- Page Header Start -->
+<div class="container-fluid py-5 bg-primary">
+    <div class="container">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+            <h1 class="display-4 text-white mb-4">Contact Us</h1>
+            <p class="text-white mb-0">Get in touch with Avin Shukri Pharmaceuticals Private Limited for business inquiries and partnerships</p>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
 
-<!-- Carousel Start -->
-<div class="container-fluid header-carousel px-0 mb-5">
-    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="w-100" src="{% static 'img/carousel-1.jpg' %}" alt="Image">
-                <div class="carousel-caption">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-lg-7 text-start">
-                                <h1 class="display-1 text-white animated slideInRight mb-3">Award Winning Laboratory
-                                    Center</h1>
-                                <p class="mb-5 animated slideInRight">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.
-                                    Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus.</p>
-                                <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
-                            </div>
-                        </div>
+<!-- Contact Info Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="display-6 mb-4">Get In Touch With Us</h1>
+                <p class="mb-4">We're here to help you with all your pharmaceutical needs. Whether you're looking for product information, business partnerships, or have questions about our global operations, our team is ready to assist you.</p>
+                
+                <div class="d-flex align-items-start mb-4 wow fadeIn" data-wow-delay="0.2s">
+                    <div class="icon-box-primary">
+                        <i class="bi bi-geo-alt text-dark fs-1"></i>
+                    </div>
+                    <div class="ms-3">
+                        <h5>Corporate Headquarters</h5>
+                        <p class="mb-0">5/3 SASTRY 2ND CROSS STREET KAVERY NAGAR,<br>SAIDAPET, CHENNAI, Tamil Nadu, India - 600035</p>
+                    </div>
+                </div>
+                
+                <div class="d-flex align-items-start mb-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="icon-box-primary">
+                        <i class="bi bi-telephone text-dark fs-1"></i>
+                    </div>
+                    <div class="ms-3">
+                        <h5>Phone Number</h5>
+                        <p class="mb-0">+91 9500804839</p>
+                    </div>
+                </div>
+                
+                <div class="d-flex align-items-start mb-4 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="icon-box-primary">
+                        <i class="bi bi-envelope text-dark fs-1"></i>
+                    </div>
+                    <div class="ms-3">
+                        <h5>Email Address</h5>
+                        <p class="mb-0">info@avinshukri.com</p>
+                    </div>
+                </div>
+                
+                <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.5s">
+                    <div class="icon-box-primary">
+                        <i class="bi bi-clock text-dark fs-1"></i>
+                    </div>
+                    <div class="ms-3">
+                        <h5>Business Hours</h5>
+                        <p class="mb-0">Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 2:00 PM<br>Sunday: Closed</p>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img class="w-100" src="{% static 'img/carousel-2.jpg' %}" alt="Image">
-                <div class="carousel-caption">
-                    <div class="container">
-                        <div class="row justify-content-end">
-                            <div class="col-lg-7 text-end">
-                                <h1 class="display-1 text-white animated slideInLeft mb-3">Expet Doctors & Lab
-                                    Assistants</h1>
-                                <p class="mb-5 animated slideInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                    elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.
-                                    Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus.</p>
-                                <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Explore More</a>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                <h2 class="mb-4">Send Us a Message</h2>
+                <form id="contactForm" method="POST" action="{% url 'contact_form' %}">
+                    {% csrf_token %}
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                                <label for="name">Your Name</label>
                             </div>
                         </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                                <label for="email">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone" required>
+                                <label for="phone">Your Phone</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <select class="form-select" id="subject" name="subject" required>
+                                    <option value="General Inquiry" selected>General Inquiry</option>
+                                    <option value="Product Information">Product Information</option>
+                                    <option value="Business Partnership">Business Partnership</option>
+                                    <option value="Global Distribution">Global Distribution</option>
+                                    <option value="Career Opportunities">Career Opportunities</option>
+                                </select>
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 130px" required></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-primary w-100 py-3">
+                                <i class="bi bi-send me-2"></i>Send Message
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                
+                <!-- Success Message (Hidden by default) -->
+                <div id="successMessage" class="alert alert-success mt-3" style="display: none;">
+                    <i class="bi bi-check-circle me-2"></i>
+                    Message sent successfully! We'll contact you soon via email and WhatsApp.
+                </div>
+                
+                <!-- Error Message (Hidden by default) -->
+                <div id="errorMessage" class="alert alert-danger mt-3" style="display: none;">
+                    <i class="bi bi-exclamation-triangle me-2"></i>
+                    <span id="errorText">Error sending message. Please try again.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact Info End -->
+
+<!-- Map Section Start -->
+<div class="container-fluid py-5 bg-light">
+    <div class="container">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+            <h1 class="display-6 mb-5">Find Our Location</h1>
+            <p class="mb-5">Visit our corporate headquarters in Chennai, India</p>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="map-container">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.129228286766!2d80.2233338740515!3d13.027441613653616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52673df2239183%3A0x243d831bf930883e!2sAVIN%20SHUKRI%20PHARMACEUTICALS%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1774986595952!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="400" 
+                            style="border:0; border-radius: 10px;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="bg-white p-4 rounded shadow-sm h-100">
+                    <h4 class="mb-4">Global Operations</h4>
+                    
+                    <div class="mb-4">
+                        <h6 class="text-primary mb-2">🇹🇩 Republic of Chad</h6>
+                        <p class="mb-2">Registered & Operational</p>
+                        <small class="text-muted">Central Africa Operations</small>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <h6 class="text-primary mb-2">🇩🇯 Djibouti</h6>
+                        <p class="mb-2">Established Presence</p>
+                        <small class="text-muted">Horn of Africa Operations</small>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <h6 class="text-warning mb-2">🆕 Expanding Markets</h6>
+                        <p class="mb-2">Coming Soon:</p>
+                        <small class="text-muted">• Sudan<br>• Bangladesh<br>• Seychelles<br>• Egypt<br>• Yemen</small>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <a href="{% url 'company' %}" class="btn btn-primary w-100">View Global Operations</a>
                     </div>
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 </div>
-<!-- Carousel End -->
+<!-- Map Section End -->
+
+<!-- Contact Form JavaScript -->
+<script>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Get form data
+    const formData = new FormData(this);
+    
+    // Submit form to Django
+    fetch('{% url "contact_form" %}', {
+        method: 'POST',
+        body: formData,
+        headers: {
+            'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value,
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Show success message
+            document.getElementById('successMessage').style.display = 'block';
+            document.getElementById('errorMessage').style.display = 'none';
+            
+            // Also send WhatsApp message
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // Format message for WhatsApp
+            const whatsappMessage = `*New Contact Form Submission - Avin Shukri Pharmaceuticals*
+
+*Name:* ${name}
+*Email:* ${email}
+*Phone:* ${phone}
+*Subject:* ${subject}
+
+*Message:*
+${message}`;
+            
+            // Send WhatsApp message
+            const whatsappLink = `https://wa.me/919500804839?text=${encodeURIComponent(whatsappMessage)}`;
+            window.open(whatsappLink, '_blank');
+            
+            // Reset form
+            this.reset();
+            
+            // Hide success message after 5 seconds
+            setTimeout(() => {
+                document.getElementById('successMessage').style.display = 'none';
+            }, 5000);
+        } else {
+            // Show error message
+            document.getElementById('errorText').textContent = data.message || 'Error sending message. Please try again.';
+            document.getElementById('errorMessage').style.display = 'block';
+            document.getElementById('successMessage').style.display = 'none';
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        document.getElementById('errorText').textContent = 'Network error. Please try again.';
+        document.getElementById('errorMessage').style.display = 'block';
+        document.getElementById('successMessage').style.display = 'none';
+    });
+});
+</script>
+<!-- Contact Form JavaScript End -->
 
 {% endblock %}

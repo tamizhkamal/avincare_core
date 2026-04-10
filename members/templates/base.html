@@ -27,8 +27,190 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Template Stylesheet -->
     <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'ta,en,ar,fr',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+        
+        function changeLanguage(lang) {
+            setTimeout(function() {
+                var selectElement = document.querySelector('.goog-te-combo');
+                if (selectElement) {
+                    selectElement.value = lang;
+                    selectElement.dispatchEvent(new Event('change'));
+                }
+            }, 500);
+        }
+    </script>
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <style>
+        /* Dropdown z-index fixes */
+        .sticky-top {
+            position: sticky !important;
+            top: 0 !important;
+            z-index: 9999 !important;
+            background: white !important;
+        }
+        
+        .navbar {
+            position: relative !important;
+            z-index: 9999 !important;
+        }
+        
+        .nav-item.dropdown {
+            position: relative !important;
+            z-index: 9999 !important;
+        }
+        
+        .dropdown-menu {
+            min-width: 200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            z-index: 10000 !important;
+            position: absolute !important;
+            top: 100% !important;
+            left: 0 !important;
+        }
+        
+        .dropdown-menu.show {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            z-index: 10000 !important;
+        }
+        
+        .dropdown-item {
+            padding: 10px 15px;
+            border-radius: 6px;
+            margin: 2px 0;
+            transition: all 0.3s ease;
+            position: relative !important;
+            z-index: 10000 !important;
+        }
+        
+        .dropdown-item:hover {
+            background-color: #007bff;
+            color: white;
+            transform: translateX(5px);
+        }
+        
+        .dropdown-item i {
+            color: #007bff;
+        }
+        
+        .dropdown-item:hover i {
+            color: white;
+        }
+        
+        .nav-link.dropdown-toggle {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            position: relative !important;
+            z-index: 9999 !important;
+        }
+        
+        .nav-link.dropdown-toggle:hover {
+            color: #007bff !important;
+        }
+        
+        /* Lower z-index for carousel/slider */
+        .carousel, .slider, .hero-section, .wow {
+            z-index: 1 !important;
+            position: relative !important;
+        }
+        
+        .carousel-inner, .carousel-item {
+            z-index: 1 !important;
+            position: relative !important;
+        }
+        
+        /* Fix overflow issues */
+        body {
+            position: relative !important;
+            overflow-x: hidden !important;
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .container-fluid {
+            position: relative !important;
+            overflow: visible !important;
+        }
+        
+        /* Hide Google Translate banner */
+        .goog-te-banner-frame {
+            display: none !important;
+        }
+        
+        .goog-te-gadget {
+            font-size: 0 !important;
+        }
+        
+        body > .goog-te-banner-frame {
+            display: none !important;
+            visibility: hidden !important;
+        }
+        
+        .goog-te-gadget .goog-te-gadget-simple .goog-te-gadget-icon {
+            display: none;
+        }
+        
+        .goog-te-gadget-simple .goog-te-gadget-simple-text {
+            display: none;
+        }
+        
+        /* Mobile navbar layout */
+        @media (max-width: 991.98px) {
+            .navbar-nav {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 1rem 0;
+            }
+            
+            .navbar-nav .nav-link {
+                padding: 0.5rem 1rem;
+                width: 100%;
+            }
+            
+            .navbar-nav .dropdown {
+                width: 100%;
+            }
+            
+            .dropdown-menu {
+                position: relative;
+                top: 0;
+                left: 0;
+                width: 100%;
+                box-shadow: none;
+                border: 1px solid #dee2e6;
+                background: #f8f9fa;
+            }
+            
+            .dropdown-menu .dropdown-item {
+                padding: 0.75rem 1rem;
+                border-bottom: 1px solid #e9ecef;
+            }
+            
+            .dropdown-menu .dropdown-item:last-child {
+                border-bottom: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -39,113 +221,63 @@
     </div>
     <!-- Spinner End -->
 
-
-    <!-- Topbar Start -->
-    <!-- <div class="container-fluid py-2 d-none d-lg-flex">
-        <div class="container">
-            <div class="d-flex justify-content-between">
-                <div>
-                    <small class="me-3"><i class="fa fa-map-marker-alt me-2"></i>5/3 SASTRY 2ND CROSS STREET KAVERY NAGAR,<br> SAIDAPET , CHENNAI, Tamil Nadu, India - 600035</small>
-                </div>
-                <nav class="breadcrumb mb-0">
-                    <a class="breadcrumb-item small text-body" href="#">Career</a>
-                    <a class="breadcrumb-item small text-body" href="#">Support</a>
-                    <a class="breadcrumb-item small text-body" href="#">Terms</a>
-                    <a class="breadcrumb-item small text-body" href="#">FAQs</a> -->
-                    <!-- <a class="breadcrumb-item small text-body" href="#">lang</a> -->
-                     <!-- <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Language</a>
-                            <div class="dropdown-menu bg-light m-0">
-                                <a href="{% url 'team' %}" class="dropdown-item">Tamil</a>
-                                <a href="{% url 'appoinment' %}" class="dropdown-item">English</a>
-                            </div>
-                        </div>
-                    <div class="">
-                        <a href="#" class="breadcrumb-item small text-body" data-bs-toggle="dropdown">Language</a>
-                        <div class="dropdown-menu bg-light m-0">
-                            <a href="#" class="dropdown-item">Tamil</a>
-                            <a href="#" class="dropdown-item">English</a>
-                            <a href="#" class="dropdown-item">Arabic</a>
-                            <a href="#" class="dropdown-item">Spanish</a>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div> -->
-    <!-- Topbar End -->
-
-
-    <!-- Brand Start -->
-    <!-- <div class="container-fluid bg-primary text-white pt-4 pb-5 d-none d-lg-flex">
-        <div class="container pb-2">
-            <div class="d-flex align-items-center justify-content-between">
-                <div class="d-flex">
-                    <i class="bi bi-telephone-inbound fs-2"></i>
-                    <div class="ms-3">
-                        <h5 class="text-white mb-0">Call Now</h5>
-                        <span>+91 9500804839</span>
-                    </div>
-                </div>
-                <a href="{% url 'dashboard' %}" class="h3 text-white mb-0">Avin Shukri Pharmaceuticals Private Limited</a>
-                <div class="d-flex">
-                    <i class="bi bi-envelope fs-2"></i>
-                    <div class="ms-3">
-                        <h5 class="text-white mb-0">Mail Now</h5>
-                        <span>vickysan0107@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Brand End -->
-
-
     <!-- Navbar Start -->
     <div class="sticky-top w-100">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
-            <div class="container-fluid">
-                <a href="{% url 'dashboard' %}" class="navbar-brand" style="max-width: 300px;">
-                    <img src="{% static 'img/logo.jpeg' %}" alt="Avin Shukri Logo" class="img-fluid" style="height: 80px; max-width: 100%; margin-top:-5px">
-                </a>
-                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href="{% url 'dashboard' %}" class="nav-item nav-link active">Home</a>
-                        <a href="{% url 'about' %}" class="nav-item nav-link">About</a>
-                        <a href="{% url 'service' %}" class="nav-item nav-link">Services</a>
-                        <a href="{% url 'vision' %}" class="nav-item nav-link">Vision Values</a>
-                        <a href="{% url 'board' %}" class="nav-item nav-link">Board of Directors</a>
-                        <a href="{% url 'quality' %}" class="nav-item nav-link">Quality</a>
-                        <a href="{% url 'products' %}" class="nav-item nav-link">Products</a>
-                        <a href="{% url 'responsibility' %}" class="nav-item nav-link">Responsibility</a>
-                        <a href="{% url 'company' %}" class="nav-item nav-link">Company</a>
-                        <a href="{% url 'contact' %}" class="nav-item nav-link">Contact</a>
-                        <div class="nav-item dropdown d-none d-lg-block">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Language</a>
-                            <div class="dropdown-menu bg-light m-0">
-                                <a href="#" class="dropdown-item">Tamil</a>
-                                <a href="#" class="dropdown-item">English</a>
-                                <a href="#" class="dropdown-item">Arabic</a>
-                                <a href="#" class="dropdown-item">French</a>
+        <!-- <div class="container-fluid"> -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+                <div class="container-fluid">
+                    <a href="{% url 'dashboard' %}" class="navbar-brand" style="max-width: 300px;">
+                        <img src="{% static 'img/logo.jpeg' %}" alt="Avin Shukri Logo" class="img-fluid" style="height: 80px; max-width: 100%; margin-top:-5px">
+                    </a>
+                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto">
+                            <a href="{% url 'dashboard' %}" class="nav-item nav-link active">Home</a>
+                            <a href="{% url 'about' %}" class="nav-item nav-link">About</a>
+                            <a href="{% url 'responsibility' %}" class="nav-item nav-link">Responsibility</a>
+                            <a href="{% url 'products' %}" class="nav-item nav-link">Products</a>
+                            <a href="{% url 'board' %}" class="nav-item nav-link">Who We Are</a>
+                            <a href="{% url 'contact' %}" class="nav-item nav-link">Contact</a>
+                            
+                            <!-- Language Dropdown -->
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                    <i class="bi bi-globe me-1"></i> Language
+                                </a>
+                                <div class="dropdown-menu bg-light m-0 border-0 shadow">
+                                    <a href="#" class="dropdown-item" onclick="changeLanguage('ta'); return false;">
+                                        <i class="bi bi-translate me-2"></i>தமிழ் (Tamil)
+                                    </a>
+                                    <a href="#" class="dropdown-item" onclick="changeLanguage('en'); return false;">
+                                        <i class="bi bi-translate me-2"></i>English
+                                    </a>
+                                    <a href="#" class="dropdown-item" onclick="changeLanguage('ar'); return false;">
+                                        <i class="bi bi-translate me-2"></i>العربية (Arabic)
+                                    </a>
+                                    <a href="#" class="dropdown-item" onclick="changeLanguage('fr'); return false;">
+                                        <i class="bi bi-translate me-2"></i>Français (French)
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </div>
-    <!-- Navbar End -->
-
-
+            </nav>
+        <!-- </div> -->
+        <!-- Navbar End -->
+    <!-- </div> -->
+    
+    <!-- Hidden Google Translate Element -->
+    <div id="google_translate_element" style="display: none;"></div>
+    
     {% block content %}
-    <!-- Content will be inserted here by child templates -->
-    {% endblock %}
-
-
+        <!-- Content will be inserted here by child templates -->
+        {% endblock %}  
+        
+    
     <!-- Footer Start -->
     <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container">
@@ -155,11 +287,11 @@
                         <h1 class="text-primary mb-0">Avin Shukri Pharmaceuticals
                             <br> Private Limited</h1>
                     </a>
-                    <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
+                    <p class="fs-5 mb-4">Avin Shukri Pharmaceuticals Private Limited is a rapidly growing pharmaceutical company, specializing in marketing and distribution of high-quality affordable medicines, cosmetics and surgical products. Established in 2023 with a commitment to "ENDURING GOODNESS IN EVERY DOSE".</p>
                     <p><i class="fa fa-map-marker-alt me-2"></i>5/3 SASTRY 2ND CROSS STREET KAVERY NAGAR,
 SAIDAPET , CHENNAI, Tamil Nadu, India - 600035</p>
                     <p><i class="fa fa-phone-alt me-2"></i>+91 9500804839</p>
-                    <p><i class="fa fa-envelope me-2"></i>vickysan0107@gmail.com</p>
+                    <p><i class="fa fa-envelope me-2"></i>info@avinshukri.com</p>
                     <div class="d-flex mt-4">
                         <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -200,27 +332,22 @@ SAIDAPET , CHENNAI, Tamil Nadu, India - 600035</p>
     </div>
     <!-- Footer End -->
 
-
     <!-- Copyright Start -->
     <div class="container-fluid copyright bg-dark text-white-50 py-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-center text-md-start">
+                <div class="col-md-12 text-center">
                     <p class="mb-0">&copy; <a href="#">Avin Shukri Pharmaceuticals Private Limited </a>. All Rights Reserved.</p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">Designed by <a href="https://startamizhainfotech.in">Star Tamizha Info Tech</a></p>
                 </div>
             </div>
         </div>
     </div>
     <!-- Copyright End -->
 
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-
+    
+    </div>
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

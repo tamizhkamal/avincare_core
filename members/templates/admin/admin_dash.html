@@ -1,0 +1,191 @@
+{% extends 'admin/admin_base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="section-header">
+    <h2>Admin Dashboard</h2>
+    <p>Overview of your pharmaceutical business metrics</p>
+</div>
+
+<div class="stats-container">
+    <div class="stat-card glow">
+        <div class="stat-icon">
+            <i class="fas fa-users"></i>
+        </div>
+        <div class="stat-details">
+            <h3>Total Directors</h3>
+            <p class="counter" data-target="{{ total_directors }}">0</p>
+            <span class="trend positive">Board Members</span>
+        </div>
+    </div>
+    <div class="stat-card glow">
+        <div class="stat-icon">
+            <i class="fas fa-box"></i>
+        </div>
+        <div class="stat-details">
+            <h3>Total Products</h3>
+            <p class="counter" data-target="{{ total_products }}">0</p>
+            <span class="trend positive">Pharmaceutical Items</span>
+        </div>
+    </div>
+    <div class="stat-card glow">
+        <div class="stat-icon">
+            <i class="fas fa-chart-line"></i>
+        </div>
+        <div class="stat-details">
+            <h3>Categories</h3>
+            <p class="counter" data-target="5">0</p>
+            <span class="trend positive">Product Types</span>
+        </div>
+    </div>
+    <div class="stat-card glow">
+        <div class="stat-icon">
+            <i class="fas fa-clock"></i>
+        </div>
+        <div class="stat-details">
+            <h3>Last Updated</h3>
+            <p class="counter" style="font-size: 14px;">{{ last_updated|date:"H:i" }}</p>
+            <span class="trend positive">Live Data</span>
+        </div>
+    </div>
+</div>
+
+<div class="charts-container">
+    <div class="chart-card glow">
+        <div class="revenue-header">
+            <h2>Business Overview</h2>
+        </div>
+        <div id="revenueChart"></div>
+    </div>
+    <div class="chart-card glow">
+        <div class="chart-header">
+            <h3>System Statistics</h3>
+        </div>
+        <div id="userActivityChart"></div>
+    </div>
+</div>
+
+<div class="activity-card glow">
+    <div class="activity-header">
+        <h2>Recent Activities</h2>
+    </div>
+    <div class="activity-list" id="activityList">
+        {% for activity in recent_activities %}
+        <div class="activity-item">
+            <div class="activity-icon" style="background: #4361ee20; color: #4361ee;">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="activity-content">
+                <p><strong>{{ activity.name }}</strong> {{ activity.action }}</p>
+                <span>{{ activity.time }}</span>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+    // Chart data for dashboard - using JSON to avoid template parsing issues
+    const dashboardStats = {{ dashboard_stats|safe }};
+    
+    // Initialize charts with real data
+    document.addEventListener('DOMContentLoaded', () => {
+        // Business Overview Chart
+        const revenueOptions = {
+            series: [{
+                name: 'Business Metrics',
+                data: [dashboardStats.directors, dashboardStats.products, dashboardStats.categories, dashboardStats.active_users]
+            }],
+            chart: {
+                type: 'donut',
+                height: 300,
+                background: 'transparent'
+            },
+            colors: ['#4361ee', '#6d5acd', '#2ed573', '#ff6b6b'],
+            labels: ['Directors', 'Products', 'Categories', 'Active Users'],
+            plotOptions: {
+                pie: {
+                    donut: {
+                        size: '75%'
+                    }
+                }
+            },
+            legend: {
+                position: 'bottom',
+                labels: { colors: '#a0a3bd' }
+            },
+            tooltip: { theme: 'dark' }
+        };
+
+        const revenueChart = new ApexCharts(document.querySelector("#revenueChart"), revenueOptions);
+        revenueChart.render();
+
+        // System Statistics Chart
+        const activityOptions = {
+            series: [{
+                name: 'Directors',
+                data: [2, 3, 2, 4, 3, dashboardStats.directors, dashboardStats.directors]
+            }, {
+                name: 'Products', 
+                data: [5, 8, 12, 15, 18, dashboardStats.products, dashboardStats.products]
+            }],
+            chart: {
+                type: 'bar',
+                height: 300,
+                background: 'transparent',
+                toolbar: { show: false },
+                stacked: true
+            },
+            colors: ['#4361ee', '#6d5acd'],
+            plotOptions: {
+                bar: {
+                    horizontal: false,
+                    borderRadius: 5,
+                    columnWidth: '70%'
+                }
+            },
+            dataLabels: { enabled: false },
+            grid: {
+                borderColor: '#1a1d25',
+                strokeDashArray: 5
+            },
+            xaxis: {
+                categories: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                labels: {
+                    style: { colors: '#a0a3bd' }
+                }
+            },
+            yaxis: {
+                labels: {
+                    style: { colors: '#a0a3bd' }
+                }
+            },
+            tooltip: { theme: 'dark' }
+        };
+
+        const activityChart = new ApexCharts(document.querySelector("#userActivityChart"), activityOptions);
+        activityChart.render();
+
+        // Initialize counter animations
+        const counters = document.querySelectorAll('.counter');
+        counters.forEach(counter => {
+            const target = parseInt(counter.getAttribute('data-target'));
+            const duration = 2000;
+            const increment = target / (duration / 16);
+            let current = 0;
+
+            const updateCounter = () => {
+                current += increment;
+                if (current < target) {
+                    counter.textContent = Math.ceil(current).toLocaleString();
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    counter.textContent = target.toLocaleString();
+                }
+            };
+
+            updateCounter();
+        });
+    });
+</script>
+{% endblock %}

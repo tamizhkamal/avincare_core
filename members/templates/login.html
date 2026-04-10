@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Niconne&display=swap" rel="stylesheet">
+
+    <title>Login Form</title>
+    <style>
+        /* Add your custom styles here */
+        * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: url('https://images.wallpaperscraft.com/image/single/lake_forest_snow_130421_1280x720.jpg');
+}
+
+.container {
+    height: 400px;
+    width: 650px;
+    box-shadow: 0px 30px 40px black;
+    display: flex;
+    border-radius: 10px;
+}
+
+.image {
+    flex: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.wallpaperscraft.com/image/single/lake_forest_snow_130421_1280x720.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image h1 {
+    margin-top: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+span {
+    color: chartreuse;
+}
+
+.content {
+    flex: 50%;
+    background-color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content h1 {
+    padding: 40px;
+    padding-top: 30px;
+    font-family: 'Niconne', cursive;
+    font-size: 40px;
+    color: #c446c9;
+}
+
+#txt {
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    background-color: rgba(156, 77, 156, 0.3);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    color: #aa38a4;
+}
+
+label {
+    font-weight: bold;
+    font-size: small;
+}
+
+#txt:focus {
+    outline: none;
+}
+
+.fp {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+    transition: 0.3s;
+}
+
+.fp:hover {
+    color: #c446c9;
+}
+
+button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    border: none;
+    background: linear-gradient(to right, #4568DC, #B06AB3);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+    </style>
+    
+    <!-- Sweet Notification CSS -->
+    <style>
+        .sweet-notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(238, 90, 36, 0.3);
+            z-index: 10000;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transform: translateX(400px);
+            transition: all 0.3s ease;
+            max-width: 350px;
+        }
+        
+        .sweet-notification.show {
+            transform: translateX(0);
+        }
+        
+        .sweet-notification.success {
+            background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+            box-shadow: 0 10px 25px rgba(58, 123, 213, 0.3);
+        }
+        
+        .sweet-notification.error {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            box-shadow: 0 10px 25px rgba(238, 90, 36, 0.3);
+        }
+        
+        .sweet-notification i {
+            font-size: 20px;
+        }
+        
+        .sweet-notification .close-btn {
+            margin-left: auto;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+        
+        .sweet-notification .close-btn:hover {
+            opacity: 1;
+        }
+        
+        @keyframes slideInRight {
+            from {
+                transform: translateX(400px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        
+        @keyframes slideOutRight {
+            from {
+                transform: translateX(0);
+                opacity: 1;
+            }
+            to {
+                transform: translateX(400px);
+                opacity: 0;
+            }
+        }
+        
+        .sweet-notification.slide-in {
+            animation: slideInRight 0.3s ease;
+        }
+        
+        .sweet-notification.slide-out {
+            animation: slideOutRight 0.3s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+       
+        <div class="image">
+            <h1>Welcome To <span>Admin</span></h1>
+        </div>
+       
+        <div class="content">
+            <h1>Login</h1>
+            <form method="post" action="{% url 'login' %}">
+                {% csrf_token %}
+            <div class="form-group">
+                <label for="">Email</label>
+                <br>
+                <input type="email" class="form-control" name="email_id" id="txt" aria-describedby="helpId" placeholder="Email">
+
+            </div>
+            <div class="form-group">
+                <label for="">Password</label>
+                <br>
+                <input type="password" class="form-control" name="login_password" id="txt" placeholder="Password">
+            </div>
+            <a class="fp" href="#">Forgot Password?</a>
+            <br>
+            <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+<!-- Sweet Notification JavaScript -->
+<script>
+    function showSweetNotification(message, type = 'error') {
+        // Remove any existing notifications
+        const existingNotification = document.querySelector('.sweet-notification');
+        if (existingNotification) {
+            existingNotification.remove();
+        }
+        
+        // Create notification element
+        const notification = document.createElement('div');
+        notification.className = `sweet-notification ${type}`;
+        
+        // Icon based on type
+        const icon = type === 'success' ? 'fas fa-check-circle' : 'fas fa-exclamation-circle';
+        
+        notification.innerHTML = `
+            <i class="${icon}"></i>
+            <span>${message}</span>
+            <button class="close-btn" onclick="closeNotification(this)">&times;</button>
+        `;
+        
+        // Add to page
+        document.body.appendChild(notification);
+        
+        // Trigger animation
+        setTimeout(() => {
+            notification.classList.add('show');
+        }, 100);
+        
+        // Auto-hide after 5 seconds
+        setTimeout(() => {
+            closeNotification(notification.querySelector('.close-btn'));
+        }, 5000);
+    }
+    
+    function closeNotification(button) {
+        const notification = button.closest('.sweet-notification');
+        notification.classList.remove('show');
+        setTimeout(() => {
+            notification.remove();
+        }, 300);
+    }
+    
+    // Check for Django messages and show as sweet notifications
+    document.addEventListener('DOMContentLoaded', function() {
+        // Messages will be added here by Django template
+    });
+    
+    // Django messages will be processed here
+    {% if messages %}
+        {% for message in messages %}
+            setTimeout(function() {
+                showSweetNotification('{{ message|safe }}', '{{ message.tags }}');
+            }, 100);
+        {% endfor %}
+    {% endif %}
+    
+    // Form submission with loading state
+    document.querySelector('form').addEventListener('submit', function(e) {
+        const submitBtn = this.querySelector('button[type="submit"]');
+        const originalText = submitBtn.innerHTML;
+        
+        // Show loading state
+        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Logging in...';
+        submitBtn.disabled = true;
+        
+        // Reset after 10 seconds (in case of error)
+        setTimeout(() => {
+            submitBtn.innerHTML = originalText;
+            submitBtn.disabled = false;
+        }, 10000);
+    });
+</script>
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</html>

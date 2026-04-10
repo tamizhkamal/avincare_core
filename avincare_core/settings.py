@@ -127,3 +127,26 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # Production static files settings
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
+# Email Configuration
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # For testing - shows emails in console
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'  # Uncomment for production
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'tamizhkamal6590@gmail.com'
+EMAIL_HOST_PASSWORD = 'BEmN/RWYv37PmoQrj7fxHrCR1f9ColK8Qn9tPU9VwJJ6'  # Replace with your 16-digit App Password from https://myaccount.google.com/apppasswords
+DEFAULT_FROM_EMAIL = 'tamizhkamal6590@gmail.com'
+EMAIL_ADDRESS = 'tamizhkamal6590@gmail.com'
+
+# Contact Email Settings
+CONTACT_EMAIL = 'info@avinshukri.com'
+
+# INSTRUCTIONS:
+# 1. Go to: https://myaccount.google.com/security
+# 2. Enable 2-Step Verification
+# 3. Go to: https://myaccount.google.com/apppasswords
+# 4. Select: Mail > Other (Custom name) > "Django AvinCare"
+# 5. Copy the 16-digit password and replace 'YOUR_APP_PASSWORD_HERE'
+# 6. Remove spaces from the 16-digit password
+# 7. Uncomment SMTP backend and comment console backend when ready for production
+

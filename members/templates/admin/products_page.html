@@ -1,0 +1,619 @@
+{% extends 'admin/admin_base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="section-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+    <div>
+        <h2>Products Management</h2>
+        <p>Manage your pharmaceutical product inventory</p>
+    </div>
+    <button class="settings-btn" onclick="openProductModal()" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.8rem 1.5rem; background: var(--accent-primary); color: white; border: none; border-radius: 8px; font-weight: 500; cursor: pointer; transition: all 0.3s ease;">
+        <i class="fas fa-plus"></i>
+        Add New Product
+    </button>
+</div>
+
+<!-- Search and Stats Bar -->
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; gap: 1rem; flex-wrap: wrap;">
+    <div style="display: flex; align-items: center; gap: 1rem;">
+        <div style="position: relative; flex: 1; min-width: 300px;">
+            <input type="text" 
+                   id="searchInput" 
+                   value="{{ search_query }}" 
+                   placeholder="Search products by name, category, manufacturer, brand, SKU..." 
+                   style="width: 100%; padding: 0.8rem 1rem 0.8rem 2.5rem; background: var(--bg-tertiary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+            <i class="fas fa-search" style="position: absolute; left: 0.8rem; top: 50%; transform: translateY(-50%); color: var(--text-secondary);"></i>
+        </div>
+        <button onclick="searchProducts()" style="padding: 0.8rem 1.5rem; background: var(--accent-primary); color: white; border: none; border-radius: 8px; cursor: pointer;">
+            Search
+        </button>
+        {% if search_query %}
+        <button onclick="clearSearch()" style="padding: 0.8rem 1.5rem; background: var(--bg-tertiary); color: var(--text-primary); border: 1px solid var(--text-secondary); border-radius: 8px; cursor: pointer;">
+            Clear
+        </button>
+        {% endif %}
+    </div>
+    
+    <div style="display: flex; align-items: center; gap: 1rem; color: var(--text-secondary); font-size: 0.9rem;">
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <label for="perPageSelect">Show per page:</label>
+            <select id="perPageSelect" 
+                    onchange="changePerPage()" 
+                    style="padding: 0.5rem; background: var(--bg-tertiary); border: 1px solid var(--accent-primary); border-radius: 6px; color: var(--text-primary);">
+                {% for option in per_page_options %}
+                <option value="{{ option }}" {% if per_page == option %}selected{% endif %}>{{ option }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        
+        <div>
+            {% if search_query %}
+            Found <strong style="color: var(--accent-primary);">{{ total_products }}</strong> products matching "{{ search_query }}"
+            {% else %}
+            Total <strong style="color: var(--accent-primary);">{{ total_products }}</strong> products
+            {% endif %}
+            {% if products.has_other_pages %}
+            | Page {{ products.number }} of {{ products.paginator.num_pages }}
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<!-- Product Modal Popup -->
+<div id="productModal" class="modal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); overflow: auto;">
+    <div class="modal-content" style="background-color: var(--bg-secondary); margin: 2% auto; padding: 2rem; border: none; border-radius: 12px; width: 95%; max-width: 800px; box-shadow: var(--card-shadow); max-height: 90vh; overflow-y: auto;">
+        <div class="modal-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+            <h3 id="productModalTitle" style="color: var(--text-primary); margin: 0;">Add New Product</h3>
+            <span class="close" onclick="closeProductModal()" style="color: var(--text-secondary); font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
+        </div>
+        
+        <form id="productForm" style="display: grid; gap: 1.5rem;">
+            <input type="hidden" id="productId" name="product_id">
+            <!-- Basic Information -->
+            <div style="background: var(--bg-tertiary); padding: 1.5rem; border-radius: 8px;">
+                <h4 style="color: var(--accent-primary); margin: 0 0 1rem 0;">Basic Information</h4>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div>
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Product Name *</label>
+                        <input type="text" name="name" required style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Category *</label>
+                        <select name="category" required style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                            <option value="">Select Category</option>
+                            <option value="pharmaceutical_tablet">Pharmaceutical Tablet</option>
+                            <option value="artesunate_injection">Artesunate Injection</option>
+                            <option value="surgical_instruments">Surgical Instruments</option>
+                            <option value="ibuprofen">Ibuprofen</option>
+                            <option value="desi_chicks">Desi Chicks</option>
+                            <option value="optical_instruments">Optical Instruments</option>
+                            <option value="amoxicillin_syrup">Amoxicillin Syrup</option>
+                            <option value="ceftriaxone">Ceftriaxone</option>
+                            <option value="pantoprazole">Pantoprazole</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Product Type *</label>
+                        <select name="type" required style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                            <option value="">Select Type</option>
+                            <option value="Tablet">Tablet</option>
+                            <option value="Injection">Injection</option>
+                            <option value="Dry Syrup">Dry Syrup</option>
+                            <option value="Syrup">Syrup</option>
+                            <option value="Instrument">Surgical Instrument</option>
+                            <option value="Optical">Optical Instrument</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Strength/Dosage *</label>
+                        <input type="text" name="strength" required placeholder="e.g., 250mg, 1gm, 40mg, 125mg" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pricing & Inventory -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                <div style="background: var(--bg-tertiary); padding: 1.5rem; border-radius: 8px;">
+                    <h4 style="color: var(--accent-primary); margin: 0 0 1rem 0;">Pricing</h4>
+                    <div style="display: grid; gap: 1rem;">
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">MRP Price *</label>
+                            <input type="text" name="mrp_price" required placeholder="₹0.00" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Trade Price</label>
+                            <input type="text" name="trade_price" placeholder="₹0.00" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Purchase Price</label>
+                            <input type="text" name="purchase_price" placeholder="₹0.00" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Selling Price</label>
+                            <input type="text" name="selling_price" placeholder="₹0.00" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">GST (%)</label>
+                            <input type="number" name="gst_percentage" placeholder="18" min="0" max="100" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Discount (%)</label>
+                            <input type="number" name="discount_percentage" placeholder="0" min="0" max="100" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="background: var(--bg-tertiary); padding: 1.5rem; border-radius: 8px;">
+                    <h4 style="color: var(--accent-primary); margin: 0 0 1rem 0;">Inventory</h4>
+                    <div style="display: grid; gap: 1rem;">
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Stock Quantity *</label>
+                            <input type="number" name="stock" required min="0" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Reorder Level</label>
+                            <input type="number" name="reorder_level" min="0" placeholder="Alert when stock reaches this level" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Minimum Order Quantity</label>
+                            <input type="number" name="min_order_quantity" min="1" placeholder="Minimum quantity per order" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Maximum Order Quantity</label>
+                            <input type="number" name="max_order_quantity" min="1" placeholder="Maximum quantity per order" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Warehouse Location</label>
+                            <select name="warehouse_location" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                                <option value="">Select Warehouse</option>
+                                <option value="chennai">Chennai Main</option>
+                                <option value="mumbai">Mumbai Branch</option>
+                                <option value="delhi">Delhi Branch</option>
+                                <option value="bangalore">Bangalore Branch</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Storage Conditions</label>
+                            <select name="storage_conditions" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                                <option value="">Select Condition</option>
+                                <option value="room_temperature">Room Temperature</option>
+                                <option value="refrigerated">Refrigerated (2-8°C)</option>
+                                <option value="frozen">Frozen (-18°C or below)</option>
+                                <option value="cool_dry">Cool & Dry</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Shelf Life (Days)</label>
+                            <input type="number" name="shelf_life" min="1" placeholder="Days before expiry" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Details -->
+            <div style="background: var(--bg-tertiary); padding: 1.5rem; border-radius: 8px;">
+                <h4 style="color: var(--accent-primary); margin: 0 0 1rem 0;">Product Details</h4>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div>
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Manufacturer</label>
+                        <input type="text" name="manufacturer" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Brand</label>
+                        <input type="text" name="brand" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">SKU Code</label>
+                        <input type="text" name="sku" placeholder="Unique product identifier" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Batch Number</label>
+                        <input type="text" name="batch_number" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Description & Additional Info -->
+            <div style="background: var(--bg-tertiary); padding: 1.5rem; border-radius: 8px;">
+                <h4 style="color: var(--accent-primary); margin: 0 0 1rem 0;">Additional Information</h4>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div style="grid-column: 1 / -1;">
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Description</label>
+                        <textarea name="description" rows="4" placeholder="Detailed product description, uses, benefits..." style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary); resize: vertical;"></textarea>
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Composition</label>
+                        <input type="text" name="composition" placeholder="Active ingredients" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Expiry Date</label>
+                        <input type="date" name="expiry_date" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500;">Product Image</label>
+                        <input type="file" name="product_image" accept="image/*" style="width: 100%; padding: 0.8rem; background: var(--bg-secondary); border: 1px solid var(--accent-primary); border-radius: 8px; color: var(--text-primary);">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Form Actions -->
+            <div style="display: flex; gap: 1rem; justify-content: flex-end; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--bg-tertiary);">
+                <button type="button" onclick="closeProductModal()" style="padding: 0.8rem 1.5rem; background: var(--bg-tertiary); color: var(--text-primary); border: 1px solid var(--text-secondary); border-radius: 8px; cursor: pointer;">
+                    Cancel
+                </button>
+                <button type="submit" id="productSubmitBtn" style="padding: 0.8rem 1.5rem; background: var(--accent-primary); color: white; border: none; border-radius: 8px; cursor: pointer;">
+                    <i class="fas fa-save"></i>
+                    Save Product
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="projects-grid">
+    {% for product in products %}
+    <div class="project-card glow">
+        <div class="project-header">
+            <h3>{{ product.get_category_display }}</h3>
+            <span class="status in-progress">{{ product.type }}</span>
+        </div>
+        
+        <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+            <div class="profile-avatar" style="width: 60px; height: 60px; background: var(--accent-primary); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                {% if product.product_image %}
+                    <img src="{{ product.product_image.url }}" alt="{{ product.name }}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
+                {% else %}
+                    <i class="fas fa-box" style="color: white; font-size: 1.5rem;"></i>
+                {% endif %}
+            </div>
+            <div>
+                <h4 style="margin: 0; color: var(--text-primary);">{{ product.name }}</h4>
+                <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary); font-size: 0.9rem;">{{ product.strength }}</p>
+            </div>
+        </div>
+        
+        {% if product.description %}
+        <div style="margin-bottom: 1rem;">
+            <p style="margin: 0; color: var(--text-secondary);">{{ product.description|truncatewords:20 }}</p>
+        </div>
+        {% endif %}
+        
+        <div style="margin-bottom: 1rem;">
+            <p style="margin: 0; color: var(--text-secondary); font-size: 0.85rem; line-height: 1.4;">
+                {% if product.mrp_price %}<strong>MRP:</strong> ₹{{ product.mrp_price }}{% endif %}
+                {% if product.stock %} | <strong>Stock:</strong> {{ product.stock }}{% endif %}
+                {% if product.manufacturer %} | <strong>Brand:</strong> {{ product.manufacturer }}{% endif %}
+            </p>
+            {% if product.sku %}
+            <p style="margin: 0.25rem 0 0 0; color: var(--text-secondary); font-size: 0.8rem;">
+                <strong>SKU:</strong> {{ product.sku }}
+                {% if product.batch_number %} | <strong>Batch:</strong> {{ product.batch_number }}{% endif %}
+            </p>
+            {% endif %}
+        </div>
+        
+        <div class="project-meta">
+            <div style="display: flex; gap: 0.5rem;">
+                <button onclick="editProduct({{ product.id }})" style="padding: 0.5rem 1rem; background: var(--accent-primary); color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 0.8rem;">
+                    <i class="fas fa-edit"></i> Edit
+                </button>
+                <button onclick="deleteProduct({{ product.id }})" style="padding: 0.5rem 1rem; background: var(--danger); color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 0.8rem;">
+                    <i class="fas fa-trash"></i> Delete
+                </button>
+            </div>
+        </div>
+    </div>
+    {% empty %}
+    <div style="grid-column: 1 / -1; text-align: center; padding: 3rem;">
+        <i class="fas fa-box" style="font-size: 3rem; color: var(--text-secondary); margin-bottom: 1rem;"></i>
+        <h3 style="color: var(--text-primary); margin-bottom: 0.5rem;">No Products Found</h3>
+        <p style="color: var(--text-secondary);">Start by adding your first product to the inventory.</p>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Pagination Controls -->
+{% if products.has_other_pages %}
+<div style="display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin-top: 2rem;">
+    {% if products.has_previous %}
+        <a href="?page={{ products.previous_page_number }}&search={{ search_query }}&per_page={{ per_page }}" 
+           style="padding: 0.5rem 1rem; background: var(--accent-primary); color: white; text-decoration: none; border-radius: 6px; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-chevron-left"></i> Previous
+        </a>
+    {% endif %}
+    
+    <span style="display: flex; gap: 0.25rem;">
+        {% for num in products.paginator.page_range %}
+            {% if products.number == num %}
+                <span style="padding: 0.5rem 0.75rem; background: var(--accent-primary); color: white; border-radius: 6px;">{{ num }}</span>
+            {% elif num > products.number|add:'-3' and num < products.number|add:'3' %}
+                <a href="?page={{ num }}&search={{ search_query }}&per_page={{ per_page }}" 
+                   style="padding: 0.5rem 0.75rem; background: var(--bg-secondary); color: var(--text-primary); text-decoration: none; border: 1px solid var(--accent-primary); border-radius: 6px;">
+                    {{ num }}
+                </a>
+            {% endif %}
+        {% endfor %}
+    </span>
+    
+    {% if products.has_next %}
+        <a href="?page={{ products.next_page_number }}&search={{ search_query }}&per_page={{ per_page }}" 
+           style="padding: 0.5rem 1rem; background: var(--accent-primary); color: white; text-decoration: none; border-radius: 6px; display: flex; align-items: center; gap: 0.5rem;">
+            Next <i class="fas fa-chevron-right"></i>
+        </a>
+    {% endif %}
+</div>
+{% endif %}
+
+<script>
+    // Product Modal functions
+    function openProductModal() {
+        document.getElementById('productModal').style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+    
+    function closeProductModal() {
+        document.getElementById('productModal').style.display = 'none';
+        document.body.style.overflow = 'auto';
+        document.getElementById('productForm').reset();
+    }
+    
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+        const modal = document.getElementById('productModal');
+        if (event.target == modal) {
+            closeProductModal();
+        }
+    }
+    
+    // Form submission
+    document.getElementById('productForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const formData = new FormData(this);
+        const productId = document.getElementById('productId').value;
+        const isEdit = productId !== '';
+        
+        // Show loading state
+        const submitBtn = document.getElementById('productSubmitBtn');
+        const originalHTML = submitBtn.innerHTML;
+        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Saving...';
+        submitBtn.disabled = true;
+        
+        // Choose appropriate endpoint
+        const url = isEdit ? `/api/update-product/${productId}/` : '/api/add-product/';
+        
+        // Send data to server
+        fetch(url, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'X-CSRFToken': getCookie('csrftoken')
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                // Show success message
+                const message = isEdit ? 'Product updated successfully!' : 'Product added successfully!';
+                showNotification(message, 'success');
+                closeProductModal();
+                // Reload page to show changes
+                setTimeout(() => location.reload(), 1500);
+            } else {
+                showNotification('Error: ' + data.message, 'error');
+            }
+        })
+        .catch(error => {
+            showNotification('Error saving product', 'error');
+        })
+        .finally(() => {
+            submitBtn.innerHTML = originalHTML;
+            submitBtn.disabled = false;
+        });
+    });
+    
+    // Edit product function
+    function editProduct(productId) {
+        // Fetch product data from the server
+        fetch(`/api/get-product/${productId}/`)
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                // Populate modal with product data
+                document.getElementById('productModalTitle').textContent = 'Edit Product';
+                document.getElementById('productId').value = data.data.id;
+                
+                // Basic Information
+                document.querySelector('input[name="name"]').value = data.data.name || '';
+                document.querySelector('select[name="category"]').value = data.data.category || '';
+                document.querySelector('select[name="type"]').value = data.data.type || '';
+                document.querySelector('input[name="strength"]').value = data.data.strength || '';
+                
+                // Pricing
+                document.querySelector('input[name="mrp_price"]').value = data.data.mrp_price || '';
+                document.querySelector('input[name="trade_price"]').value = data.data.trade_price || '';
+                document.querySelector('input[name="purchase_price"]').value = data.data.retail_price || '';
+                document.querySelector('input[name="selling_price"]').value = data.data.retail_price || '';
+                
+                // Inventory
+                document.querySelector('input[name="stock"]').value = data.data.stock || '';
+                document.querySelector('input[name="reorder_level"]').value = data.data.reorder_level || '';
+                document.querySelector('input[name="min_order_quantity"]').value = data.data.min_order_quantity || '';
+                document.querySelector('input[name="max_order_quantity"]').value = data.data.max_order_quantity || '';
+                document.querySelector('select[name="warehouse_location"]').value = data.data.warehouse_location || '';
+                document.querySelector('select[name="storage_conditions"]').value = data.data.storage_conditions || '';
+                document.querySelector('input[name="shelf_life"]').value = data.data.shelf_life || '';
+                
+                // Product Details
+                document.querySelector('input[name="manufacturer"]').value = data.data.manufacturer || '';
+                document.querySelector('input[name="brand"]').value = data.data.brand || '';
+                document.querySelector('input[name="sku"]').value = data.data.sku || '';
+                document.querySelector('input[name="batch_number"]').value = data.data.batch_number || '';
+                document.querySelector('textarea[name="description"]').value = data.data.description || '';
+                document.querySelector('input[name="composition"]').value = data.data.composition || '';
+                document.querySelector('input[name="expiry_date"]').value = data.data.expiry_date || '';
+                
+                // Show modal
+                document.getElementById('productModal').style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            } else {
+                showNotification('Error: ' + data.message, 'error');
+            }
+        })
+        .catch(error => {
+            showNotification('Error fetching product data', 'error');
+        });
+    }
+    
+    // Delete product function
+    function deleteProduct(productId) {
+        if (confirm('Are you sure you want to delete this product?')) {
+            fetch(`/api/delete-product/${productId}/`, {
+                method: 'POST',
+                headers: {
+                    'X-CSRFToken': getCookie('csrftoken')
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    showNotification('Product deleted successfully!', 'success');
+                    setTimeout(() => location.reload(), 1500);
+                } else {
+                    showNotification('Error: ' + data.message, 'error');
+                }
+            })
+            .catch(error => {
+                showNotification('Error deleting product', 'error');
+            });
+        }
+    }
+    
+    // Helper function to get CSRF token
+    function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+    
+    // Notification function
+    function showNotification(message, type) {
+        const notification = document.createElement('div');
+        notification.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 1rem 1.5rem;
+            background: ${type === 'success' ? 'var(--success)' : 'var(--danger)'};
+            color: white;
+            border-radius: 8px;
+            z-index: 10000;
+            box-shadow: var(--card-shadow);
+            animation: slideIn 0.3s ease;
+        `;
+        notification.textContent = message;
+        document.body.appendChild(notification);
+        
+        setTimeout(() => {
+            notification.remove();
+        }, 3000);
+    }
+    
+    // Change per page functionality
+    function changePerPage() {
+        const perPage = document.getElementById('perPageSelect').value;
+        const currentUrl = new URL(window.location);
+        currentUrl.searchParams.set('per_page', perPage);
+        currentUrl.searchParams.set('page', '1'); // Reset to first page
+        window.location.href = currentUrl.toString();
+    }
+    
+    // Search functions
+    function searchProducts() {
+        const searchValue = document.getElementById('searchInput').value;
+        const currentUrl = new URL(window.location);
+        currentUrl.searchParams.set('search', searchValue);
+        currentUrl.searchParams.set('page', '1'); // Reset to first page
+        window.location.href = currentUrl.toString();
+    }
+    
+    function clearSearch() {
+        const currentUrl = new URL(window.location);
+        currentUrl.searchParams.delete('search');
+        currentUrl.searchParams.set('page', '1');
+        window.location.href = currentUrl.toString();
+    }
+    
+    // Featured Products functions
+    function toggleFeaturedProducts() {
+        const featuredSection = document.getElementById('featuredProducts');
+        const toggleBtn = document.getElementById('featuredToggle');
+        
+        if (featuredSection.style.display === 'none') {
+            featuredSection.style.display = 'grid';
+            toggleBtn.innerHTML = '<i class="fas fa-eye"></i> Hide';
+        } else {
+            featuredSection.style.display = 'none';
+            toggleBtn.innerHTML = '<i class="fas fa-eye"></i> Show All';
+        }
+    }
+    
+    function toggleFeatured(productId) {
+        // This function can be extended to actually toggle featured status
+        showNotification('Featured status updated for product ' + productId, 'success');
+    }
+    
+    // Add interactive effects to product cards
+    document.addEventListener('DOMContentLoaded', () => {
+        // Featured products hover effects
+        const featuredCards = document.querySelectorAll('.featured-product-card');
+        featuredCards.forEach(card => {
+            card.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
+            
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-3px)';
+                card.style.boxShadow = '0 6px 20px rgba(109, 90, 205, 0.3)';
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+                card.style.boxShadow = 'none';
+            });
+        });
+        
+        // Regular product cards hover effects
+        const cards = document.querySelectorAll('.project-card');
+        cards.forEach(card => {
+            // Add smooth transitions
+            card.style.transition = 'transform 0.3s ease, box-shadow 0.3s ease';
+            
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-5px)';
+                card.style.boxShadow = '0 8px 25px rgba(109, 90, 205, 0.3)';
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0)';
+                card.style.boxShadow = 'var(--card-shadow)';
+            });
+        });
+        
+        // Animate progress bars
+        const progressBars = document.querySelectorAll('.progress');
+        progressBars.forEach((bar, index) => {
+            setTimeout(() => {
+                bar.style.transition = 'width 1s ease-out';
+            }, index * 100);
+        });
+    });
+    </script>
+{% endblock %}
