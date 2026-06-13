@@ -6,10 +6,17 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.core.mail import send_mail, EmailMessage
 from django.conf import settings
 from django.template.loader import render_to_string
+from django.utils.translation import activate
+from django.http import HttpResponseRedirect
+from django.views.i18n import set_language as django_set_language
 from .models import Director, Product
 import json
 
 # Create your views here.
+
+def set_language(request):
+    """View to handle language switching - uses Django's built-in i18n view"""
+    return django_set_language(request)
 
 def members(request):
     return render(request, 'index.html')

@@ -1,0 +1,343 @@
+# Tamil translation for Avin Shukri Pharmaceuticals
+msgid ""
+msgstr ""
+"Language: ta\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Avin Shukri Pharmaceuticals - Global Standards, Local Impact"
+msgstr ""
+"அவின் சுக்ரி பார்மாசியூட்டிக்கல்ஸ் - உலகளாவிய தரநிலைகள், உள்ளூர் தாக்கம்"
+
+msgid "Home"
+msgstr "முகப்பு"
+
+msgid "About"
+msgstr "பற்றி"
+
+msgid "Responsibility"
+msgstr "பொறுப்பு"
+
+msgid "Products"
+msgstr "தயாரிப்புகள்"
+
+msgid "Who We Are"
+msgstr "நாம் யாரு"
+
+msgid "Contact"
+msgstr "தொடர்பு"
+
+msgid "Language"
+msgstr "மொழி"
+
+msgid "Avin Shukri Pharmaceuticals"
+msgstr "அவின் சுக்ரி பார்மாசியூட்டிக்கல்ஸ்"
+
+msgid "Private Limited"
+msgstr "தனியார் வரம்புக்குட்பட்ட"
+
+msgid ""
+"Avin Shukri Pharmaceuticals Private Limited is a rapidly growing "
+"pharmaceutical company, specializing in marketing and distribution of high-"
+"quality affordable medicines, cosmetics and surgical products. Established "
+"in 2023 with a commitment to \"ENDURING GOODNESS IN EVERY DOSE\"."
+msgstr ""
+"அவின் சுக்ரி பார்மாசியூட்டிக்கல்ஸ் பிரைவேட் லிமிடேட் ஒரு வேகமாக வளர்ந்து "
+"வரும் மருந்து நிறுவனம், உச்சமான தரத்தான மலிவான மருந்துகள், அழகு சாதனங்கள் "
+"மற்றும் அறுவை சிகிச்சை பொருட்களின் சந்தைப்படுத்தல் மற்றும் விநியோகத்தில் "
+"நிபுணத்வம் கொண்டுள்ளது. 2023 இல் \"ஒவ்வொரு டோஸிலும் நீடிக்கும் நன்மை\" என்ற "
+"வாக்குறுதியுடன் நிறுவப்பட்டது."
+
+msgid "Quick Links"
+msgstr "விரைவான இணைப்புகள்"
+
+msgid "About Us"
+msgstr "எங்களைப் பற்றி"
+
+msgid "Contact Us"
+msgstr "எங்களைத் தொடர்பு கொள்ளுங்கள்"
+
+msgid "Our Services"
+msgstr "எங்கள் சேவைகள்"
+
+msgid "Terms & Condition"
+msgstr "விதிமுறைகள் மற்றும் நிபந்தனைகள்"
+
+msgid "Support"
+msgstr "ஆதரவு"
+
+msgid "Popular Links"
+msgstr "பிரபலமான இணைப்புகள்"
+
+msgid "Newsletter"
+msgstr "செய்திக்கடிதம்"
+
+msgid "Your Email Address"
+msgstr "உங்கள் மின்னஞ்சல் முகவரி"
+
+msgid "Sign Up"
+msgstr "பதிவு செய்யவும்"
+
+msgid "Avin Shukri Pharmaceuticals Private Limited"
+msgstr "அவின் சுக்ரி பார்மாசியூட்டிக்கல்ஸ் பிரைவேட் லிமிடேட்"
+
+msgid "All Rights Reserved."
+msgstr "அனைத்து உரிமைகளும் உரித்து"
+
+msgid "ENDURING GOODNESS"
+msgstr "நீடிக்கும் நன்மை"
+
+msgid "IN EVERY DOSE"
+msgstr "ஒவ்வொரு டோஸிலும்"
+
+msgid ""
+"Avin Shukri Pharmaceuticals Private Limited is a rapidly growing "
+"pharmaceutical company, specializing in the marketing and distribution of "
+"high-quality affordable medicines, cosmetics and surgical products."
+msgstr ""
+"அவின் சுக்ரி பார்மாசியூட்டிக்கல்ஸ் பிரைவேட் லிமிடேட் ஒரு வேகமாக வளர்ந்து "
+"வரும் மருந்து நிறுவனம், உச்சமான தரத்தான மலிவான மருந்துகள், அழகு சாதனங்கள் "
+"மற்றும் அறுவை சிகிச்சை பொருட்களின் சந்தைப்படுத்தல் மற்றும் விநியோகத்தில் "
+"நிபுணத்வம் கொண்டுள்ளது."
+
+msgid "Learn More"
+msgstr "மேலும் தெரிந்து கொள்ளுங்கள்"
+
+msgid "Explore Products"
+msgstr "தயாரிப்புகளைக் காணுங்கள்"
+
+msgid "15+ Pharmaceutical"
+msgstr "15+ மருந்து"
+
+msgid "Brands & Global Presence"
+msgstr "பிராண்ட்கள் மற்றும் உலகளாவிய முன்னிலை"
+
+msgid ""
+"Established in 2023 with operations in Republic of Chad, Djibouti, and "
+"expanding to Sudan, Bangladesh, Seychelles, Egypt, and Yemen. Delivering "
+"quality healthcare solutions worldwide."
+msgstr ""
+"2023 இல் நிறுவப்பட்டது, சாட் குடியரசு, ஜிபூட்டியில் இயங்கி, சூடான், "
+"பங்களாதேश், சேசேல்ஸ், எகிப்து, யேமன் வரை விரிவாக்கம் செய்யப்படுகிறது. "
+"உலகெங்கிலும் தரமான சுகாதார தீர்வுகளை வழங்குகிறது."
+
+msgid "Our Global Operations"
+msgstr "எங்கள் உலகளாவிய செயல்பாடுகள்"
+
+msgid "AVIN SHUKRI PHARMACEUTICALS PRIVATE LIMITED"
+msgstr "அவின் சுக்ரி பார்மாசியூட்டிக்கல்ஸ் பிரைவேட் லிமிடேட்"
+
+msgid "ENDURING GOODNESS IN EVERY DOSE"
+msgstr "ஒவ்வொரு டோஸிலும் நீடிக்கும் நன்மை"
+
+msgid ""
+"Our comprehensive product portfolio includes Injections, tablets, capsules, "
+"ointments, creams, dry syrups, and oral suspensions - serving both generic "
+"and branded markets with a strong presence in India and strategic "
+"international markets."
+msgstr ""
+"எங்கள் விரிவான தயாரிப்பு வரிசைப்படி ஊசிகள், மாத்திரைகள், கேப்சூல்கள், "
+"களிம்புகள், கிரீம்கள், உலர் சிரப்புகள் மற்றும் வாய்வழி நிறைப்புகள் அடங்கும் "
+"- பொதுவான மற்றும் பிராண்ட் செய்யப்பட்ட சந்தைகளை சேவை செய்கிறது இந்தியாவில் "
+"வலுவான முன்னிலை மற்றும் மூலோபாய சர்வதேச சந்தைகளுடன்."
+
+msgid ""
+"We are committed to addressing global healthcare needs across two continents"
+" backed by a focus on quality, regulatory compliance, and customer trust."
+msgstr ""
+"இரண்டு மகாদேசங்களில் உலகளாவிய சுகாதார தேவைகளை பூர்த்தி செய்ய நாங்கள் "
+"கூறிக்கொண்டுள்ளோம், தரம், ஒழுங்குமுறை இணக்கம், மற்றும் வாடிக்கையாளர் "
+"நம்பிக்கையைப் போன்ற குறிப்பால் ஆதரிக்கப்படுகிறது."
+
+msgid ""
+"Avin shukri pharmaceuticals Pvt.Ltd, is highly committed to delivering high-"
+"quality pharmaceutical solutions with uncompromising standards guided by our"
+" philosophy of \"Imperishable Goodness\". We continuously strive to expand "
+"our reach and bring reliable healthcare solution to the universal markets."
+msgstr ""
+"அவின் சுக்ரி பார்மாசியூட்டிக்கல்ஸ் பிரைவேட் லிமிடேட், உயர்தரமான மருந்து "
+"தீர்வுகளை வழங்கவும் தற்குறித்த தரநிலைகளை வழங்க அதிக உறுதியுடன் உள்ளது, "
+"\"அழிவில்லாத நன்மை\" என்ற நமது தத்துவத்தால் வழிநடத்தப்படுகிறது. நாங்கள் "
+"தொடர்ந்து எங்கள் நெருங்கிய வரிசையைப் விரிவாக்குவதற்கு முயற்சி செய்கிறோம் "
+"மற்றும் உலக சந்தைகளுக்கு நம்பகமான சுகாதார தீர்வுகளைக் கொண்டு வருகிறோம்."
+
+msgid "Company Highlights"
+msgstr "நிறுவன சிறப்புகள்"
+
+msgid ""
+"A pharmaceutical marketing and export company established in 2023. With a "
+"strong commitment to quality, innovation, and accessibility, we are "
+"dedicated to delivering reliable pharmaceutical products across domestic and"
+" international markets."
+msgstr ""
+"2023 இல் நிறுவப்பட்ட ஒரு மருந்து சந்தைப்படுத்தல் மற்றும் ஏற்றுமதி நிறுவனம். "
+"தரம், புதுமை மற்றும் அணுகுவதன் மீது வலுவான உறுதியுடன், நாங்கள் உள்நாட்டு "
+"மற்றும் சர்வதேச சந்தைகளுக்கு நம்பகமான மருந்து தயாரிப்புகளை வழங்குவதற்கு "
+"வதிக்கப்பட்டுள்ளோம்."
+
+msgid "Established Year"
+msgstr "நிறுவப்பட்ட ஆண்டு"
+
+msgid "Pharmaceutical Brands"
+msgstr "மருந்து பிராண்ட்கள்"
+
+msgid "New Products Launching Soon"
+msgstr "புதிய தயாரிப்புகள் விரைவில் வரும்"
+
+msgid "Countries Presence"
+msgstr "நாடுகள் முன்னிலை"
+
+msgid "Our Global Presence"
+msgstr "எங்கள் உலகளாவிய முன்னிலை"
+
+msgid ""
+"With a portfolio of 15 pharmaceutical brands and 10 additional brands "
+"launching soon, we are expanding across multiple therapeutic segments to "
+"support healthcare professionals and patients worldwide."
+msgstr ""
+"15 மருந்து பிராண்ட்கள் மற்றும் விரைவில் உருவாக்கபடும் 10 கூடுதல் "
+"பிராண்ட்களின் வரிசைப்படியுடன், உலகெங்கிலும் சுகாதார தொழில்நுட்பிகள் மற்றும் "
+"நோயாளிகளை ஆதரிக்க பல சிகிச்சையான பிரிவுகளில் நாங்கள் விரிவாக்கம் செய்கிறோம்."
+
+msgid "Current Market Presence"
+msgstr "தற்போதைய சந்தை முன்னிலை"
+
+msgid "Upcoming Markets"
+msgstr "வரவிருக்கும் சந்தைகள்"
+
+msgid "Republic of Chad (Registered & Operational)"
+msgstr "சாட் குடியரசு (பதிவு செய்யப்பட்ட மற்றும் செயல்பாட்ட)"
+
+msgid "Djibouti"
+msgstr "ஜிபூட்டி"
+
+msgid "Sudan"
+msgstr "சூடான்"
+
+msgid "Bangladesh"
+msgstr "பங்களாதேश்"
+
+msgid "Seychelles"
+msgstr "சேசேல்ஸ்"
+
+msgid "Egypt"
+msgstr "எகிப்து"
+
+msgid "Yemen"
+msgstr "யேமன்"
+
+msgid "Our Products"
+msgstr "எங்கள் தயாரிப்புகள்"
+
+msgid ""
+"Avin Shukri Pharmaceuticals currently markets 15 pharmaceutical brands "
+"across different therapeutic segments, with 10 additional products scheduled"
+" for launch."
+msgstr ""
+"அவின் சுக்ரி பார்மாசியூட்டிக்கல்ஸ் தற்போது 15 மருந்து பிராண்ட்களை வெவ்வேறு "
+"சிகிச்சை பிரிவுகளில் சந்தைப்படுத்துகிறது, 10 கூடுதல் தயாரிப்புகள் "
+"வெளியீடுக்கு திட்டமிட்டு உள்ளன."
+
+msgid "Antibiotics"
+msgstr "நுண்ணுயிர்"
+
+msgid "Quality antibiotic medications for various infections"
+msgstr "பல்வேறு தொற்றுகளுக்கான உচ்சமான நுண்ணுயிர்க்கொல்லி மருந்துகள்"
+
+msgid "Anti-inflammatory"
+msgstr "அழற்சி எதிர்ப்பு"
+
+msgid "Effective pain and inflammation management solutions"
+msgstr "பயனுள்ள வலி மற்றும் அழற்சி நிர்வாக தீர்வுகள்"
+
+msgid "Gastrointestinal"
+msgstr "செரிமான மண்டல"
+
+msgid "Comprehensive GI tract treatment medications"
+msgstr "விரிவான செரிமான பாதை சிகிச்சை மருந்துகள்"
+
+msgid "Vitamins & Supplements"
+msgstr "வைட்டமின்கள் மற்றும் சப்ளிமெண்ட்கள்"
+
+msgid "Essential nutrients for overall health and wellness"
+msgstr ""
+"ஒட்டுமொத்த ஆரோக்கியம் மற்றும் நல்வாழ்க்கைக்கான அத்தியாவசிய ஊட்டச்சத்துக்கள்"
+
+msgid ""
+"All products are sourced from WHO-GMP certified manufacturing partners."
+msgstr ""
+"அனைத்து பொருட்களும் WHO-GMP சான்றளிக்கப்பட்ட உற்பादன கூட்டாளிகளிடமிருந்து "
+"பெறப்படுகின்றன."
+
+msgid "Our Vision"
+msgstr "எங்கள் பார்வை"
+
+msgid ""
+"To become a globally recognized pharmaceutical company delivering high-"
+"quality, affordable medicines while contributing to improved healthcare "
+"outcomes across emerging and developing markets."
+msgstr ""
+"வளர்ந்து வரும் மற்றும் வளரும் சந்தைகளில் சுகாதார ফলாফலங்கள் மேம்பட்டுள்ளதில்"
+" பங்களிக்கும் போது உயர்தர, மலிவான மருந்துகளை வழங்கும் உலகளாவிய அங்கீகாரம் "
+"பெற்ற மருந்து நிறுவனமாக வேண்டியுள்ளது."
+
+msgid "Our Mission"
+msgstr "எங்கள் மிஷன்"
+
+msgid "Provide high-quality and affordable pharmaceutical products"
+msgstr "உயர்தர மற்றும் மலிவான மருந்து தயாரிப்புகளை வழங்குங்கள்"
+
+msgid "Expand presence across global healthcare markets"
+msgstr "உலகளாவிய சுகாதார சந்தைகளில் முன்னிலையை விரிவாக்குங்கள்"
+
+msgid "Build strong partnerships with reliable manufacturers and distributors"
+msgstr ""
+"நம்பகமான உற்பादकர்கள் மற்றும் விநியோगஸ்தர்களுடன் வலுவான கூட்டு வேலைகளை "
+"கட்டுங்கள்"
+
+msgid "Ensure ethical marketing and responsible business practices"
+msgstr ""
+"நैதிக சந்தைப்படுத்தல் மற்றும் பொறுப்புள்ள வணிக நடைமுறைகளை "
+"உறுதிப்படுத்துங்கள்"
+
+msgid ""
+"Establish our own pharmaceutical manufacturing facilities in the future"
+msgstr "ভবিষ்যতে আমাদের নিজস্ব மருந்து উৎপাদন সুবিধা স্থাপন করুங்கள்"
+
+msgid "Core Values"
+msgstr "মূল মূल্যবোधं"
+
+msgid "Quality"
+msgstr "தரம்"
+
+msgid "Ensuring high pharmaceutical standards"
+msgstr "உচ்চ মருத்துவ தரনிர্ধாரণ உறுதிப்படுத்துதல்"
+
+msgid "Integrity"
+msgstr "সততা"
+
+msgid "Transparent and ethical business practices"
+msgstr "স்বচ্ছ மற்றும் நைதிக வணிக நடைமுறைகள்"
+
+msgid "Innovation"
+msgstr "புதுமை"
+
+msgid "Continuous improvement and expansion"
+msgstr "தொடர்ச்சியான முன்னேற்றம் மற்றும் விரிவாக்கம்"
+
+msgid "Global Responsibility"
+msgstr "உலகளாவிய பொறுப்பு"
+
+msgid "Improving access to medicines worldwide"
+msgstr "உலகெங்கிலும் மருந்துகளுக்கான அணுகல் மேம்படுத்துதல்"
+
+msgid "Ready to Partner With Us?"
+msgstr "எங்களுடன் கூட்டு வேலை செய்ய தயாரா?"
+
+msgid ""
+"Join us in our mission to deliver quality healthcare solutions worldwide."
+msgstr ""
+"உலகெங்கிலும் தரமான சுகாதார தீர்வுகளை வழங்கும் எங்கள் கூட்டு மிஷனில் சேரவும்."
+
+msgid "Contact Us Today"
+msgstr "இன்று எங்களைத் தொடர்பு கொள்ளுங்கள்"

@@ -1,0 +1,126 @@
+# French translation for Avin Shukri Pharmaceuticals
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Avin Shukri Pharmaceuticals - Global Standards, Local Impact"
+msgstr "Avin Shukri Pharmacie - Normes Mondiales, Impact Local"
+
+msgid "Home"
+msgstr "Accueil"
+
+msgid "About"
+msgstr "À Propos"
+
+msgid "Responsibility"
+msgstr "Responsabilité"
+
+msgid "Products"
+msgstr "Produits"
+
+msgid "Who We Are"
+msgstr "Qui sommes-nous"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Language"
+msgstr "Langue"
+
+msgid "Avin Shukri Pharmaceuticals"
+msgstr "Avin Shukri Pharmacie"
+
+msgid "Private Limited"
+msgstr "Société Privée Limitée"
+
+msgid ""
+"Avin Shukri Pharmaceuticals Private Limited is a rapidly growing "
+"pharmaceutical company, specializing in marketing and distribution of high-"
+"quality affordable medicines, cosmetics and surgical products. Established "
+"in 2023 with a commitment to \"ENDURING GOODNESS IN EVERY DOSE\"."
+msgstr ""
+"Avin Shukri Pharmacie SARL est une entreprise pharmaceutique en croissance "
+"rapide, spécialisée dans la commercialisation et la distribution de "
+"médicaments de haute qualité à bas prix, de produits cosmétiques et de "
+"matériel chirurgical. Fondée en 2023 avec l'engagement de \"Bien Durable "
+"dans Chaque Dose\"."
+
+msgid "Quick Links"
+msgstr "Liens Rapides"
+
+msgid "About Us"
+msgstr "À Propos de Nous"
+
+msgid "Contact Us"
+msgstr "Nous Contacter"
+
+msgid "Our Services"
+msgstr "Nos Services"
+
+msgid "Terms & Condition"
+msgstr "Termes & Conditions"
+
+msgid "Support"
+msgstr "Support"
+
+msgid "Popular Links"
+msgstr "Liens Populaires"
+
+msgid "Newsletter"
+msgstr "Infolettre"
+
+msgid "Your Email Address"
+msgstr "Votre Adresse Email"
+
+msgid "Sign Up"
+msgstr "S'Inscrire"
+
+msgid "Avin Shukri Pharmaceuticals Private Limited"
+msgstr "Avin Shukri Pharmacie SARL"
+
+msgid "All Rights Reserved."
+msgstr "Tous Droits Réservés."
+
+msgid "Our Products"
+msgstr "Nos produits"
+
+msgid "Antibiotics"
+msgstr "Antibiotiques"
+
+msgid "Anti-inflammatory"
+msgstr "Anti-inflammatoire"
+
+msgid "Gastrointestinal"
+msgstr "Gastro-intestinal"
+
+msgid "Vitamins & Supplements"
+msgstr "Vitamines et suppléments"
+
+msgid "Our Vision"
+msgstr "Notre vision"
+
+msgid "Our Mission"
+msgstr "Notre mission"
+
+msgid "Core Values"
+msgstr "Valeurs fondamentales"
+
+msgid "Quality"
+msgstr "Qualité"
+
+msgid "Integrity"
+msgstr "Intégrité"
+
+msgid "Innovation"
+msgstr "Innovation"
+
+msgid "Global Responsibility"
+msgstr "Responsabilité mondiale"
+
+msgid "Ready to Partner With Us?"
+msgstr "Prêt à nous faire équipe?"
+
+msgid "Contact Us Today"
+msgstr "Contactez-nous aujourd'hui"

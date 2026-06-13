@@ -1,0 +1,124 @@
+# Arabic translation for Avin Shukri Pharmaceuticals
+msgid ""
+msgstr ""
+"Language: ar\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Avin Shukri Pharmaceuticals - Global Standards, Local Impact"
+msgstr "أفين شوكري للصيدلة - معايير عالمية وتأثير محلي"
+
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+msgid "About"
+msgstr "حول"
+
+msgid "Responsibility"
+msgstr "المسؤولية"
+
+msgid "Products"
+msgstr "المنتجات"
+
+msgid "Who We Are"
+msgstr "من نحن"
+
+msgid "Contact"
+msgstr "اتصل"
+
+msgid "Language"
+msgstr "اللغة"
+
+msgid "Avin Shukri Pharmaceuticals"
+msgstr "أفين شوكري للصيدلة"
+
+msgid "Private Limited"
+msgstr "محدودة"
+
+msgid ""
+"Avin Shukri Pharmaceuticals Private Limited is a rapidly growing "
+"pharmaceutical company, specializing in marketing and distribution of high-"
+"quality affordable medicines, cosmetics and surgical products. Established "
+"in 2023 with a commitment to \"ENDURING GOODNESS IN EVERY DOSE\"."
+msgstr ""
+"أفين شوكري للصيدلة محدودة هي شركة صيدلانية سريعة النمو، متخصصة في تسويق "
+"وتوزيع الأدوية الآمنة عالية الجودة والمستحضرات التجميلية والمنتجات الجراحية."
+" تم تأسيسها عام 2023 بالالتزام بـ \"الخير الدائم في كل جرعة\"."
+
+msgid "Quick Links"
+msgstr "روابط سريعة"
+
+msgid "About Us"
+msgstr "معلومات عنا"
+
+msgid "Contact Us"
+msgstr "اتصل بنا"
+
+msgid "Our Services"
+msgstr "خدماتنا"
+
+msgid "Terms & Condition"
+msgstr "الشروط والأحكام"
+
+msgid "Support"
+msgstr "الدعم"
+
+msgid "Popular Links"
+msgstr "الروابط الشهيرة"
+
+msgid "Newsletter"
+msgstr "النشرة الإخبارية"
+
+msgid "Your Email Address"
+msgstr "عنوان بريدك الإلكتروني"
+
+msgid "Sign Up"
+msgstr "اشتراك"
+
+msgid "Avin Shukri Pharmaceuticals Private Limited"
+msgstr "أفين شوكري للصيدلة محدودة"
+
+msgid "All Rights Reserved."
+msgstr "جميع الحقوق محفوظة."
+
+msgid "Our Products"
+msgstr "منتجاتنا"
+
+msgid "Antibiotics"
+msgstr "المضادات الحيوية"
+
+msgid "Anti-inflammatory"
+msgstr "مضادات الالتهاب"
+
+msgid "Gastrointestinal"
+msgstr "الجهاز الهضمي"
+
+msgid "Vitamins & Supplements"
+msgstr "الفيتامينات والمكملات"
+
+msgid "Our Vision"
+msgstr "رؤيتنا"
+
+msgid "Our Mission"
+msgstr "رسالتنا"
+
+msgid "Core Values"
+msgstr "القيم الأساسية"
+
+msgid "Quality"
+msgstr "الجودة"
+
+msgid "Integrity"
+msgstr "النزاهة"
+
+msgid "Innovation"
+msgstr "الابتكار"
+
+msgid "Global Responsibility"
+msgstr "المسؤولية العالمية"
+
+msgid "Ready to Partner With Us?"
+msgstr "هل تريد الشراكة معنا؟"
+
+msgid "Contact Us Today"
+msgstr "اتصل بنا اليوم"

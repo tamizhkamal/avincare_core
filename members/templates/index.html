@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load i18n %}
 
 {% block content %}
 
@@ -13,10 +14,10 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-lg-7 text-start">
-                                <h1 class="display-4 text-white animated slideInRight mb-3">ENDURING GOODNESS<br>IN EVERY DOSE</h1>
-                                <p class="mb-5 animated slideInRight">Avin Shukri Pharmaceuticals Private Limited is a rapidly growing pharmaceutical company, specializing in the marketing and distribution of high-quality affordable medicines, cosmetics and surgical products.</p>
-                                <a href="{% url 'about' %}" class="btn btn-primary py-3 px-5 animated slideInRight">Learn More</a>
-                                <a href="{% url 'products' %}" class="btn btn-primary py-3 px-5 animated slideInRight">Explore Products</a>
+                                <h1 class="display-4 text-white animated slideInRight mb-3">{% trans "ENDURING GOODNESS" %}<br>{% trans "IN EVERY DOSE" %}</h1>
+                                <p class="mb-5 animated slideInRight">{% trans "Avin Shukri Pharmaceuticals Private Limited is a rapidly growing pharmaceutical company, specializing in the marketing and distribution of high-quality affordable medicines, cosmetics and surgical products." %}</p>
+                                <a href="{% url 'about' %}" class="btn btn-primary py-3 px-5 animated slideInRight">{% trans "Learn More" %}</a>
+                                <a href="{% url 'products' %}" class="btn btn-primary py-3 px-5 animated slideInRight">{% trans "Explore Products" %}</a>
                             </div>
                         </div>
                     </div>
@@ -28,9 +29,9 @@
                     <div class="container">
                         <div class="row justify-content-end">
                             <div class="col-lg-7 text-end">
-                                <h1 class="display-1 text-white animated slideInLeft mb-3">15+ Pharmaceutical<br>Brands & Global Presence</h1>
-                                <p class="mb-5 animated slideInLeft">Established in 2023 with operations in Republic of Chad, Djibouti, and expanding to Sudan, Bangladesh, Seychelles, Egypt, and Yemen. Delivering quality healthcare solutions worldwide.</p>
-                                <a href="{% url 'company' %}" class="btn btn-primary py-3 px-5 animated slideInLeft">Our Global Operations</a>
+                                <h1 class="display-1 text-white animated slideInLeft mb-3">{% trans "15+ Pharmaceutical" %}<br>{% trans "Brands & Global Presence" %}</h1>
+                                <p class="mb-5 animated slideInLeft">{% trans "Established in 2023 with operations in Republic of Chad, Djibouti, and expanding to Sudan, Bangladesh, Seychelles, Egypt, and Yemen. Delivering quality healthcare solutions worldwide." %}</p>
+                                <a href="{% url 'company' %}" class="btn btn-primary py-3 px-5 animated slideInLeft">{% trans "Our Global Operations" %}</a>
                             </div>
                         </div>
                     </div>
@@ -54,12 +55,12 @@
     <div class="container">
         <div class="row g-5 align-items-center">
             <div class="col-lg-6">
-                <h1 class="mb-4">AVIN SHUKRI PHARMACEUTICALS PRIVATE LIMITED</h1>
-                <h2 class="mb-4 text-primary">"ENDURING GOODNESS IN EVERY DOSE"</h2>
-                <p class="mb-4">Avin Shukri Pharmaceuticals Private Limited is a rapidly growing pharmaceutical company, specializing in the marketing and distribution of high-quality affordable medicines, cosmetics and surgical products.</p>
-                <p class="mb-4">Our comprehensive product portfolio includes Injections, tablets, capsules, ointments, creams, dry syrups, and oral suspensions - serving both generic and branded markets with a strong presence in India and strategic international markets.</p>
-                <p class="mb-4">We are committed to addressing global healthcare needs across two continents backed by a focus on quality, regulatory compliance, and customer trust.</p>
-                <p class="mb-4">Avin shukri pharmaceuticals Pvt.Ltd, is highly committed to delivering high-quality pharmaceutical solutions with uncompromising standards guided by our philosophy of "Imperishable Goodness". We continuously strive to expand our reach and bring reliable healthcare solution to the universal markets.</p>
+                <h1 class="mb-4">{% trans "AVIN SHUKRI PHARMACEUTICALS PRIVATE LIMITED" %}</h1>
+                <h2 class="mb-4 text-primary">{% trans "ENDURING GOODNESS IN EVERY DOSE" %}</h2>
+                <p class="mb-4">{% trans "Avin Shukri Pharmaceuticals Private Limited is a rapidly growing pharmaceutical company, specializing in the marketing and distribution of high-quality affordable medicines, cosmetics and surgical products." %}</p>
+                <p class="mb-4">{% trans "Our comprehensive product portfolio includes Injections, tablets, capsules, ointments, creams, dry syrups, and oral suspensions - serving both generic and branded markets with a strong presence in India and strategic international markets." %}</p>
+                <p class="mb-4">{% trans "We are committed to addressing global healthcare needs across two continents backed by a focus on quality, regulatory compliance, and customer trust." %}</p>
+                <p class="mb-4">{% trans "Avin shukri pharmaceuticals Pvt.Ltd, is highly committed to delivering high-quality pharmaceutical solutions with uncompromising standards guided by our philosophy of \"Imperishable Goodness\". We continuously strive to expand our reach and bring reliable healthcare solution to the universal markets." %}</p>
             </div>
             <div class="col-lg-6">
                 <img src="{% static 'img/avin_about_1.jpg' %}" class="img-fluid rounded" alt="About Us">
@@ -76,36 +77,36 @@
 <div class="container-fluid py-5 bg-light">
     <div class="container">
         <div class="text-center mx-auto mb-5" style="max-width: 800px;">
-            <h1 class="display-5 mb-4">Company Highlights</h1>
-            <p class="mb-0">A pharmaceutical marketing and export company established in 2023. With a strong commitment to quality, innovation, and accessibility, we are dedicated to delivering reliable pharmaceutical products across domestic and international markets.</p>
+            <h1 class="display-5 mb-4">{% trans "Company Highlights" %}</h1>
+            <p class="mb-0">{% trans "A pharmaceutical marketing and export company established in 2023. With a strong commitment to quality, innovation, and accessibility, we are dedicated to delivering reliable pharmaceutical products across domestic and international markets." %}</p>
         </div>
         <div class="row g-4">
             <div class="col-md-6 col-lg-3">
                 <div class="counter-item bg-white rounded p-4 text-center">
                     <i class="fas fa-building fa-3x text-primary mb-3"></i>
                     <h3 class="mb-3">2023</h3>
-                    <p class="mb-0">Established Year</p>
+                    <p class="mb-0">{% trans "Established Year" %}</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="counter-item bg-white rounded p-4 text-center">
                     <i class="fas fa-pills fa-3x text-primary mb-3"></i>
                     <h3 class="mb-3">15+</h3>
-                    <p class="mb-0">Pharmaceutical Brands</p>
+                    <p class="mb-0">{% trans "Pharmaceutical Brands" %}</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="counter-item bg-white rounded p-4 text-center">
                     <i class="fas fa-rocket fa-3x text-primary mb-3"></i>
                     <h3 class="mb-3">10</h3>
-                    <p class="mb-0">New Products Launching Soon</p>
+                    <p class="mb-0">{% trans "New Products Launching Soon" %}</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="counter-item bg-white rounded p-4 text-center">
                     <i class="fas fa-globe fa-3x text-primary mb-3"></i>
                     <h3 class="mb-3">7+</h3>
-                    <p class="mb-0">Countries Presence</p>
+                    <p class="mb-0">{% trans "Countries Presence" %}</p>
                 </div>
             </div>
         </div>
@@ -117,46 +118,46 @@
 <div class="container-fluid py-5">
     <div class="container">
         <div class="text-center mx-auto mb-5" style="max-width: 800px;">
-            <h1 class="display-5 mb-4">Our Global Presence</h1>
-            <p class="mb-0">With a portfolio of 15 pharmaceutical brands and 10 additional brands launching soon, we are expanding across multiple therapeutic segments to support healthcare professionals and patients worldwide.</p>
+            <h1 class="display-5 mb-4">{% trans "Our Global Presence" %}</h1>
+            <p class="mb-0">{% trans "With a portfolio of 15 pharmaceutical brands and 10 additional brands launching soon, we are expanding across multiple therapeutic segments to support healthcare professionals and patients worldwide." %}</p>
         </div>
         <div class="row g-4">
             <div class="col-lg-6">
-                <h3 class="mb-4 text-primary">Current Market Presence</h3>
+                <h3 class="mb-4 text-primary">{% trans "Current Market Presence" %}</h3>
                 <div class="row g-3">
                     <div class="col-md-6">
                         <div class="d-flex align-items-center">
                             <i class="fas fa-check-circle text-success me-3"></i>
-                            <span>Republic of Chad (Registered & Operational)</span>
+                            <span>{% trans "Republic of Chad (Registered & Operational)" %}</span>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="d-flex align-items-center">
                             <i class="fas fa-check-circle text-success me-3"></i>
-                            <span>Djibouti</span>
+                            <span>{% trans "Djibouti" %}</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6">
-                <h3 class="mb-4 text-primary">Upcoming Markets</h3>
+                <h3 class="mb-4 text-primary">{% trans "Upcoming Markets" %}</h3>
                 <div class="row g-3">
                     <div class="col-md-6">
                         <div class="d-flex align-items-center">
                             <i class="fas fa-clock text-warning me-3"></i>
-                            <span>Sudan</span>
+                            <span>{% trans "Sudan" %}</span>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="d-flex align-items-center">
                             <i class="fas fa-clock text-warning me-3"></i>
-                            <span>Bangladesh</span>
+                            <span>{% trans "Bangladesh" %}</span>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="d-flex align-items-center">
                             <i class="fas fa-clock text-warning me-3"></i>
-                            <span>Seychelles</span>
+                            <span>{% trans "Seychelles" %}</span>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -182,41 +183,41 @@
 <div class="container-fluid py-5">
     <div class="container">
         <div class="text-center mx-auto mb-5" style="max-width: 800px;">
-            <h1 class="display-5 mb-4">Our Products</h1>
-            <p class="mb-0">Avin Shukri Pharmaceuticals currently markets 15 pharmaceutical brands across different therapeutic segments, with 10 additional products scheduled for launch.</p>
+            <h1 class="display-5 mb-4">{% trans "Our Products" %}</h1>
+            <p class="mb-0">{% trans "Avin Shukri Pharmaceuticals currently markets 15 pharmaceutical brands across different therapeutic segments, with 10 additional products scheduled for launch." %}</p>
         </div>
         <div class="row g-4">
             <div class="col-lg-3 col-md-6">
                 <div class="service-item bg-white rounded p-4 text-center">
                     <i class="fas fa-capsules fa-3x text-primary mb-3"></i>
-                    <h4>Antibiotics</h4>
-                    <p class="mb-0">Quality antibiotic medications for various infections</p>
+                    <h4>{% trans "Antibiotics" %}</h4>
+                    <p class="mb-0">{% trans "Quality antibiotic medications for various infections" %}</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="service-item bg-white rounded p-4 text-center">
                     <i class="fas fa-tablets fa-3x text-primary mb-3"></i>
-                    <h4>Anti-inflammatory</h4>
-                    <p class="mb-0">Effective pain and inflammation management solutions</p>
+                    <h4>{% trans "Anti-inflammatory" %}</h4>
+                    <p class="mb-0">{% trans "Effective pain and inflammation management solutions" %}</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="service-item bg-white rounded p-4 text-center">
                     <i class="fas fa-stomach fa-3x text-primary mb-3"></i>
-                    <h4>Gastrointestinal</h4>
-                    <p class="mb-0">Comprehensive GI tract treatment medications</p>
+                    <h4>{% trans "Gastrointestinal" %}</h4>
+                    <p class="mb-0">{% trans "Comprehensive GI tract treatment medications" %}</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="service-item bg-white rounded p-4 text-center">
                     <i class="fas fa-pills fa-3x text-primary mb-3"></i>
-                    <h4>Vitamins & Supplements</h4>
-                    <p class="mb-0">Essential nutrients for overall health and wellness</p>
+                    <h4>{% trans "Vitamins & Supplements" %}</h4>
+                    <p class="mb-0">{% trans "Essential nutrients for overall health and wellness" %}</p>
                 </div>
             </div>
         </div>
         <div class="text-center mt-4">
-            <p class="mb-0">All products are sourced from WHO-GMP certified manufacturing partners.</p>
+            <p class="mb-0">{% trans "All products are sourced from WHO-GMP certified manufacturing partners." %}</p>
         </div>
     </div>
 </div>
@@ -228,19 +229,19 @@
         <div class="row g-5">
             <div class="col-lg-6">
                 <div class="vision-item">
-                    <h3 class="mb-4 text-primary">Our Vision</h3>
-                    <p>To become a globally recognized pharmaceutical company delivering high-quality, affordable medicines while contributing to improved healthcare outcomes across emerging and developing markets.</p>
+                    <h3 class="mb-4 text-primary">{% trans "Our Vision" %}</h3>
+                    <p>{% trans "To become a globally recognized pharmaceutical company delivering high-quality, affordable medicines while contributing to improved healthcare outcomes across emerging and developing markets." %}</p>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="mission-item">
-                    <h3 class="mb-4 text-primary">Our Mission</h3>
+                    <h3 class="mb-4 text-primary">{% trans "Our Mission" %}</h3>
                     <ul class="list-unstyled">
-                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Provide high-quality and affordable pharmaceutical products</li>
-                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Expand presence across global healthcare markets</li>
-                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Build strong partnerships with reliable manufacturers and distributors</li>
-                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Ensure ethical marketing and responsible business practices</li>
-                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Establish our own pharmaceutical manufacturing facilities in the future</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>{% trans "Provide high-quality and affordable pharmaceutical products" %}</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>{% trans "Expand presence across global healthcare markets" %}</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>{% trans "Build strong partnerships with reliable manufacturers and distributors" %}</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>{% trans "Ensure ethical marketing and responsible business practices" %}</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>{% trans "Establish our own pharmaceutical manufacturing facilities in the future" %}</li>
                     </ul>
                 </div>
             </div>
@@ -253,35 +254,35 @@
 <div class="container-fluid py-5">
     <div class="container">
         <div class="text-center mx-auto mb-5" style="max-width: 800px;">
-            <h1 class="display-5 mb-4">Core Values</h1>
+            <h1 class="display-5 mb-4">{% trans "Core Values" %}</h1>
         </div>
         <div class="row g-4">
             <div class="col-md-6 col-lg-3">
                 <div class="value-item bg-white rounded p-4 text-center">
                     <i class="fas fa-shield-alt fa-3x text-primary mb-3"></i>
-                    <h4>Quality</h4>
-                    <p class="mb-0">Ensuring high pharmaceutical standards</p>
+                    <h4>{% trans "Quality" %}</h4>
+                    <p class="mb-0">{% trans "Ensuring high pharmaceutical standards" %}</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="value-item bg-white rounded p-4 text-center">
                     <i class="fas fa-handshake fa-3x text-primary mb-3"></i>
-                    <h4>Integrity</h4>
-                    <p class="mb-0">Transparent and ethical business practices</p>
+                    <h4>{% trans "Integrity" %}</h4>
+                    <p class="mb-0">{% trans "Transparent and ethical business practices" %}</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="value-item bg-white rounded p-4 text-center">
                     <i class="fas fa-lightbulb fa-3x text-primary mb-3"></i>
-                    <h4>Innovation</h4>
-                    <p class="mb-0">Continuous improvement and expansion</p>
+                    <h4>{% trans "Innovation" %}</h4>
+                    <p class="mb-0">{% trans "Continuous improvement and expansion" %}</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="value-item bg-white rounded p-4 text-center">
                     <i class="fas fa-globe-americas fa-3x text-primary mb-3"></i>
-                    <h4>Global Responsibility</h4>
-                    <p class="mb-0">Improving access to medicines worldwide</p>
+                    <h4>{% trans "Global Responsibility" %}</h4>
+                    <p class="mb-0">{% trans "Improving access to medicines worldwide" %}</p>
                 </div>
             </div>
         </div>
@@ -293,9 +294,9 @@
 <div class="container-fluid py-5 bg-primary">
     <div class="container">
         <div class="text-center">
-            <h2 class="text-white mb-4">Ready to Partner With Us?</h2>
-            <p class="text-white mb-4">Join us in our mission to deliver quality healthcare solutions worldwide.</p>
-            <a href="{% url 'contact' %}" class="btn btn-light py-3 px-5">Contact Us Today</a>
+            <h2 class="text-white mb-4">{% trans "Ready to Partner With Us?" %}</h2>
+            <p class="text-white mb-4">{% trans "Join us in our mission to deliver quality healthcare solutions worldwide." %}</p>
+            <a href="{% url 'contact' %}" class="btn btn-light py-3 px-5">{% trans "Contact Us Today" %}</a>
         </div>
     </div>
 </div>
