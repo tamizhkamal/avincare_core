@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load i18n %}
 
 {% block content %}
 
@@ -7,8 +8,8 @@
 <div class="container-fluid py-5 bg-primary">
     <div class="container">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-            <h1 class="display-4 text-white mb-4">Our Product Portfolio</h1>
-            <p class="text-white mb-0">15+ Pharmaceutical Brands Across Multiple Therapeutic Segments</p>
+            <h1 class="display-4 text-white mb-4">{% trans "Our Product Portfolio" %}</h1>
+            <p class="text-white mb-0">{% trans "15+ Pharmaceutical Brands Across Multiple Therapeutic Segments" %}</p>
         </div>
     </div>
 </div>
@@ -18,8 +19,8 @@
 <div class="container-fluid py-5">
     <div class="container">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-            <h1 class="display-6 mb-5">Featured Products</h1>
-            <p class="mb-5">Our flagship pharmaceutical products serving diverse therapeutic segments with WHO-GMP certification</p>
+            <h1 class="display-6 mb-5">{% trans "Featured Products" %}</h1>
+            <p class="mb-5">{% trans "Our flagship pharmaceutical products serving diverse therapeutic segments with WHO-GMP certification" %}</p>
         </div>
         
         <div class="row g-4">
@@ -29,16 +30,16 @@
                         <i class="bi bi-capsule text-dark fs-1"></i>
                     </div>
                     <h4 class="mb-3">AVINCEF-500</h4>
-                    <p class="mb-2"><strong>Category:</strong> Antibiotics</p>
-                    <p class="mb-2"><strong>Type:</strong> Tablet</p>
-                    <p class="mb-2"><strong>Strength:</strong> 500mg</p>
-                    <p class="mb-4"><strong>MRP:</strong> ₹120</p>
+                    <p class="mb-2"><strong>{% trans "Category:" %}</strong> {% trans "Antibiotics" %}</p>
+                    <p class="mb-2"><strong>{% trans "Type:" %}</strong> {% trans "Tablet" %}</p>
+                    <p class="mb-2"><strong>{% trans "Strength:" %}</strong> 500mg</p>
+                    <p class="mb-4"><strong>{% trans "MRP:" %}</strong> ₹120</p>
                     <div class="text-start">
-                        <h6 class="text-primary mb-3">Product Features:</h6>
+                        <h6 class="text-primary mb-3">{% trans "Product Features:" %}</h6>
                         <ul class="list-unstyled">
-                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>High Quality</strong> - WHO-GMP Certified</li>
-                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>Effective</strong> - Broad spectrum antibiotic</li>
-                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>Available</strong> - Ready for dispatch</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>{% trans "High Quality" %}</strong> - {% trans "WHO-GMP Certified" %}</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>{% trans "Effective" %}</strong> - {% trans "Broad spectrum antibiotic" %}</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>{% trans "Available" %}</strong> - {% trans "Ready for dispatch" %}</li>
                         </ul>
                     </div>
                 </div>
@@ -50,16 +51,16 @@
                         <i class="bi bi-droplet text-dark fs-1"></i>
                     </div>
                     <h4 class="mb-3">AVINPAR-1.2</h4>
-                    <p class="mb-2"><strong>Category:</strong> Pain Management</p>
-                    <p class="mb-2"><strong>Type:</strong> Injection</p>
-                    <p class="mb-2"><strong>Strength:</strong> 1.2g</p>
-                    <p class="mb-4"><strong>MRP:</strong> ₹250</p>
+                    <p class="mb-2"><strong>{% trans "Category:" %}</strong> {% trans "Pain Management" %}</p>
+                    <p class="mb-2"><strong>{% trans "Type:" %}</strong> {% trans "Injection" %}</p>
+                    <p class="mb-2"><strong>{% trans "Strength:" %}</strong> 1.2g</p>
+                    <p class="mb-4"><strong>{% trans "MRP:" %}</strong> ₹250</p>
                     <div class="text-start">
-                        <h6 class="text-primary mb-3">Product Features:</h6>
+                        <h6 class="text-primary mb-3">{% trans "Product Features:" %}</h6>
                         <ul class="list-unstyled">
-                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>High Quality</strong> - WHO-GMP Certified</li>
-                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>Effective</strong> - Fast pain relief</li>
-                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>Available</strong> - Ready for dispatch</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>{% trans "High Quality" %}</strong> - {% trans "WHO-GMP Certified" %}</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>{% trans "Effective" %}</strong> - {% trans "Fast pain relief" %}</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>{% trans "Available" %}</strong> - {% trans "Ready for dispatch" %}</li>
                         </ul>
                     </div>
                 </div>
@@ -71,16 +72,16 @@
                         <i class="bi bi-flask text-dark fs-1"></i>
                     </div>
                     <h4 class="mb-3">AVINSYP-125</h4>
-                    <p class="mb-2"><strong>Category:</strong> Antibiotics</p>
-                    <p class="mb-2"><strong>Type:</strong> Dry Syrup</p>
-                    <p class="mb-2"><strong>Strength:</strong> 125mg/5ml</p>
-                    <p class="mb-4"><strong>MRP:</strong> ₹85</p>
+                    <p class="mb-2"><strong>{% trans "Category:" %}</strong> {% trans "Antibiotics" %}</p>
+                    <p class="mb-2"><strong>{% trans "Type:" %}</strong> {% trans "Dry Syrup" %}</p>
+                    <p class="mb-2"><strong>{% trans "Strength:" %}</strong> 125mg/5ml</p>
+                    <p class="mb-4"><strong>{% trans "MRP:" %}</strong> ₹85</p>
                     <div class="text-start">
-                        <h6 class="text-primary mb-3">Product Features:</h6>
+                        <h6 class="text-primary mb-3">{% trans "Product Features:" %}</h6>
                         <ul class="list-unstyled">
-                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>High Quality</strong> - WHO-GMP Certified</li>
-                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>Effective</strong> - Pediatric friendly</li>
-                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>Available</strong> - Ready for dispatch</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>{% trans "High Quality" %}</strong> - {% trans "WHO-GMP Certified" %}</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>{% trans "Effective" %}</strong> - {% trans "Pediatric friendly" %}</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>{% trans "Available" %}</strong> - {% trans "Ready for dispatch" %}</li>
                         </ul>
                     </div>
                 </div>
@@ -94,8 +95,8 @@
 <div class="container-fluid py-5 bg-light">
     <div class="container">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-            <h1 class="display-6 mb-5">Innovation Products</h1>
-            <p class="mb-5">10+ Upcoming Products in Our Pipeline - Advanced Formulations for Better Healthcare</p>
+            <h1 class="display-6 mb-5">{% trans "Innovation Products" %}</h1>
+            <p class="mb-5">{% trans "10+ Upcoming Products in Our Pipeline - Advanced Formulations for Better Healthcare" %}</p>
         </div>
         
         <div class="row g-4">
@@ -105,10 +106,10 @@
                         <i class="bi bi-shield-check text-dark fs-1"></i>
                     </div>
                     <h4 class="mb-3">AVINHEAL-PLUS</h4>
-                    <p class="mb-2"><strong>Category:</strong> Gastrointestinal</p>
-                    <p class="mb-2"><strong>Type:</strong> Capsule</p>
-                    <p class="mb-2"><strong>Status:</strong> <span class="badge bg-warning">Coming Soon</span></p>
-                    <p class="mb-4">Advanced PPI with dual action</p>
+                    <p class="mb-2"><strong>{% trans "Category:" %}</strong> {% trans "Gastrointestinal" %}</p>
+                    <p class="mb-2"><strong>{% trans "Type:" %}</strong> {% trans "Capsule" %}</p>
+                    <p class="mb-2"><strong>{% trans "Status:" %}</strong> <span class="badge bg-warning">{% trans "Coming Soon" %}</span></p>
+                    <p class="mb-4">{% trans "Advanced PPI with dual action" %}</p>
                 </div>
             </div>
             
@@ -118,10 +119,10 @@
                         <i class="bi bi-heart text-dark fs-1"></i>
                     </div>
                     <h4 class="mb-3">AVINCARD-5</h4>
-                    <p class="mb-2"><strong>Category:</strong> Cardiovascular</p>
-                    <p class="mb-2"><strong>Type:</strong> Tablet</p>
-                    <p class="mb-2"><strong>Status:</strong> <span class="badge bg-warning">Coming Soon</span></p>
-                    <p class="mb-4">Next-gen antihypertensive</p>
+                    <p class="mb-2"><strong>{% trans "Category:" %}</strong> {% trans "Cardiovascular" %}</p>
+                    <p class="mb-2"><strong>{% trans "Type:" %}</strong> {% trans "Tablet" %}</p>
+                    <p class="mb-2"><strong>{% trans "Status:" %}</strong> <span class="badge bg-warning">{% trans "Coming Soon" %}</span></p>
+                    <p class="mb-4">{% trans "Next-gen antihypertensive" %}</p>
                 </div>
             </div>
             
@@ -131,10 +132,10 @@
                         <i class="bi bi-lungs text-dark fs-1"></i>
                     </div>
                     <h4 class="mb-3">AVINBREATHE</h4>
-                    <p class="mb-2"><strong>Category:</strong> Respiratory</p>
-                    <p class="mb-2"><strong>Type:</strong> Inhaler</p>
-                    <p class="mb-2"><strong>Status:</strong> <span class="badge bg-warning">Coming Soon</span></p>
-                    <p class="mb-4">Advanced bronchodilator</p>
+                    <p class="mb-2"><strong>{% trans "Category:" %}</strong> {% trans "Respiratory" %}</p>
+                    <p class="mb-2"><strong>{% trans "Type:" %}</strong> {% trans "Inhaler" %}</p>
+                    <p class="mb-2"><strong>{% trans "Status:" %}</strong> <span class="badge bg-warning">{% trans "Coming Soon" %}</span></p>
+                    <p class="mb-4">{% trans "Advanced bronchodilator" %}</p>
                 </div>
             </div>
             
@@ -144,10 +145,10 @@
                         <i class="bi bi-activity text-dark fs-1"></i>
                     </div>
                     <h4 class="mb-3">AVINNEURO</h4>
-                    <p class="mb-2"><strong>Category:</strong> Neurology</p>
-                    <p class="mb-2"><strong>Type:</strong> Tablet</p>
-                    <p class="mb-2"><strong>Status:</strong> <span class="badge bg-warning">Coming Soon</span></p>
-                    <p class="mb-4">Neuroprotective agent</p>
+                    <p class="mb-2"><strong>{% trans "Category:" %}</strong> {% trans "Neurology" %}</p>
+                    <p class="mb-2"><strong>{% trans "Type:" %}</strong> {% trans "Tablet" %}</p>
+                    <p class="mb-2"><strong>{% trans "Status:" %}</strong> <span class="badge bg-warning">{% trans "Coming Soon" %}</span></p>
+                    <p class="mb-4">{% trans "Neuroprotective agent" %}</p>
                 </div>
             </div>
         </div>
@@ -159,8 +160,8 @@
 <div class="container-fluid py-5">
     <div class="container">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-            <h1 class="display-6 mb-5">Product Categories</h1>
-            <p class="mb-5">Comprehensive Pharmaceutical Solutions Across Multiple Therapeutic Segments</p>
+            <h1 class="display-6 mb-5">{% trans "Product Categories" %}</h1>
+            <p class="mb-5">{% trans "Comprehensive Pharmaceutical Solutions Across Multiple Therapeutic Segments" %}</p>
         </div>
         
         <div class="row g-4">
@@ -169,10 +170,10 @@
                     <div class="icon-box-primary mb-4">
                         <i class="bi bi-capsule text-dark fs-1"></i>
                     </div>
-                    <h4 class="mb-3">Tablets & Capsules</h4>
-                    <p class="mb-4">Wide range of oral formulations including antibiotics, anti-inflammatory, cardiovascular, and gastrointestinal medications</p>
+                    <h4 class="mb-3">{% trans "Tablets & Capsules" %}</h4>
+                    <p class="mb-4">{% trans "Wide range of oral formulations including antibiotics, anti-inflammatory, cardiovascular, and gastrointestinal medications" %}</p>
                     <div class="text-start">
-                        <h6 class="text-primary mb-3">Popular Products:</h6>
+                        <h6 class="text-primary mb-3">{% trans "Popular Products:" %}</h6>
                         <ul class="list-unstyled">
                             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>AVINCEF-500 (Cefixime)</li>
                             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>AVINPAR-500 (Paracetamol)</li>
@@ -187,10 +188,10 @@
                     <div class="icon-box-primary mb-4">
                         <i class="bi bi-droplet text-dark fs-1"></i>
                     </div>
-                    <h4 class="mb-3">Injectables</h4>
-                    <p class="mb-4">Sterile injectable formulations for critical care, antibiotics, and specialized treatments</p>
+                    <h4 class="mb-3">{% trans "Injectables" %}</h4>
+                    <p class="mb-4">{% trans "Sterile injectable formulations for critical care, antibiotics, and specialized treatments" %}</p>
                     <div class="text-start">
-                        <h6 class="text-primary mb-3">Popular Products:</h6>
+                        <h6 class="text-primary mb-3">{% trans "Popular Products:" %}</h6>
                         <ul class="list-unstyled">
                             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>AVINCEF-IV (Ceftriaxone)</li>
                             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>AVINPAR-IV (Paracetamol)</li>
@@ -205,10 +206,10 @@
                     <div class="icon-box-primary mb-4">
                         <i class="bi bi-flask text-dark fs-1"></i>
                     </div>
-                    <h4 class="mb-3">Pediatric Formulations</h4>
-                    <p class="mb-4">Child-friendly formulations including dry syrups, oral suspensions, and drops</p>
+                    <h4 class="mb-3">{% trans "Pediatric Formulations" %}</h4>
+                    <p class="mb-4">{% trans "Child-friendly formulations including dry syrups, oral suspensions, and drops" %}</p>
                     <div class="text-start">
-                        <h6 class="text-primary mb-3">Popular Products:</h6>
+                        <h6 class="text-primary mb-3">{% trans "Popular Products:" %}</h6>
                         <ul class="list-unstyled">
                             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>AVINSYP-125 (Cefixime)</li>
                             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>AVINPAR-120 (Paracetamol)</li>
@@ -223,10 +224,10 @@
                     <div class="icon-box-primary mb-4">
                         <i class="bi bi-shield-check text-dark fs-1"></i>
                     </div>
-                    <h4 class="mb-3">Topical Products</h4>
-                    <p class="mb-4">Ointments, creams, and gels for dermatological and pain management applications</p>
+                    <h4 class="mb-3">{% trans "Topical Products" %}</h4>
+                    <p class="mb-4">{% trans "Ointments, creams, and gels for dermatological and pain management applications" %}</p>
                     <div class="text-start">
-                        <h6 class="text-primary mb-3">Popular Products:</h6>
+                        <h6 class="text-primary mb-3">{% trans "Popular Products:" %}</h6>
                         <ul class="list-unstyled">
                             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>AVINHEAL-5 (Mupirocin)</li>
                             <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>AVINMOX-0.1% (Mometasone)</li>
@@ -244,8 +245,8 @@
 <div class="container-fluid py-5 bg-light">
     <div class="container">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-            <h1 class="display-6 mb-5">Quality Assurance & Compliance</h1>
-            <p class="mb-5">Every product meets international standards and regulatory requirements</p>
+            <h1 class="display-6 mb-5">{% trans "Quality Assurance & Compliance" %}</h1>
+            <p class="mb-5">{% trans "Every product meets international standards and regulatory requirements" %}</p>
         </div>
         
         <div class="row g-4">
@@ -254,8 +255,8 @@
                     <div class="icon-box-primary mb-4">
                         <i class="bi bi-award text-dark fs-1"></i>
                     </div>
-                    <h4 class="mb-3">WHO-GMP Compliance</h4>
-                    <p class="mb-4">World Health Organization Good Manufacturing Practices compliance ensuring product safety and efficacy.</p>
+                    <h4 class="mb-3">{% trans "WHO-GMP Compliance" %}</h4>
+                    <p class="mb-4">{% trans "World Health Organization Good Manufacturing Practices compliance ensuring product safety and efficacy." %}</p>
                 </div>
             </div>
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -263,8 +264,8 @@
                     <div class="icon-box-primary mb-4">
                         <i class="bi bi-globe text-dark fs-1"></i>
                     </div>
-                    <h4 class="mb-3">International Standards</h4>
-                    <p class="mb-4">Compliance with global regulatory requirements across all operational markets including Chad, Djibouti, and expanding markets.</p>
+                    <h4 class="mb-3">{% trans "International Standards" %}</h4>
+                    <p class="mb-4">{% trans "Compliance with global regulatory requirements across all operational markets including Chad, Djibouti, and expanding markets." %}</p>
                 </div>
             </div>
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -272,8 +273,8 @@
                     <div class="icon-box-primary mb-4">
                         <i class="bi bi-file-earmark text-dark fs-1"></i>
                     </div>
-                    <h4 class="mb-3">Certifications</h4>
-                    <p class="mb-4">Recognized certifications from national and international regulatory bodies ensuring product quality and safety.</p>
+                    <h4 class="mb-3">{% trans "Certifications" %}</h4>
+                    <p class="mb-4">{% trans "Recognized certifications from national and international regulatory bodies ensuring product quality and safety." %}</p>
                 </div>
             </div>
         </div>

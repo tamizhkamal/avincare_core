@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load i18n %}
 
 {% block content %}
 
@@ -7,8 +8,8 @@
 <div class="container-fluid py-5 bg-primary">
     <div class="container">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-            <h1 class="display-4 text-white mb-4">Contact Us</h1>
-            <p class="text-white mb-0">Get in touch with Avin Shukri Pharmaceuticals Private Limited for business inquiries and partnerships</p>
+            <h1 class="display-4 text-white mb-4">{% trans "Contact Us" %}</h1>
+            <p class="text-white mb-0">{% trans "Get in touch with Avin Shukri Pharmaceuticals Private Limited for business inquiries and partnerships" %}</p>
         </div>
     </div>
 </div>
@@ -19,15 +20,15 @@
     <div class="container">
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                <h1 class="display-6 mb-4">Get In Touch With Us</h1>
-                <p class="mb-4">We're here to help you with all your pharmaceutical needs. Whether you're looking for product information, business partnerships, or have questions about our global operations, our team is ready to assist you.</p>
+                <h1 class="display-6 mb-4">{% trans "Get In Touch With Us" %}</h1>
+                <p class="mb-4">{% trans "We're here to help you with all your pharmaceutical needs. Whether you're looking for product information, business partnerships, or have questions about our global operations, our team is ready to assist you." %}</p>
                 
                 <div class="d-flex align-items-start mb-4 wow fadeIn" data-wow-delay="0.2s">
                     <div class="icon-box-primary">
                         <i class="bi bi-geo-alt text-dark fs-1"></i>
                     </div>
                     <div class="ms-3">
-                        <h5>Corporate Headquarters</h5>
+                        <h5>{% trans "Corporate Headquarters" %}</h5>
                         <p class="mb-0">5/3 SASTRY 2ND CROSS STREET KAVERY NAGAR,<br>SAIDAPET, CHENNAI, Tamil Nadu, India - 600035</p>
                     </div>
                 </div>
@@ -37,7 +38,7 @@
                         <i class="bi bi-telephone text-dark fs-1"></i>
                     </div>
                     <div class="ms-3">
-                        <h5>Phone Number</h5>
+                        <h5>{% trans "Phone Number" %}</h5>
                         <p class="mb-0">+91 9500804839</p>
                     </div>
                 </div>
@@ -47,7 +48,7 @@
                         <i class="bi bi-envelope text-dark fs-1"></i>
                     </div>
                     <div class="ms-3">
-                        <h5>Email Address</h5>
+                        <h5>{% trans "Email Address" %}</h5>
                         <p class="mb-0">info@avinshukri.com</p>
                     </div>
                 </div>
@@ -57,55 +58,55 @@
                         <i class="bi bi-clock text-dark fs-1"></i>
                     </div>
                     <div class="ms-3">
-                        <h5>Business Hours</h5>
-                        <p class="mb-0">Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 2:00 PM<br>Sunday: Closed</p>
+                        <h5>{% trans "Business Hours" %}</h5>
+                        <p class="mb-0">{% trans "Monday - Friday: 9:00 AM - 6:00 PM" %}<br>{% trans "Saturday: 9:00 AM - 2:00 PM" %}<br>{% trans "Sunday: Closed" %}</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-                <h2 class="mb-4">Send Us a Message</h2>
+                <h2 class="mb-4">{% trans "Send Us a Message" %}</h2>
                 <form id="contactForm" method="POST" action="{% url 'contact_form' %}">
                     {% csrf_token %}
                     <div class="row g-3">
                         <div class="col-sm-6">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
-                                <label for="name">Your Name</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="{% trans 'Your Name' %}" required>
+                                <label for="name">{% trans "Your Name" %}</label>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-floating">
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-                                <label for="email">Your Email</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="{% trans 'Your Email' %}" required>
+                                <label for="email">{% trans "Your Email" %}</label>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-floating">
-                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone" required>
-                                <label for="phone">Your Phone</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="{% trans 'Your Phone' %}" required>
+                                <label for="phone">{% trans "Your Phone" %}</label>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-floating">
                                 <select class="form-select" id="subject" name="subject" required>
-                                    <option value="General Inquiry" selected>General Inquiry</option>
-                                    <option value="Product Information">Product Information</option>
-                                    <option value="Business Partnership">Business Partnership</option>
-                                    <option value="Global Distribution">Global Distribution</option>
-                                    <option value="Career Opportunities">Career Opportunities</option>
+                                    <option value="General Inquiry" selected>{% trans "General Inquiry" %}</option>
+                                    <option value="Product Information">{% trans "Product Information" %}</option>
+                                    <option value="Business Partnership">{% trans "Business Partnership" %}</option>
+                                    <option value="Global Distribution">{% trans "Global Distribution" %}</option>
+                                    <option value="Career Opportunities">{% trans "Career Opportunities" %}</option>
                                 </select>
-                                <label for="subject">Subject</label>
+                                <label for="subject">{% trans "Subject" %}</label>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 130px" required></textarea>
-                                <label for="message">Your Message</label>
+                                <textarea class="form-control" placeholder="{% trans 'Leave a message here' %}" id="message" name="message" style="height: 130px" required></textarea>
+                                <label for="message">{% trans "Your Message" %}</label>
                             </div>
                         </div>
                         <div class="col-12 text-center">
                             <button type="submit" class="btn btn-primary w-100 py-3">
-                                <i class="bi bi-send me-2"></i>Send Message
+                                <i class="bi bi-send me-2"></i>{% trans "Send Message" %}
                             </button>
                         </div>
                     </div>
@@ -114,13 +115,13 @@
                 <!-- Success Message (Hidden by default) -->
                 <div id="successMessage" class="alert alert-success mt-3" style="display: none;">
                     <i class="bi bi-check-circle me-2"></i>
-                    Message sent successfully! We'll contact you soon via email and WhatsApp.
+                    {% trans "Message sent successfully! We'll contact you soon via email and WhatsApp." %}
                 </div>
                 
                 <!-- Error Message (Hidden by default) -->
                 <div id="errorMessage" class="alert alert-danger mt-3" style="display: none;">
                     <i class="bi bi-exclamation-triangle me-2"></i>
-                    <span id="errorText">Error sending message. Please try again.</span>
+                    <span id="errorText">{% trans "Error sending message. Please try again." %}</span>
                 </div>
             </div>
         </div>
@@ -132,8 +133,8 @@
 <div class="container-fluid py-5 bg-light">
     <div class="container">
         <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-            <h1 class="display-6 mb-5">Find Our Location</h1>
-            <p class="mb-5">Visit our corporate headquarters in Chennai, India</p>
+            <h1 class="display-6 mb-5">{% trans "Find Our Location" %}</h1>
+            <p class="mb-5">{% trans "Visit our corporate headquarters in Chennai, India" %}</p>
         </div>
         
         <div class="row g-4">
@@ -154,28 +155,28 @@
             
             <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="bg-white p-4 rounded shadow-sm h-100">
-                    <h4 class="mb-4">Global Operations</h4>
+                    <h4 class="mb-4">{% trans "Global Operations" %}</h4>
                     
                     <div class="mb-4">
-                        <h6 class="text-primary mb-2">🇹🇩 Republic of Chad</h6>
-                        <p class="mb-2">Registered & Operational</p>
-                        <small class="text-muted">Central Africa Operations</small>
+                        <h6 class="text-primary mb-2">🇹🇩 {% trans "Republic of Chad" %}</h6>
+                        <p class="mb-2">{% trans "Registered & Operational" %}</p>
+                        <small class="text-muted">{% trans "Central Africa Operations" %}</small>
                     </div>
                     
                     <div class="mb-4">
-                        <h6 class="text-primary mb-2">🇩🇯 Djibouti</h6>
-                        <p class="mb-2">Established Presence</p>
-                        <small class="text-muted">Horn of Africa Operations</small>
+                        <h6 class="text-primary mb-2">🇩🇯 {% trans "Djibouti" %}</h6>
+                        <p class="mb-2">{% trans "Established Presence" %}</p>
+                        <small class="text-muted">{% trans "Horn of Africa Operations" %}</small>
                     </div>
                     
                     <div class="mb-4">
-                        <h6 class="text-warning mb-2">🆕 Expanding Markets</h6>
-                        <p class="mb-2">Coming Soon:</p>
-                        <small class="text-muted">• Sudan<br>• Bangladesh<br>• Seychelles<br>• Egypt<br>• Yemen</small>
+                        <h6 class="text-warning mb-2">🆕 {% trans "Expanding Markets" %}</h6>
+                        <p class="mb-2">{% trans "Coming Soon:" %}</p>
+                        <small class="text-muted">• {% trans "Sudan" %}<br>• {% trans "Bangladesh" %}<br>• {% trans "Seychelles" %}<br>• {% trans "Egypt" %}<br>• {% trans "Yemen" %}</small>
                     </div>
                     
                     <div class="mt-4">
-                        <a href="{% url 'company' %}" class="btn btn-primary w-100">View Global Operations</a>
+                        <a href="{% url 'company' %}" class="btn btn-primary w-100">{% trans "View Global Operations" %}</a>
                     </div>
                 </div>
             </div>
@@ -215,14 +216,14 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
             const message = document.getElementById('message').value;
             
             // Format message for WhatsApp
-            const whatsappMessage = `*New Contact Form Submission - Avin Shukri Pharmaceuticals*
+            const whatsappMessage = `*{% trans "New Contact Form Submission - Avin Shukri Pharmaceuticals" %}*
 
-*Name:* ${name}
-*Email:* ${email}
-*Phone:* ${phone}
-*Subject:* ${subject}
+*{% trans "Name:" %}* ${name}
+*{% trans "Email:" %}* ${email}
+*{% trans "Phone:" %}* ${phone}
+*{% trans "Subject:" %}* ${subject}
 
-*Message:*
+*{% trans "Message:" %}*
 ${message}`;
             
             // Send WhatsApp message
@@ -238,14 +239,14 @@ ${message}`;
             }, 5000);
         } else {
             // Show error message
-            document.getElementById('errorText').textContent = data.message || 'Error sending message. Please try again.';
+            document.getElementById('errorText').textContent = data.message || '{% trans "Error sending message. Please try again." %}';
             document.getElementById('errorMessage').style.display = 'block';
             document.getElementById('successMessage').style.display = 'none';
         }
     })
     .catch(error => {
         console.error('Error:', error);
-        document.getElementById('errorText').textContent = 'Network error. Please try again.';
+        document.getElementById('errorText').textContent = '{% trans "Network error. Please try again." %}';
         document.getElementById('errorMessage').style.display = 'block';
         document.getElementById('successMessage').style.display = 'none';
     });

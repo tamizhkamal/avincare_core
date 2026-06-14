@@ -124,3 +124,801 @@ msgstr "Prêt à nous faire équipe?"
 
 msgid "Contact Us Today"
 msgstr "Contactez-nous aujourd'hui"
+
+
+
+
+
+
+
+
+
+msgid "ENDURING GOODNESS"
+msgstr "UNE BONNÉTÉ DURABLE"
+
+msgid "IN EVERY DOSE"
+msgstr "DANS CHAQUE DOSE"
+
+msgid "Avin Shukri Pharmaceuticals Private Limited is a rapidly growing pharmaceutical company, specializing in the marketing and distribution of high-quality affordable medicines, cosmetics and surgical products."
+msgstr "Avin Shukri Pharmaceuticals Private Limited est une entreprise pharmaceutique en pleine croissance, spécialisée dans la commercialisation et la distribution de médicaments, de produits cosmétiques et chirurgicaux de haute qualité à des prix abordables."
+
+msgid "Learn More"
+msgstr "En savoir plus"
+
+msgid "Explore Products"
+msgstr "Découvrir les produits"
+
+msgid "15+ Pharmaceutical"
+msgstr "Plus de 15 marques"
+
+msgid "Brands & Global Presence"
+msgstr "pharmaceutiques et présence mondiale"
+
+msgid "Established in 2023 with operations in Republic of Chad, Djibouti, and expanding to Sudan, Bangladesh, Seychelles, Egypt, and Yemen. Delivering quality healthcare solutions worldwide."
+msgstr "Fondée en 2023 avec des opérations en République du Tchad et à Djibouti, et en expansion vers le Soudan, le Bangladesh, les Seychelles, l'Égypte et le Yémen. Nous fournissons des solutions de santé de qualité dans le monde entier."
+
+msgid "Our Global Operations"
+msgstr "Nos opérations mondiales"
+
+msgid "AVIN SHUKRI PHARMACEUTICALS PRIVATE LIMITED"
+msgstr "AVIN SHUKRI PHARMACEUTICALS PRIVATE LIMITED"
+
+msgid "ENDURING GOODNESS IN EVERY DOSE"
+msgstr "UNE BONNÉTÉ DURABLE DANS CHAQUE DOSE"
+
+msgid "Our comprehensive product portfolio includes Injections, tablets, capsules, ointments, creams, dry syrups, and oral suspensions - serving both generic and branded markets with a strong presence in India and strategic international markets."
+msgstr "Notre portefeuille complet comprend des injections, comprimés, gélules, pommades, crèmes, sirops secs et suspensions buvables, destinés aux marchés génériques et de marque, avec une forte présence en Inde et sur les marchés internationaux stratégiques."
+
+msgid "We are committed to addressing global healthcare needs across two continents backed by a focus on quality, regulatory compliance, and customer trust."
+msgstr "Nous nous engageons à répondre aux besoins mondiaux en matière de santé sur deux continents grâce à notre attention portée à la qualité, à la conformité réglementaire et à la confiance des clients."
+
+msgid "Avin shukri pharmaceuticals Pvt.Ltd, is highly committed to delivering high-quality pharmaceutical solutions with uncompromising standards guided by our philosophy of "Imperishable Goodness". We continuously strive to expand our reach and bring reliable healthcare solution to the universal markets."
+msgstr "Avin Shukri Pharmaceuticals Pvt. Ltd. s'engage à fournir des solutions pharmaceutiques de haute qualité selon des normes intransigeantes, guidées par notre philosophie de « Bonté Impérissable ». Nous nous efforçons continuellement d'étendre notre portée et d'apporter des solutions de santé fiables aux marchés mondiaux."
+
+msgid "Company Highlights"
+msgstr "Points forts de l'entreprise"
+
+msgid "A pharmaceutical marketing and export company established in 2023. With a strong commitment to quality, innovation, and accessibility, we are dedicated to delivering reliable pharmaceutical products across domestic and international markets."
+msgstr "Entreprise de commercialisation et d’exportation pharmaceutique fondée en 2023. Grâce à notre engagement envers la qualité, l’innovation et l’accessibilité, nous fournissons des produits pharmaceutiques fiables sur les marchés nationaux et internationaux."
+
+msgid "Established Year"
+msgstr "Année de création"
+
+msgid "Pharmaceutical Brands"
+msgstr "Marques pharmaceutiques"
+
+msgid "New Products Launching Soon"
+msgstr "Nouveaux produits bientôt lancés"
+
+msgid "Countries Presence"
+msgstr "Présence dans plusieurs pays"
+
+msgid "Our Global Presence"
+msgstr "Notre présence mondiale"
+
+msgid "With a portfolio of 15 pharmaceutical brands and 10 additional brands launching soon, we are expanding across multiple therapeutic segments to support healthcare professionals and patients worldwide."
+msgstr "Avec un portefeuille de 15 marques pharmaceutiques et 10 autres en cours de lancement, nous nous développons dans plusieurs segments thérapeutiques afin de soutenir les professionnels de santé et les patients du monde entier."
+
+msgid "Current Market Presence"
+msgstr "Présence actuelle sur le marché"
+
+msgid "Republic of Chad (Registered & Operational)"
+msgstr "République du Tchad (enregistrée et opérationnelle)"
+
+msgid "Djibouti"
+msgstr "Djibouti"
+
+msgid "Upcoming Markets"
+msgstr "Marchés à venir"
+
+msgid "Sudan"
+msgstr "Soudan"
+
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+msgid "Seychelles"
+msgstr "Seychelles"
+
+msgid "Our Products"
+msgstr "Nos produits"
+
+msgid "Avin Shukri Pharmaceuticals currently markets 15 pharmaceutical brands across different therapeutic segments, with 10 additional products scheduled for launch."
+msgstr "Avin Shukri Pharmaceuticals commercialise actuellement 15 marques pharmaceutiques dans différents segments thérapeutiques, avec 10 produits supplémentaires prévus au lancement."
+
+msgid "Antibiotics"
+msgstr "Antibiotiques"
+
+msgid "Quality antibiotic medications for various infections"
+msgstr "Médicaments antibiotiques de qualité pour diverses infections"
+
+msgid "Anti-inflammatory"
+msgstr "Anti-inflammatoire"
+
+msgid "Effective pain and inflammation management solutions"
+msgstr "Solutions efficaces pour la gestion de la douleur et de l'inflammation"
+
+msgid "Gastrointestinal"
+msgstr "Gastro-intestinal"
+
+msgid "Comprehensive GI tract treatment medications"
+msgstr "Médicaments complets pour le traitement du tractus gastro-intestinal"
+
+msgid "Vitamins & Supplements"
+msgstr "Vitamines et compléments alimentaires"
+
+msgid "Essential nutrients for overall health and wellness"
+msgstr "Nutriments essentiels pour la santé et le bien-être"
+
+msgid "All products are sourced from WHO-GMP certified manufacturing partners."
+msgstr "Tous les produits proviennent de partenaires de fabrication certifiés WHO-GMP."
+
+msgid "Our Vision"
+msgstr "Notre vision"
+
+msgid "To become a globally recognized pharmaceutical company delivering high-quality, affordable medicines while contributing to improved healthcare outcomes across emerging and developing markets."
+msgstr "Devenir une entreprise pharmaceutique reconnue mondialement en fournissant des médicaments de haute qualité et abordables tout en contribuant à l'amélioration des résultats de santé dans les marchés émergents et en développement."
+
+msgid "Our Mission"
+msgstr "Notre mission"
+
+msgid "Provide high-quality and affordable pharmaceutical products"
+msgstr "Fournir des produits pharmaceutiques de haute qualité et abordables"
+
+msgid "Expand presence across global healthcare markets"
+msgstr "Étendre notre présence sur les marchés mondiaux de la santé"
+
+msgid "Build strong partnerships with reliable manufacturers and distributors"
+msgstr "Établir des partenariats solides avec des fabricants et distributeurs fiables"
+
+msgid "Ensure ethical marketing and responsible business practices"
+msgstr "Garantir un marketing éthique et des pratiques commerciales responsables"
+
+msgid "Establish our own pharmaceutical manufacturing facilities in the future"
+msgstr "Créer nos propres installations de fabrication pharmaceutique à l'avenir"
+
+msgid "Core Values"
+msgstr "Valeurs fondamentales"
+
+msgid "Quality"
+msgstr "Qualité"
+
+msgid "Ensuring high pharmaceutical standards"
+msgstr "Garantir des normes pharmaceutiques élevées"
+
+msgid "Integrity"
+msgstr "Intégrité"
+
+msgid "Transparent and ethical business practices"
+msgstr "Pratiques commerciales transparentes et éthiques"
+
+msgid "Innovation"
+msgstr "Innovation"
+
+msgid "Continuous improvement and expansion"
+msgstr "Amélioration continue et expansion"
+
+msgid "Global Responsibility"
+msgstr "Responsabilité mondiale"
+
+msgid "Improving access to medicines worldwide"
+msgstr "Améliorer l'accès aux médicaments dans le monde"
+
+msgid "Ready to Partner With Us?"
+msgstr "Prêt à collaborer avec nous ?"
+
+msgid "Join us in our mission to deliver quality healthcare solutions worldwide."
+msgstr "Rejoignez-nous dans notre mission de fournir des solutions de santé de qualité dans le monde entier."
+
+msgid "Contact Us Today"
+msgstr "Contactez-nous dès aujourd'hui"
+
+
+
+
+
+
+
+
+
+
+msgid "Years Experience"
+msgstr "Années d'expérience"
+
+msgid "About Avin Shukri Pharmaceuticals"
+msgstr "À propos d'Avin Shukri Pharmaceuticals"
+
+msgid "Avin Shukri Pharmaceuticals Private Limited is an emerging pharmaceutical marketing and export company headquartered in India. Founded in 2023, the company is focused on delivering high-quality pharmaceutical products through strong partnerships with certified manufacturers."
+msgstr "Avin Shukri Pharmaceuticals Private Limited est une entreprise émergente de commercialisation et d’exportation pharmaceutique basée en Inde. Fondée en 2023, elle se consacre à la fourniture de produits pharmaceutiques de haute qualité grâce à de solides partenariats avec des fabricants certifiés."
+
+msgid "Our Comprehensive Product Portfolio:"
+msgstr "Notre portefeuille complet de produits :"
+
+msgid "Injections"
+msgstr "Injections"
+
+msgid "Tablets"
+msgstr "Comprimés"
+
+msgid "Capsules"
+msgstr "Gélules"
+
+msgid "Ointments"
+msgstr "Pommades"
+
+msgid "Creams"
+msgstr "Crèmes"
+
+msgid "Dry Syrups"
+msgstr "Sirops secs"
+
+msgid "Oral Suspensions"
+msgstr "Suspensions buvables"
+
+msgid "The company currently manages a growing portfolio of pharmaceutical brands across multiple therapeutic segments and is steadily expanding its presence in international markets. With operations already established in the Republic of Chad and export activities expanding into several global regions."
+msgstr "L'entreprise gère actuellement un portefeuille croissant de marques pharmaceutiques couvrant plusieurs segments thérapeutiques et étend progressivement sa présence sur les marchés internationaux. Ses activités sont déjà établies en République du Tchad et ses exportations s'étendent à plusieurs régions du monde."
+
+msgid "We are committed to addressing global healthcare needs across two continents backed by a focus on quality, regulatory compliance, and customer trust, guided by our philosophy of "Imperishable Goodness"."
+msgstr "Nous nous engageons à répondre aux besoins mondiaux en matière de santé sur deux continents, en mettant l'accent sur la qualité, la conformité réglementaire et la confiance des clients, guidés par notre philosophie de « Bonté Impérissable »."
+
+msgid "Countries Served"
+msgstr "Pays desservis"
+
+msgid "Product Range"
+msgstr "Gamme de produits"
+
+msgid "Quality Standards"
+msgstr "Normes de qualité"
+
+msgid "Our Vision, Mission & Values"
+msgstr "Notre vision, mission et valeurs"
+
+msgid "Vision"
+msgstr "Vision"
+
+msgid "To become a globally recognized pharmaceutical company delivering high-quality, affordable medicines while contributing to improved healthcare outcomes across emerging and developing markets."
+msgstr "Devenir une entreprise pharmaceutique reconnue mondialement, fournissant des médicaments de haute qualité et abordables tout en contribuant à l'amélioration des résultats de santé dans les marchés émergents et en développement."
+
+msgid "Mission"
+msgstr "Mission"
+
+msgid "Provide high-quality and affordable pharmaceutical products"
+msgstr "Fournir des produits pharmaceutiques de haute qualité et abordables"
+
+msgid "Expand presence across global healthcare markets"
+msgstr "Étendre notre présence sur les marchés mondiaux de la santé"
+
+msgid "Build strong partnerships with reliable manufacturers and distributors"
+msgstr "Établir des partenariats solides avec des fabricants et distributeurs fiables"
+
+msgid "Ensure ethical marketing and responsible business practices"
+msgstr "Garantir un marketing éthique et des pratiques commerciales responsables"
+
+msgid "Establish our own pharmaceutical manufacturing facilities in the future"
+msgstr "Créer nos propres installations de fabrication pharmaceutique à l'avenir"
+
+msgid "Core Values"
+msgstr "Valeurs fondamentales"
+
+msgid "Quality"
+msgstr "Qualité"
+
+msgid "Ensuring high pharmaceutical standards"
+msgstr "Garantir des normes pharmaceutiques élevées"
+
+msgid "Integrity"
+msgstr "Intégrité"
+
+msgid "Transparent and ethical business practices"
+msgstr "Pratiques commerciales transparentes et éthiques"
+
+msgid "Innovation"
+msgstr "Innovation"
+
+msgid "Continuous improvement and expansion"
+msgstr "Amélioration continue et expansion"
+
+msgid "Global Responsibility"
+msgstr "Responsabilité mondiale"
+
+msgid "Improving access to medicines worldwide"
+msgstr "Améliorer l'accès aux médicaments dans le monde"
+
+msgid "Partnership"
+msgstr "Partenariat"
+
+msgid "Strong collaborations with manufacturers and distributors"
+msgstr "Forte collaboration avec les fabricants et les distributeurs"
+
+msgid "Market Challenges & Our Solutions"
+msgstr "Défis du marché et nos solutions"
+
+msgid "Market Problems"
+msgstr "Problèmes du marché"
+
+msgid "Regulatory and Market Entry Barriers"
+msgstr "Obstacles réglementaires et à l'entrée sur le marché"
+
+msgid "Entering international markets requires navigating complex compliance standards and local regulations."
+msgstr "L'entrée sur les marchés internationaux nécessite de se conformer à des normes réglementaires complexes et à des réglementations locales."
+
+msgid "Supply Chain Inefficiencies"
+msgstr "Inefficacités de la chaîne d'approvisionnement"
+
+msgid "Delays, poor storage, and distribution issues affect timely delivery and medicine efficacy."
+msgstr "Les retards, le mauvais stockage et les problèmes de distribution affectent la livraison rapide et l'efficacité des médicaments."
+
+msgid "Inconsistent Quality Standards"
+msgstr "Normes de qualité incohérentes"
+
+msgid "Substandard or counterfeit drugs pose serious risks to patient health and undermine trust in healthcare."
+msgstr "Les médicaments de qualité inférieure ou contrefaits présentent de graves risques pour la santé des patients et sapent la confiance dans le système de santé."
+
+msgid "Lack of Access to Affordable Medicines"
+msgstr "Manque d'accès à des médicaments abordables"
+
+msgid "Many regions, especially in developing countries, face shortages or unaffordable pricing for essential medicines."
+msgstr "De nombreuses régions, en particulier dans les pays en développement, sont confrontées à des pénuries ou à des prix inabordables pour les médicaments essentiels."
+
+msgid "Our Solutions"
+msgstr "Nos solutions"
+
+msgid "Offering Cost-Effective, High-Quality Products"
+msgstr "Offrir des produits de haute qualité à coût abordable"
+
+msgid "We manufacture affordable generic and branded medicines without compromising quality, increasing access in underserved regions."
+msgstr "Nous fabriquons des médicaments génériques et de marque abordables sans compromettre la qualité, augmentant ainsi l'accès aux soins dans les régions mal desservies."
+
+msgid "Maintaining Stringent Quality Control"
+msgstr "Maintenir un contrôle qualité rigoureux"
+
+msgid "Our manufacturing complies with national and international quality norms, ensuring safety, consistency, and reliability in all products."
+msgstr "Notre production respecte les normes nationales et internationales de qualité, garantissant sécurité, cohérence et fiabilité pour tous nos produits."
+
+msgid "Streamlining Distribution Networks"
+msgstr "Optimisation des réseaux de distribution"
+
+msgid "We've developed efficient domestic and global supply chains that reduce lead times and maintain product integrity."
+msgstr "Nous avons développé des chaînes d'approvisionnement nationales et mondiales efficaces qui réduisent les délais de livraison et préservent l'intégrité des produits."
+
+msgid "Navigating Global Compliance"
+msgstr "Gestion de la conformité mondiale"
+
+msgid "With experienced regulatory teams, we meet market-specific legal and medical standards, enabling smooth entry into countries like Chad, Sudan, and Bangladesh."
+msgstr "Grâce à nos équipes réglementaires expérimentées, nous respectons les normes juridiques et médicales propres à chaque marché, facilitant ainsi notre implantation dans des pays tels que le Tchad, le Soudan et le Bangladesh."
+
+
+
+
+
+msgid "Corporate Social Responsibility"
+msgstr "Responsabilité Sociétale des Entreprises"
+
+msgid "Our Commitment to Sustainable Healthcare Development"
+msgstr "Notre engagement en faveur d’un développement durable des soins de santé"
+
+msgid "Our CSR Philosophy"
+msgstr "Notre philosophie RSE"
+
+msgid "At Avin Shukri Pharmaceuticals, we believe that corporate success and social responsibility go hand in hand. Our commitment to ethical business practices extends beyond compliance to encompass our broader responsibility to society and the environment."
+msgstr "Chez Avin Shukri Pharmaceuticals, nous croyons que le succès de l’entreprise et la responsabilité sociale vont de pair. Notre engagement envers des pratiques commerciales éthiques va au-delà de la conformité et englobe notre responsabilité envers la société et l’environnement."
+
+msgid "Healthcare Access"
+msgstr "Accès aux soins de santé"
+
+msgid "Ensuring affordable, high-quality medicines reach underserved populations and communities in need. We implement pricing strategies and distribution models that improve healthcare accessibility."
+msgstr "Garantir que des médicaments abordables et de haute qualité atteignent les populations mal desservies et les communautés dans le besoin. Nous mettons en œuvre des stratégies tarifaires et des modèles de distribution qui améliorent l’accessibilité aux soins de santé."
+
+msgid "Environmental Stewardship"
+msgstr "Gestion environnementale responsable"
+
+msgid "Minimizing our environmental footprint through sustainable manufacturing practices, waste reduction, and eco-friendly packaging solutions."
+msgstr "Réduire notre empreinte environnementale grâce à des pratiques de fabrication durables, à la réduction des déchets et à des solutions d’emballage écologiques."
+
+msgid "Key Initiatives"
+msgstr "Initiatives clés"
+
+msgid "Our comprehensive CSR programs focus on creating sustainable value for all stakeholders while addressing critical healthcare challenges."
+msgstr "Nos programmes complets de RSE visent à créer une valeur durable pour toutes les parties prenantes tout en répondant aux défis majeurs du secteur de la santé."
+
+msgid "Community Health Programs"
+msgstr "Programmes de santé communautaire"
+
+msgid "Organizing health camps, medical awareness programs, and free health check-ups in local communities. Providing preventive care and health education to improve public health outcomes."
+msgstr "Organisation de camps de santé, de programmes de sensibilisation médicale et de bilans de santé gratuits dans les communautés locales. Fourniture de soins préventifs et d’éducation sanitaire afin d’améliorer la santé publique."
+
+msgid "Education & Training"
+msgstr "Éducation et formation"
+
+msgid "Supporting medical education through scholarships, training programs for healthcare professionals, and knowledge sharing initiatives."
+msgstr "Soutenir l’éducation médicale par le biais de bourses, de programmes de formation pour les professionnels de santé et d’initiatives de partage des connaissances."
+
+msgid "Global Health Partnerships"
+msgstr "Partenariats mondiaux pour la santé"
+
+msgid "Collaborating with international health organizations, NGOs, and government bodies to address global health challenges and improve healthcare access worldwide."
+msgstr "Collaborer avec des organisations internationales de santé, des ONG et des organismes gouvernementaux afin de relever les défis mondiaux en matière de santé et d’améliorer l’accès aux soins dans le monde entier."
+
+msgid "Our Impact"
+msgstr "Notre impact"
+
+msgid "Measuring our contribution to society through quantifiable metrics and transparent reporting of our CSR activities."
+msgstr "Mesurer notre contribution à la société à travers des indicateurs quantifiables et une communication transparente sur nos activités de RSE."
+
+msgid "Lives Impacted"
+msgstr "Vies impactées"
+
+msgid "Millions of patients benefit from our affordable medicines and healthcare programs across India, Chad, Sudan, Egypt, and Bangladesh."
+msgstr "Des millions de patients bénéficient de nos médicaments abordables et de nos programmes de santé en Inde, au Tchad, au Soudan, en Égypte et au Bangladesh."
+
+msgid "Economic Value"
+msgstr "Valeur économique"
+
+msgid "Creating employment opportunities and contributing to local economies through our manufacturing facilities and supply chain operations."
+msgstr "Créer des opportunités d’emploi et contribuer aux économies locales grâce à nos installations de fabrication et à nos activités de chaîne d’approvisionnement."
+
+msgid "Future Commitments"
+msgstr "Engagements futurs"
+
+msgid "Our ongoing dedication to expanding our positive impact while maintaining the highest standards of corporate governance and ethical business practices."
+msgstr "Notre engagement continu à accroître notre impact positif tout en maintenant les normes les plus élevées en matière de gouvernance d’entreprise et de pratiques commerciales éthiques."
+
+msgid "Sustainability Goals"
+msgstr "Objectifs de durabilité"
+
+msgid "Achieving carbon neutrality, implementing circular economy principles, and ensuring sustainable resource management in all operations by 2030."
+msgstr "Atteindre la neutralité carbone, mettre en œuvre les principes de l’économie circulaire et garantir une gestion durable des ressources dans toutes nos activités d’ici 2030."
+
+
+
+
+
+msgid "Our Product Portfolio"
+msgstr "Notre portefeuille de produits"
+
+msgid "15+ Pharmaceutical Brands Across Multiple Therapeutic Segments"
+msgstr "Plus de 15 marques pharmaceutiques couvrant plusieurs segments thérapeutiques"
+
+msgid "Featured Products"
+msgstr "Produits phares"
+
+msgid "Our flagship pharmaceutical products serving diverse therapeutic segments with WHO-GMP certification"
+msgstr "Nos principaux produits pharmaceutiques desservant divers segments thérapeutiques avec certification WHO-GMP"
+
+msgid "Category:"
+msgstr "Catégorie :"
+
+msgid "Type:"
+msgstr "Type :"
+
+msgid "Strength:"
+msgstr "Dosage :"
+
+msgid "MRP:"
+msgstr "Prix :"
+
+msgid "Antibiotics"
+msgstr "Antibiotiques"
+
+msgid "Pain Management"
+msgstr "Gestion de la douleur"
+
+msgid "Tablet"
+msgstr "Comprimé"
+
+msgid "Injection"
+msgstr "Injection"
+
+msgid "Dry Syrup"
+msgstr "Sirop sec"
+
+msgid "Product Features:"
+msgstr "Caractéristiques du produit :"
+
+msgid "High Quality"
+msgstr "Haute qualité"
+
+msgid "WHO-GMP Certified"
+msgstr "Certifié WHO-GMP"
+
+msgid "Effective"
+msgstr "Efficace"
+
+msgid "Broad spectrum antibiotic"
+msgstr "Antibiotique à large spectre"
+
+msgid "Fast pain relief"
+msgstr "Soulagement rapide de la douleur"
+
+msgid "Pediatric friendly"
+msgstr "Adapté aux enfants"
+
+msgid "Available"
+msgstr "Disponible"
+
+msgid "Ready for dispatch"
+msgstr "Prêt à être expédié"
+
+msgid "Innovation Products"
+msgstr "Produits innovants"
+
+msgid "10+ Upcoming Products in Our Pipeline - Advanced Formulations for Better Healthcare"
+msgstr "Plus de 10 produits à venir dans notre pipeline - Des formulations avancées pour de meilleurs soins de santé"
+
+msgid "Gastrointestinal"
+msgstr "Gastro-intestinal"
+
+msgid "Capsule"
+msgstr "Gélule"
+
+msgid "Status:"
+msgstr "Statut :"
+
+msgid "Coming Soon"
+msgstr "Bientôt disponible"
+
+msgid "Advanced PPI with dual action"
+msgstr "IPP avancé à double action"
+
+msgid "Cardiovascular"
+msgstr "Cardiovasculaire"
+
+msgid "Next-gen antihypertensive"
+msgstr "Antihypertenseur de nouvelle génération"
+
+msgid "Respiratory"
+msgstr "Respiratoire"
+
+msgid "Inhaler"
+msgstr "Inhalateur"
+
+msgid "Advanced bronchodilator"
+msgstr "Bronchodilatateur avancé"
+
+msgid "Neurology"
+msgstr "Neurologie"
+
+msgid "Neuroprotective agent"
+msgstr "Agent neuroprotecteur"
+
+msgid "Product Categories"
+msgstr "Catégories de produits"
+
+msgid "Comprehensive Pharmaceutical Solutions Across Multiple Therapeutic Segments"
+msgstr "Solutions pharmaceutiques complètes couvrant plusieurs segments thérapeutiques"
+
+msgid "Tablets & Capsules"
+msgstr "Comprimés et gélules"
+
+msgid "Wide range of oral formulations including antibiotics, anti-inflammatory, cardiovascular, and gastrointestinal medications"
+msgstr "Large gamme de formulations orales comprenant des antibiotiques, anti-inflammatoires, médicaments cardiovasculaires et gastro-intestinaux"
+
+msgid "Popular Products:"
+msgstr "Produits populaires :"
+
+msgid "Injectables"
+msgstr "Injectables"
+
+msgid "Sterile injectable formulations for critical care, antibiotics, and specialized treatments"
+msgstr "Formulations injectables stériles pour les soins intensifs, les antibiotiques et les traitements spécialisés"
+
+msgid "Pediatric Formulations"
+msgstr "Formulations pédiatriques"
+
+msgid "Child-friendly formulations including dry syrups, oral suspensions, and drops"
+msgstr "Formulations adaptées aux enfants comprenant des sirops secs, des suspensions buvables et des gouttes"
+
+msgid "Topical Products"
+msgstr "Produits topiques"
+
+msgid "Ointments, creams, and gels for dermatological and pain management applications"
+msgstr "Pommades, crèmes et gels pour les applications dermatologiques et la gestion de la douleur"
+
+msgid "Quality Assurance & Compliance"
+msgstr "Assurance qualité et conformité"
+
+msgid "Every product meets international standards and regulatory requirements"
+msgstr "Chaque produit répond aux normes internationales et aux exigences réglementaires"
+
+msgid "WHO-GMP Compliance"
+msgstr "Conformité WHO-GMP"
+
+msgid "World Health Organization Good Manufacturing Practices compliance ensuring product safety and efficacy."
+msgstr "Conformité aux Bonnes Pratiques de Fabrication de l’Organisation Mondiale de la Santé garantissant la sécurité et l’efficacité des produits."
+
+msgid "International Standards"
+msgstr "Normes internationales"
+
+msgid "Compliance with global regulatory requirements across all operational markets including Chad, Djibouti, and expanding markets."
+msgstr "Conformité aux exigences réglementaires mondiales sur tous les marchés opérationnels, y compris le Tchad, Djibouti et les marchés en expansion."
+
+msgid "Certifications"
+msgstr "Certifications"
+
+msgid "Recognized certifications from national and international regulatory bodies ensuring product quality and safety."
+msgstr "Certifications reconnues par des organismes de réglementation nationaux et internationaux garantissant la qualité et la sécurité des produits."
+
+
+
+
+
+
+msgid "Dr. John Martin"
+msgstr "Dr. John Martin"
+
+msgid "CEO & Founder"
+msgstr "PDG et Fondateur"
+
+msgid "Labsky, New York, USA"
+msgstr "Labsky, New York, États-Unis"
+
+msgid "Biography"
+msgstr "Biographie"
+
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue."
+
+msgid "Alex Robin"
+msgstr "Alex Robin"
+
+msgid "Lab Assistant"
+msgstr "Assistant de laboratoire"
+
+msgid "Andrew Bon"
+msgstr "Andrew Bon"
+
+msgid "Martin Tompson"
+msgstr "Martin Tompson"
+
+msgid "Clarabelle Samber"
+msgstr "Clarabelle Samber"
+
+
+
+
+msgid "Contact Us"
+msgstr "Contactez-nous"
+
+msgid "Get in touch with Avin Shukri Pharmaceuticals Private Limited for business inquiries and partnerships"
+msgstr "Contactez Avin Shukri Pharmaceuticals Private Limited pour toute demande commerciale et opportunité de partenariat"
+
+msgid "Get In Touch With Us"
+msgstr "Prenez contact avec nous"
+
+msgid "We're here to help you with all your pharmaceutical needs. Whether you're looking for product information, business partnerships, or have questions about our global operations, our team is ready to assist you."
+msgstr "Nous sommes là pour vous accompagner dans tous vos besoins pharmaceutiques. Que vous recherchiez des informations sur nos produits, des partenariats commerciaux ou des renseignements sur nos opérations mondiales, notre équipe est prête à vous aider."
+
+msgid "Corporate Headquarters"
+msgstr "Siège social"
+
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+msgid "Email Address"
+msgstr "Adresse e-mail"
+
+msgid "Business Hours"
+msgstr "Heures d'ouverture"
+
+msgid "Monday - Friday: 9:00 AM - 6:00 PM"
+msgstr "Lundi - Vendredi : 09h00 - 18h00"
+
+msgid "Saturday: 9:00 AM - 2:00 PM"
+msgstr "Samedi : 09h00 - 14h00"
+
+msgid "Sunday: Closed"
+msgstr "Dimanche : Fermé"
+
+msgid "Send Us a Message"
+msgstr "Envoyez-nous un message"
+
+msgid "Your Name"
+msgstr "Votre nom"
+
+msgid "Your Email"
+msgstr "Votre e-mail"
+
+msgid "Your Phone"
+msgstr "Votre téléphone"
+
+msgid "General Inquiry"
+msgstr "Demande générale"
+
+msgid "Product Information"
+msgstr "Informations sur les produits"
+
+msgid "Business Partnership"
+msgstr "Partenariat commercial"
+
+msgid "Global Distribution"
+msgstr "Distribution mondiale"
+
+msgid "Career Opportunities"
+msgstr "Opportunités de carrière"
+
+msgid "Subject"
+msgstr "Sujet"
+
+msgid "Leave a message here"
+msgstr "Laissez votre message ici"
+
+msgid "Your Message"
+msgstr "Votre message"
+
+msgid "Send Message"
+msgstr "Envoyer le message"
+
+msgid "Message sent successfully! We'll contact you soon via email and WhatsApp."
+msgstr "Message envoyé avec succès ! Nous vous contacterons bientôt par e-mail et WhatsApp."
+
+msgid "Error sending message. Please try again."
+msgstr "Erreur lors de l'envoi du message. Veuillez réessayer."
+
+msgid "Find Our Location"
+msgstr "Trouvez notre emplacement"
+
+msgid "Visit our corporate headquarters in Chennai, India"
+msgstr "Visitez notre siège social à Chennai, en Inde"
+
+msgid "Global Operations"
+msgstr "Opérations mondiales"
+
+msgid "Republic of Chad"
+msgstr "République du Tchad"
+
+msgid "Registered & Operational"
+msgstr "Enregistré et opérationnel"
+
+msgid "Central Africa Operations"
+msgstr "Opérations en Afrique centrale"
+
+msgid "Djibouti"
+msgstr "Djibouti"
+
+msgid "Established Presence"
+msgstr "Présence établie"
+
+msgid "Horn of Africa Operations"
+msgstr "Opérations dans la Corne de l'Afrique"
+
+msgid "Expanding Markets"
+msgstr "Marchés en expansion"
+
+msgid "Coming Soon:"
+msgstr "Bientôt disponible :"
+
+msgid "Sudan"
+msgstr "Soudan"
+
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+msgid "Seychelles"
+msgstr "Seychelles"
+
+msgid "Egypt"
+msgstr "Égypte"
+
+msgid "Yemen"
+msgstr "Yémen"
+
+msgid "View Global Operations"
+msgstr "Voir les opérations mondiales"
+
+msgid "New Contact Form Submission - Avin Shukri Pharmaceuticals"
+msgstr "Nouvelle soumission du formulaire de contact - Avin Shukri Pharmaceuticals"
+
+msgid "Name:"
+msgstr "Nom :"
+
+msgid "Email:"
+msgstr "E-mail :"
+
+msgid "Phone:"
+msgstr "Téléphone :"
+
+msgid "Message:"
+msgstr "Message :"
+
+msgid "Network error. Please try again."
+msgstr "Erreur réseau. Veuillez réessayer."

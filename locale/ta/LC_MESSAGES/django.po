@@ -1,4 +1,4 @@
-# Tamil translation for Avin Shukri Pharmaceuticals
+# Tamil translation for Avin Shukri Pharmaceuticals home page code
 msgid ""
 msgstr ""
 "Language: ta\n"
@@ -31,7 +31,7 @@ msgid "Language"
 msgstr "மொழி"
 
 msgid "Avin Shukri Pharmaceuticals"
-msgstr "அவின் சுக்ரி பார்மாசியூட்டிக்கல்ஸ்"
+msgstr "அவின் சுக்ரி பார்மா"
 
 msgid "Private Limited"
 msgstr "தனியார் வரம்புக்குட்பட்ட"
@@ -145,9 +145,9 @@ msgid ""
 "We are committed to addressing global healthcare needs across two continents"
 " backed by a focus on quality, regulatory compliance, and customer trust."
 msgstr ""
-"இரண்டு மகாদேசங்களில் உலகளாவிய சுகாதார தேவைகளை பூர்த்தி செய்ய நாங்கள் "
-"கூறிக்கொண்டுள்ளோம், தரம், ஒழுங்குமுறை இணக்கம், மற்றும் வாடிக்கையாளர் "
-"நம்பிக்கையைப் போன்ற குறிப்பால் ஆதரிக்கப்படுகிறது."
+"தரம், ஒழுங்குமுறை இணக்கம் மற்றும் வாடிக்கையாளர் நம்பிக்கை ஆகியவற்றை "
+"முதன்மையாகக் கொண்டு, இரண்டு கண்டங்களில் உள்ள உலகளாவிய சுகாதாரத் தேவைகளை "
+"பூர்த்தி செய்ய நாங்கள் உறுதிபூண்டுள்ளோம்."
 
 msgid ""
 "Avin shukri pharmaceuticals Pvt.Ltd, is highly committed to delivering high-"
@@ -242,7 +242,7 @@ msgid "Antibiotics"
 msgstr "நுண்ணுயிர்"
 
 msgid "Quality antibiotic medications for various infections"
-msgstr "பல்வேறு தொற்றுகளுக்கான உচ்சமான நுண்ணுயிர்க்கொல்லி மருந்துகள்"
+msgstr "பல்வேறு தொற்றுநோய்களுக்கான உயர்தர நுண்ணுயிர்க்கொல்லி மருந்துகள்"
 
 msgid "Anti-inflammatory"
 msgstr "அழற்சி எதிர்ப்பு"
@@ -277,9 +277,10 @@ msgid ""
 "quality, affordable medicines while contributing to improved healthcare "
 "outcomes across emerging and developing markets."
 msgstr ""
-"வளர்ந்து வரும் மற்றும் வளரும் சந்தைகளில் சுகாதார ফলாফலங்கள் மேம்பட்டுள்ளதில்"
-" பங்களிக்கும் போது உயர்தர, மலிவான மருந்துகளை வழங்கும் உலகளாவிய அங்கீகாரம் "
-"பெற்ற மருந்து நிறுவனமாக வேண்டியுள்ளது."
+"வளர்ந்து வரும் மற்றும் வளர்ச்சியடைந்து வரும் சந்தைகளில் சுகாதார "
+"முன்னேற்றத்திற்கு பங்களிப்பதுடன், உயர்தரமான மற்றும் மலிவான மருந்துகளை "
+"வழங்கும் உலகளாவிய அங்கீகாரம் பெற்ற மருந்து நிறுவனமாக உருவாகுவதே எங்கள் "
+"நோக்கமாகும்."
 
 msgid "Our Mission"
 msgstr "எங்கள் மிஷன்"
@@ -292,32 +293,32 @@ msgstr "உலகளாவிய சுகாதார சந்தைகளி�
 
 msgid "Build strong partnerships with reliable manufacturers and distributors"
 msgstr ""
-"நம்பகமான உற்பादकர்கள் மற்றும் விநியோगஸ்தர்களுடன் வலுவான கூட்டு வேலைகளை "
-"கட்டுங்கள்"
+"நம்பகமான உற்பத்தியாளர்கள் மற்றும் விநியோகஸ்தர்களுடன் வலுவான கூட்டாண்மைகளை "
+"உருவாக்குதல்"
 
 msgid "Ensure ethical marketing and responsible business practices"
 msgstr ""
-"நैதிக சந்தைப்படுத்தல் மற்றும் பொறுப்புள்ள வணிக நடைமுறைகளை "
-"உறுதிப்படுத்துங்கள்"
+"நெறிமுறைமிக்க சந்தைப்படுத்தல் மற்றும் பொறுப்பான வணிக நடைமுறைகளை உறுதி "
+"செய்தல்"
 
 msgid ""
 "Establish our own pharmaceutical manufacturing facilities in the future"
-msgstr "ভবিষ்যতে আমাদের নিজস্ব மருந்து উৎপাদন সুবিধা স্থাপন করুங்கள்"
+msgstr "எதிர்காலத்தில் நமது சொந்த மருந்து உற்பத்தி நிலையங்களை நிறுவுதல்"
 
 msgid "Core Values"
-msgstr "মূল মূल্যবোधं"
+msgstr "அடிப்படை விழுமியங்கள்"
 
 msgid "Quality"
 msgstr "தரம்"
 
 msgid "Ensuring high pharmaceutical standards"
-msgstr "உচ்চ মருத்துவ தரনிர্ধாரণ உறுதிப்படுத்துதல்"
+msgstr "உயர்ந்த மருந்தியல் தரங்களை உறுதி செய்தல்"
 
 msgid "Integrity"
-msgstr "সততা"
+msgstr "நேர்மை"
 
 msgid "Transparent and ethical business practices"
-msgstr "স்বচ্ছ மற்றும் நைதிக வணிக நடைமுறைகள்"
+msgstr "வெளிப்படையான மற்றும் அறநெறி சார்ந்த வணிக நடைமுறைகள்"
 
 msgid "Innovation"
 msgstr "புதுமை"
@@ -341,3 +342,817 @@ msgstr ""
 
 msgid "Contact Us Today"
 msgstr "இன்று எங்களைத் தொடர்பு கொள்ளுங்கள்"
+
+# Tamil translation for Avin Shukri Pharmaceuticals About page code
+msgid "Years Experience"
+msgstr "ஆண்டுகள் அனுபவம்"
+
+msgid "About Avin Shukri Pharmaceuticals"
+msgstr "அவின் சுக்ரி பார்மாசியூட்டிக்கல்ஸ் பற்றி"
+
+msgid ""
+"Avin Shukri Pharmaceuticals Private Limited is an emerging pharmaceutical "
+"marketing and export company headquartered in India. Founded in 2023, the "
+"company is focused on delivering high-quality pharmaceutical products "
+"through strong partnerships with certified manufacturers."
+msgstr ""
+"அவின் சுக்ரி பார்மாசியூட்டிக்கல்ஸ் பிரைவேட் லிமிடெட் என்பது இந்தியாவை "
+"தலைமையிடமாகக் கொண்ட வளர்ந்து வரும் மருந்து சந்தைப்படுத்தல் மற்றும் ஏற்றுமதி "
+"நிறுவனம் ஆகும். 2023 ஆம் ஆண்டு நிறுவப்பட்ட இந்நிறுவனம், சான்றளிக்கப்பட்ட "
+"உற்பத்தியாளர்களுடன் வலுவான கூட்டாண்மைகளின் மூலம் உயர்தர மருந்துப் பொருட்களை "
+"வழங்குவதில் கவனம் செலுத்துகிறது."
+
+msgid "Our Comprehensive Product Portfolio:"
+msgstr "எங்களின் விரிவான தயாரிப்பு வரிசை:"
+
+msgid "Injections"
+msgstr "ஊசிமருந்துகள்"
+
+msgid "Tablets"
+msgstr "மாத்திரைகள்"
+
+msgid "Capsules"
+msgstr "காப்ஸ்யூல்கள்"
+
+msgid "Ointments"
+msgstr "களிம்புகள்"
+
+msgid "Creams"
+msgstr "கிரீம்கள்"
+
+msgid "Dry Syrups"
+msgstr "உலர் சிரப்புகள்"
+
+msgid "Oral Suspensions"
+msgstr "வாய்வழி திரவ மருந்துகள்"
+
+msgid ""
+"The company currently manages a growing portfolio of pharmaceutical brands "
+"across multiple therapeutic segments and is steadily expanding its presence "
+"in international markets. With operations already established in the "
+"Republic of Chad and export activities expanding into several global "
+"regions."
+msgstr ""
+"இந்நிறுவனம் தற்போது பல்வேறு சிகிச்சைப் பிரிவுகளில் மருந்து பிராண்டுகளின் "
+"வளர்ந்து வரும் தொகுப்பை நிர்வகித்து வருகிறது. மேலும், சர்வதேச சந்தைகளில் "
+"தனது இருப்பை தொடர்ந்து விரிவுபடுத்தி வருகிறது. சாட் குடியரசில் ஏற்கனவே "
+"செயல்பட்டு வரும் இந்நிறுவனம், உலகின் பல பகுதிகளுக்கு தனது ஏற்றுமதி "
+"நடவடிக்கைகளை விரிவாக்கி வருகிறது."
+
+msgid "Countries Served"
+msgstr "சேவை வழங்கப்படும் நாடுகள்"
+
+msgid "Product Range"
+msgstr "தயாரிப்பு வரம்பு"
+
+msgid "Quality Standards"
+msgstr "தரநிலைகள்"
+
+msgid "Our Vision, Mission & Values"
+msgstr "எங்கள் பார்வை, நோக்கம் மற்றும் விழுமியங்கள்"
+
+msgid "Vision"
+msgstr "பார்வை"
+
+msgid "Mission"
+msgstr "நோக்கம்"
+
+msgid "Core Values"
+msgstr "அடிப்படை விழுமியங்கள்"
+
+msgid "Partnership"
+msgstr "கூட்டாண்மை"
+
+msgid "Strong collaborations with manufacturers and distributors"
+msgstr "உற்பத்தியாளர்கள் மற்றும் விநியோகஸ்தர்களுடன் வலுவான ஒத்துழைப்பு"
+
+msgid "Market Challenges & Our Solutions"
+msgstr "சந்தை சவால்கள் மற்றும் எங்கள் தீர்வுகள்"
+
+msgid "Market Problems"
+msgstr "சந்தை சவால்கள்"
+
+msgid "Regulatory and Market Entry Barriers"
+msgstr "ஒழுங்குமுறை மற்றும் சந்தை நுழைவு தடைகள்"
+
+msgid ""
+"Entering international markets requires navigating complex compliance "
+"standards and local regulations."
+msgstr ""
+"சர்வதேச சந்தைகளில் நுழைவதற்கு சிக்கலான ஒழுங்குமுறை தரநிலைகள் மற்றும் உள்ளூர்"
+" விதிமுறைகளை பின்பற்ற வேண்டியுள்ளது."
+
+msgid "Supply Chain Inefficiencies"
+msgstr "விநியோக சங்கிலி செயல்திறன் குறைபாடுகள்"
+
+msgid ""
+"Delays, poor storage, and distribution issues affect timely delivery and "
+"medicine efficacy."
+msgstr ""
+"தாமதங்கள், தரமற்ற சேமிப்பு மற்றும் விநியோக சிக்கல்கள் மருந்துகளின் சரியான "
+"விநியோகத்தையும் செயல்திறனையும் பாதிக்கின்றன."
+
+msgid "Inconsistent Quality Standards"
+msgstr "சீரற்ற தரநிலைகள்"
+
+msgid ""
+"Substandard or counterfeit drugs pose serious risks to patient health and "
+"undermine trust in healthcare."
+msgstr ""
+"தரமற்ற அல்லது போலி மருந்துகள் நோயாளிகளின் ஆரோக்கியத்திற்கு கடுமையான ஆபத்தை "
+"ஏற்படுத்துவதோடு சுகாதாரத் துறையின் மீதான நம்பிக்கையையும் பாதிக்கின்றன."
+
+msgid "Lack of Access to Affordable Medicines"
+msgstr "மலிவான மருந்துகளுக்கான அணுகல் பற்றாக்குறை"
+
+msgid ""
+"Many regions, especially in developing countries, face shortages or "
+"unaffordable pricing for essential medicines."
+msgstr ""
+"பல பகுதிகளில், குறிப்பாக வளரும் நாடுகளில், அத்தியாவசிய மருந்துகளின் "
+"பற்றாக்குறை அல்லது அதிக விலை காரணமாக மக்கள் சிரமங்களை எதிர்கொள்கின்றனர்."
+
+msgid "Our Solutions"
+msgstr "எங்கள் தீர்வுகள்"
+
+msgid "Offering Cost-Effective, High-Quality Products"
+msgstr "செலவுக் குறைவான உயர்தர தயாரிப்புகளை வழங்குதல்"
+
+msgid ""
+"We manufacture affordable generic and branded medicines without compromising"
+" quality, increasing access in underserved regions."
+msgstr ""
+"தரத்தில் எந்த சமரசமும் இன்றி மலிவான பொதுப் பயன்பாட்டு மற்றும் பிராண்ட் "
+"மருந்துகளை வழங்குவதன் மூலம் சேவை குறைவாக உள்ள பகுதிகளில் மருந்துகளின் அணுகலை"
+" மேம்படுத்துகிறோம்."
+
+msgid "Maintaining Stringent Quality Control"
+msgstr "கடுமையான தரக் கட்டுப்பாட்டை பராமரித்தல்"
+
+msgid ""
+"Our manufacturing complies with national and international quality norms, "
+"ensuring safety, consistency, and reliability in all products."
+msgstr ""
+"எங்கள் உற்பத்தி செயல்முறைகள் தேசிய மற்றும் சர்வதேச தரநிலைகளுக்கு இணங்க "
+"செயல்படுகின்றன. இதன் மூலம் அனைத்து தயாரிப்புகளிலும் பாதுகாப்பு, நிலைத்தன்மை "
+"மற்றும் நம்பகத்தன்மை உறுதி செய்யப்படுகிறது."
+
+msgid "Streamlining Distribution Networks"
+msgstr "விநியோக வலையமைப்பை மேம்படுத்துதல்"
+
+msgid ""
+"We've developed efficient domestic and global supply chains that reduce lead"
+" times and maintain product integrity."
+msgstr ""
+"உள்நாட்டு மற்றும் உலகளாவிய அளவில் திறமையான விநியோக சங்கிலிகளை "
+"உருவாக்கியுள்ளோம். இது விநியோக நேரத்தை குறைத்து தயாரிப்புகளின் தரத்தை "
+"பாதுகாக்க உதவுகிறது."
+
+msgid "Navigating Global Compliance"
+msgstr "உலகளாவிய ஒழுங்குமுறை இணக்கத்தை உறுதி செய்தல்"
+
+msgid ""
+"With experienced regulatory teams, we meet market-specific legal and medical"
+" standards, enabling smooth entry into countries like Chad, Sudan, and "
+"Bangladesh."
+msgstr ""
+"அனுபவமிக்க ஒழுங்குமுறை நிபுணர்களின் உதவியுடன், ஒவ்வொரு நாட்டிற்குமான சட்ட "
+"மற்றும் மருத்துவ தரநிலைகளை பூர்த்தி செய்து, சாட், சூடான் மற்றும் பங்களாதேஷ் "
+"போன்ற நாடுகளில் எளிதாக நுழைய முடிகிறது."
+
+msgid "Corporate Social Responsibility"
+msgstr "கூட்டு சமூக பொறுப்பு"
+
+msgid "Our Commitment to Sustainable Healthcare Development"
+msgstr "நகரும் சுகாதாரப் பாதுகாப்பு வளர்ச்சிக்கான எங்கள் வாக்குறுதி"
+
+msgid "Our CSR Philosophy"
+msgstr "எங்கள் கூட்டு சமூக பொறுப்பு தத்துவம்"
+
+msgid "Healthcare Access"
+msgstr "சுகாதாரப் பாதுகாப்பு அணுகல்"
+
+msgid "Environmental Stewardship"
+msgstr "சுற்றுச்சூழல் நிர்வாகம்"
+
+msgid "Key Initiatives"
+msgstr "முக்கிய முயற்சிகள்"
+
+msgid "Community Health Programs"
+msgstr "சமூக சுகாதார நிரல்கள்"
+
+msgid "Education & Training"
+msgstr "கல்வி & பயிற்சி"
+
+msgid "Global Health Partnerships"
+msgstr "உலகளாவிய சுகாதார கூட்டு வேலைகள்"
+
+msgid "Our Impact"
+msgstr "எங்கள் விளைவு"
+
+msgid "Lives Impacted"
+msgstr "பாதிக்கப்பட்ட வாழ்க்கைகள்"
+
+msgid "Economic Value"
+msgstr "பொருளாதார மதிப்பு"
+
+msgid "Future Commitments"
+msgstr "எதிர்கால வாக்குறுதிகள்"
+
+msgid "Sustainability Goals"
+msgstr "நிலைத்தன்மை இலக்குகள்"
+
+msgid ""
+"At Avin Shukri Pharmaceuticals, we believe that corporate success and social"
+" responsibility go hand in hand. Our commitment to ethical business "
+"practices extends beyond compliance to encompass our broader responsibility "
+"to society and the environment."
+msgstr ""
+"அவின் சுக்ரி பார்மாசியூட்டிக்கல்ஸில், நிறுவன வெற்றியும் சமூகப் பொறுப்பும் "
+"ஒன்றோடொன்று இணைந்தவை என்று நாங்கள் நம்புகிறோம். நெறிமுறைமிக்க வணிக "
+"நடைமுறைகளுக்கான எங்களின் அர்ப்பணிப்பு, விதிமுறைகளைப் பின்பற்றுவதைக் "
+"கடந்தும், சமுதாயம் மற்றும் சுற்றுச்சூழலுக்கான எங்களின் பரந்த பொறுப்பை "
+"உள்ளடக்கியதாகும்."
+
+msgid ""
+"Ensuring affordable, high-quality medicines reach underserved populations "
+"and communities in need. We implement pricing strategies and distribution "
+"models that improve healthcare accessibility."
+msgstr ""
+"சேவை குறைவாக கிடைக்கும் மக்கள் மற்றும் தேவையுள்ள சமூகங்களுக்கு மலிவான, "
+"உயர்தர மருந்துகள் சென்றடைவதை உறுதி செய்கிறோம். சுகாதார சேவைகளின் அணுகலை "
+"மேம்படுத்தும் வகையில் விலை நிர்ணய உத்திகள் மற்றும் விநியோக முறைகளை "
+"செயல்படுத்துகிறோம்."
+
+msgid ""
+"Minimizing our environmental footprint through sustainable manufacturing "
+"practices, waste reduction, and eco-friendly packaging solutions."
+msgstr ""
+"நிலைத்தன்மை கொண்ட உற்பத்தி நடைமுறைகள், கழிவுகளை குறைக்கும் முயற்சிகள் "
+"மற்றும் சுற்றுச்சூழலுக்கு உகந்த பொதியிடல் தீர்வுகள் மூலம் சுற்றுச்சூழலின் "
+"மீது ஏற்படும் எங்கள் தாக்கத்தை குறைக்க உறுதியாக செயல்படுகிறோம்."
+
+msgid ""
+"Our comprehensive CSR programs focus on creating sustainable value for all "
+"stakeholders while addressing critical healthcare challenges."
+msgstr ""
+"எங்களின் விரிவான நிறுவன சமூகப் பொறுப்பு (CSR) திட்டங்கள், முக்கியமான சுகாதார"
+" சவால்களை எதிர்கொள்வதோடு, அனைத்து பங்குதாரர்களுக்கும் நிலையான மதிப்பை "
+"உருவாக்குவதில் கவனம் செலுத்துகின்றன."
+
+msgid "Community Health Programs"
+msgstr "சமூக சுகாதாரத் திட்டங்கள்"
+
+msgid ""
+"Organizing health camps, medical awareness programs, and free health check-"
+"ups in local communities. Providing preventive care and health education to "
+"improve public health outcomes."
+msgstr ""
+"உள்ளூர் சமூகங்களில் மருத்துவ முகாம்கள், சுகாதார விழிப்புணர்வு நிகழ்ச்சிகள் "
+"மற்றும் இலவச மருத்துவ பரிசோதனைகளை நடத்துகிறோம். பொதுமக்களின் ஆரோக்கியத்தை "
+"மேம்படுத்தும் நோக்கில் நோய் தடுப்பு பராமரிப்பு மற்றும் சுகாதாரக் கல்வியையும்"
+" வழங்குகிறோம்."
+
+msgid ""
+"Supporting medical education through scholarships, training programs for "
+"healthcare professionals, and knowledge sharing initiatives."
+msgstr ""
+"மருத்துவக் கல்வியை ஊக்குவிக்கும் வகையில் கல்வி உதவித்தொகைகள், சுகாதார "
+"நிபுணர்களுக்கான பயிற்சி திட்டங்கள் மற்றும் அறிவுப் பகிர்வு முயற்சிகள் மூலம் "
+"ஆதரவு வழங்குகிறோம்."
+
+msgid ""
+"Collaborating with international health organizations, NGOs, and government "
+"bodies to address global health challenges and improve healthcare access "
+"worldwide."
+msgstr ""
+"சர்வதேச சுகாதார அமைப்புகள், தன்னார்வ தொண்டு நிறுவனங்கள் (NGO) மற்றும் அரசு "
+"அமைப்புகளுடன் இணைந்து உலகளாவிய சுகாதார சவால்களை எதிர்கொண்டு, உலகம் முழுவதும்"
+" சுகாதார சேவைகளின் அணுகலை மேம்படுத்துகிறோம்."
+
+msgid ""
+"Measuring our contribution to society through quantifiable metrics and "
+"transparent reporting of our CSR activities."
+msgstr ""
+"அளவிடக்கூடிய அளவுகோல்கள் மற்றும் வெளிப்படையான அறிக்கையிடல் மூலம் எங்களின் "
+"சமூக பங்களிப்பை மதிப்பீடு செய்கிறோம்."
+
+msgid ""
+"Millions of patients benefit from our affordable medicines and healthcare "
+"programs across India, Chad, Sudan, Egypt, and Bangladesh."
+msgstr ""
+"இந்தியா, சாட், சூடான், எகிப்து மற்றும் பங்களாதேஷ் ஆகிய நாடுகளில், எங்களின் "
+"மலிவான மருந்துகள் மற்றும் சுகாதார திட்டங்களால் கோடிக்கணக்கான நோயாளிகள் "
+"பயனடைந்து வருகின்றனர்."
+
+msgid ""
+"Creating employment opportunities and contributing to local economies "
+"through our manufacturing facilities and supply chain operations."
+msgstr ""
+"எங்கள் உற்பத்தி நிலையங்கள் மற்றும் விநியோக சங்கிலி செயல்பாடுகள் மூலம் "
+"வேலைவாய்ப்புகளை உருவாக்கி, உள்ளூர் பொருளாதார வளர்ச்சிக்கு பங்களிக்கிறோம்."
+
+msgid ""
+"Our ongoing dedication to expanding our positive impact while maintaining "
+"the highest standards of corporate governance and ethical business "
+"practices."
+msgstr ""
+"உயர்ந்த தரமான நிறுவன நிர்வாகம் மற்றும் நெறிமுறைமிக்க வணிக நடைமுறைகளைப் "
+"பின்பற்றி, எங்களின் நேர்மறை தாக்கத்தை விரிவுபடுத்துவதில் நாங்கள் தொடர்ந்து "
+"அர்ப்பணிப்புடன் செயல்பட்டு வருகிறோம்."
+
+msgid ""
+"Achieving carbon neutrality, implementing circular economy principles, and "
+"ensuring sustainable resource management in all operations by 2030."
+msgstr ""
+"2030 ஆம் ஆண்டுக்குள் கார்பன் நியூட்ராலிட்டியை அடைந்து, சுற்றுச்சுழற்சி "
+"பொருளாதாரக் கோட்பாடுகளை செயல்படுத்தி, அனைத்து செயல்பாடுகளிலும் நிலைத்த வள "
+"மேலாண்மையை உறுதி செய்வோம்."
+
+msgid "Our Product Portfolio"
+msgstr "எங்கள் தயாரிப்பு தொகுப்பு"
+
+msgid "15+ Pharmaceutical Brands Across Multiple Therapeutic Segments"
+msgstr "பல சிகிச்சை பிரிவுகளில் 15+ மருந்து பிராண்டுகள்"
+
+msgid "Featured Products"
+msgstr "முக்கிய தயாரிப்புகள்"
+
+msgid ""
+"Our flagship pharmaceutical products serving diverse therapeutic segments "
+"with WHO-GMP certification"
+msgstr ""
+"WHO-GMP சான்றிதழுடன் பல்வேறு சிகிச்சை பிரிவுகளுக்கு சேவை செய்யும் எங்கள் "
+"முன்னணி மருந்துத் தயாரிப்புகள்"
+
+msgid "Category:"
+msgstr "வகை:"
+
+msgid "Type:"
+msgstr "வகை:"
+
+msgid "Tablet"
+msgstr "மாத்திரை"
+
+msgid "Strength:"
+msgstr "அளவு:"
+
+msgid "MRP:"
+msgstr "எம்ஆர்பி:"
+
+msgid "Product Features:"
+msgstr "தயாரிப்பு அம்சங்கள்:"
+
+msgid "High Quality"
+msgstr "உயர் தரம்"
+
+msgid "WHO-GMP Certified"
+msgstr "WHO-GMP சான்றளிக்கப்பட்டது"
+
+msgid "Effective"
+msgstr "பயனுள்ளது"
+
+msgid "Broad spectrum antibiotic"
+msgstr "பரந்த செயல்பாட்டுக் கொண்ட ஆண்டிபயாட்டிக்"
+
+msgid "Available"
+msgstr "கிடைக்கும்"
+
+msgid "Ready for dispatch"
+msgstr "அனுப்ப தயாராக உள்ளது"
+
+msgid "Pain Management"
+msgstr "வலி மேலாண்மை"
+
+msgid "Injection"
+msgstr "ஊசி"
+
+msgid "Fast pain relief"
+msgstr "வேகமான வலி நிவாரணம்"
+
+msgid "Dry Syrup"
+msgstr "உலர் சிரப்"
+
+msgid "Pediatric friendly"
+msgstr "குழந்தைகள் நட்பு"
+
+msgid "Innovation Products"
+msgstr "புதுமை தயாரிப்புகள்"
+
+msgid ""
+"10+ Upcoming Products in Our Pipeline - Advanced Formulations for Better "
+"Healthcare"
+msgstr ""
+"எங்கள் পাইப்லைனில் 10+ வரவிருக்கும் தயாரிப்புகள் - சிறந்த சுகாதாரத்திற்கான "
+"மேம்பட்ட கலவைகள்"
+
+msgid "Capsule"
+msgstr "காப்ஸ்யூல்"
+
+msgid "Status:"
+msgstr "நிலை:"
+
+msgid "Coming Soon"
+msgstr "விரைவில் வருகிறது"
+
+msgid "Advanced PPI with dual action"
+msgstr "இரட்டை செயல்பாட்டுடன் மேம்பட்ட PPI"
+
+msgid "Cardiovascular"
+msgstr "இதயநாள் அமைப்பு"
+
+msgid "Next-gen antihypertensive"
+msgstr "அடுத்த தலைமுறை இரத்த அழுத்த கட்டுப்பாட்டு மருந்து"
+
+msgid "Respiratory"
+msgstr "சுவாச அமைப்பு"
+
+msgid "Inhaler"
+msgstr "இன்ஹேலர்"
+
+msgid "Advanced bronchodilator"
+msgstr "மேம்பட்ட சுவாசவழி விரிவாக்கி"
+
+msgid "Neurology"
+msgstr "நரம்பியல்"
+
+msgid "Neuroprotective agent"
+msgstr "நரம்பு பாதுகாப்பு மருந்து"
+
+msgid "Product Categories"
+msgstr "தயாரிப்பு பிரிவுகள்"
+
+msgid ""
+"Comprehensive Pharmaceutical Solutions Across Multiple Therapeutic Segments"
+msgstr "பல சிகிச்சை பிரிவுகளில் முழுமையான மருந்து தீர்வுகள்"
+
+msgid "Tablets & Capsules"
+msgstr "மாத்திரைகள் மற்றும் காப்ஸ்யூல்கள்"
+
+msgid ""
+"Wide range of oral formulations including antibiotics, anti-inflammatory, "
+"cardiovascular, and gastrointestinal medications"
+msgstr ""
+"ஆண்டிபயாட்டிக்ஸ், அழற்சி எதிர்ப்பு, இதயநாள் மற்றும் செரிமான மருந்துகள் "
+"உள்ளிட்ட விரிவான வாய்வழி கலவைகள்"
+
+msgid "Popular Products:"
+msgstr "பிரபலமான தயாரிப்புகள்:"
+
+msgid "Injectables"
+msgstr "ஊசி மருந்துகள்"
+
+msgid ""
+"Sterile injectable formulations for critical care, antibiotics, and "
+"specialized treatments"
+msgstr ""
+"அவசர சிகிச்சை, ஆண்டிபயாட்டிக்ஸ் மற்றும் சிறப்பு சிகிச்சைகளுக்கான நுண்ணுயிர் "
+"இல்லா ஊசி கலவைகள்"
+
+msgid "Pediatric Formulations"
+msgstr "குழந்தைகளுக்கான கலவைகள்"
+
+msgid ""
+"Child-friendly formulations including dry syrups, oral suspensions, and "
+"drops"
+msgstr ""
+"உலர் சிரப்புகள், வாய்வழி சஸ்பென்ஷன்கள் மற்றும் டிராப்ஸ் உள்ளிட்ட குழந்தை "
+"நட்பு கலவைகள்"
+
+msgid "Topical Products"
+msgstr "மேற்பரப்பு பயன்பாட்டு தயாரிப்புகள்"
+
+msgid ""
+"Ointments, creams, and gels for dermatological and pain management "
+"applications"
+msgstr ""
+"தோல் மற்றும் வலி மேலாண்மை பயன்பாடுகளுக்கான களிம்புகள், கிரீம்கள் மற்றும் "
+"ஜெல்கள்"
+
+msgid "Quality Assurance & Compliance"
+msgstr "தர உறுதி மற்றும் இணக்கம்"
+
+msgid ""
+"Every product meets international standards and regulatory requirements"
+msgstr ""
+"ஒவ்வொரு தயாரிப்பும் சர்வதேச தரநிலைகள் மற்றும் ஒழுங்குமுறை தேவைகளை பூர்த்தி "
+"செய்கிறது"
+
+msgid "WHO-GMP Compliance"
+msgstr "WHO-GMP இணக்கம்"
+
+msgid ""
+"World Health Organization Good Manufacturing Practices compliance ensuring "
+"product safety and efficacy."
+msgstr ""
+"உலக சுகாதார அமைப்பின் நல்ல உற்பத்தி நடைமுறைகளுடன் இணக்கம் தயாரிப்பு "
+"பாதுகாப்பையும் செயல்திறனையும் உறுதிசெய்கிறது."
+
+msgid "International Standards"
+msgstr "சர்வதேச தரநிலைகள்"
+
+msgid ""
+"Compliance with global regulatory requirements across all operational "
+"markets including Chad, Djibouti, and expanding markets."
+msgstr ""
+"சாட், ஜிபூட்டி மற்றும் விரிவடைந்து வரும் சந்தைகள் உட்பட அனைத்து செயல்பாட்டு "
+"சந்தைகளிலும் உலகளாவிய ஒழுங்குமுறை தேவைகளுக்கு இணக்கம்."
+
+msgid "Certifications"
+msgstr "சான்றிதழ்கள்"
+
+msgid "CEO & Founder"
+msgstr "தலைமை நிர்வாக அதிகாரி & நிறுவனர்"
+
+msgid "Labsky, New York, USA"
+msgstr "லாப்ஸ்கை, நியூயார்க், அமெரிக்கா"
+
+msgid "Biography"
+msgstr "வாழ்க்கை வரலாறு"
+
+msgid "Lab Assistant"
+msgstr "ஆய்வக உதவியாளர்"
+
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus "
+"augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem "
+"porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat "
+"augue."
+msgstr ""
+"உயர்தரமான சேவையை வழங்கும் நோக்கில் எங்கள் குழு தொடர்ந்து செயல்படுகிறது. "
+"அனுபவம், திறமை, மற்றும் பொறுப்புணர்வுடன் நாங்கள் ஆராய்ச்சி மற்றும் சுகாதார "
+"முன்னேற்றத்திற்கு அர்ப்பணிப்புடன் பணிபுரிகிறோம்."
+
+msgid "Dr. John Martin"
+msgstr "டாக்டர் ஜான் மார்டின்"
+
+msgid "Alex Robin"
+msgstr "அலெக்ஸ் ராபின்"
+
+msgid "Andrew Bon"
+msgstr "ஆன்ட்ரூ பான்"
+
+msgid "Martin Tompson"
+msgstr "மார்டின் டாம்ப்சன்"
+
+msgid "Clarabelle Samber"
+msgstr "கிளாரபெல் சாம்பர்"
+
+msgid ""
+"Recognized certifications from national and international regulatory bodies "
+"ensuring product quality and safety."
+msgstr ""
+"தயாரிப்பு தரம் மற்றும் பாதுகாப்பை உறுதிப்படுத்தும் தேசிய மற்றும் சர்வதேச "
+"ஒழுங்குமுறை அமைப்புகளின் அங்கீகரிக்கப்பட்ட சான்றிதழ்கள்."
+
+msgid "Our Product Portfolio"
+msgstr "எங்கள் தயாரிப்பு தொகுப்பு"
+
+msgid "15+ Pharmaceutical Brands Across Multiple Therapeutic Segments"
+msgstr "பல சிகிச்சை பிரிவுகளில் 15+ மருந்து பிராண்ட்கள்"
+
+msgid "Featured Products"
+msgstr "சிறப்பு தயாரிப்புகள்"
+
+msgid ""
+"Our flagship pharmaceutical products serving diverse therapeutic segments "
+"with WHO-GMP certification"
+msgstr ""
+"WHO-GMP சான்றளிப்புடன் பல்வேறு சிகிச்சை பிரிவுகளுக்கு சேவை செய்யும் எங்கள் "
+"முக்கிய மருந்து தயாரிப்புகள்"
+
+msgid "Product Features:"
+msgstr "தயாரிப்பு அம்சங்கள்:"
+
+msgid "High Quality"
+msgstr "உயர்தரம்"
+
+msgid "Effective"
+msgstr "பயனுள்ள"
+
+msgid "Available"
+msgstr "கிடைக்கிறது"
+
+msgid "WHO-GMP Certified"
+msgstr "WHO-GMP சான்றளிக்கப்பட்டது"
+
+msgid "Broad spectrum antibiotic"
+msgstr "பரந்த அளவிலான நுண்ணுயிர்க்கொல்லி மருந்து"
+
+msgid "Ready for dispatch"
+msgstr "அனுப்ப தயாராக உள்ளது"
+
+msgid "Pain Management"
+msgstr "வலி மேலாண்மை"
+
+msgid "Fast pain relief"
+msgstr "வேகமான வலி நிவாரணம்"
+
+msgid "Pediatric friendly"
+msgstr "குழந்தைகளுக்கு ஏற்றது"
+
+msgid "Innovation Products"
+msgstr "புதுமை தயாரிப்புகள்"
+
+msgid ""
+"10+ Upcoming Products in Our Pipeline - Advanced Formulations for Better "
+"Healthcare"
+msgstr "10+ புதிய தயாரிப்புகள் விரைவில் - மேம்பட்ட மருத்துவ தீர்வுகள்"
+
+msgid "Coming Soon"
+msgstr "விரைவில் வரும்"
+
+msgid "Advanced PPI with dual action"
+msgstr "இரட்டை செயல்பாடு கொண்ட மேம்பட்ட PPI மருந்து"
+
+msgid "Next-gen antihypertensive"
+msgstr "அடுத்த தலைமுறை இரத்த அழுத்த மருந்து"
+
+msgid "Advanced bronchodilator"
+msgstr "மேம்பட்ட மூச்சுக் குழாய் விரிவாக்கி"
+
+msgid "Neuroprotective agent"
+msgstr "நரம்பு பாதுகாப்பு மருந்து"
+
+msgid "Product Categories"
+msgstr "தயாரிப்பு வகைகள்"
+
+msgid ""
+"Comprehensive Pharmaceutical Solutions Across Multiple Therapeutic Segments"
+msgstr "பல சிகிச்சை பிரிவுகளில் முழுமையான மருந்து தீர்வுகள்"
+
+msgid "Tablets & Capsules"
+msgstr "மாத்திரைகள் & கேப்சூல்கள்"
+
+msgid "Injectables"
+msgstr "ஊசிமருந்துகள்"
+
+msgid "Pediatric Formulations"
+msgstr "குழந்தை மருந்துகள்"
+
+msgid "Topical Products"
+msgstr "வெளிப்புற மருந்துகள்"
+
+msgid "Popular Products:"
+msgstr "பிரபலமான தயாரிப்புகள்:"
+
+msgid "Quality Assurance & Compliance"
+msgstr "தர உறுதி & ஒழுங்குமுறை இணக்கம்"
+
+msgid ""
+"Every product meets international standards and regulatory requirements"
+msgstr ""
+"ஒவ்வொரு தயாரிப்பும் சர்வதேச தரநிலைகள் மற்றும் ஒழுங்குமுறை தேவைகளை பூர்த்தி "
+"செய்கிறது"
+
+msgid "WHO-GMP Compliance"
+msgstr "WHO-GMP இணக்கம்"
+
+msgid "International Standards"
+msgstr "சர்வதேச தரநிலைகள்"
+
+msgid "Certifications"
+msgstr "சான்றிதழ்கள்"
+
+msgid ""
+"Get in touch with Avin Shukri Pharmaceuticals Private Limited for business "
+"inquiries and partnerships"
+msgstr ""
+"வணிக விசாரணைகள் மற்றும் கூட்டாண்மைகளுக்காக அவின் சுக்ரி "
+"பார்மாசியூட்டிக்கல்ஸ் பிரைவேட் லிமிடெட்டை தொடர்பு கொள்ளுங்கள்"
+
+msgid "Get In Touch With Us"
+msgstr "எங்களுடன் தொடர்பில் இருங்கள்"
+
+msgid ""
+"We're here to help you with all your pharmaceutical needs. Whether you're "
+"looking for product information, business partnerships, or have questions "
+"about our global operations, our team is ready to assist you."
+msgstr ""
+"உங்கள் அனைத்து மருந்து தேவைகளுக்கும் உதவ நாங்கள் இருக்கிறோம். தயாரிப்பு "
+"தகவல், வணிக கூட்டாண்மை அல்லது எங்கள் உலகளாவிய செயல்பாடுகள் குறித்து "
+"கேள்விகள் இருந்தாலும், உங்களுக்கு உதவ எங்கள் குழு தயார்."
+
+msgid "Corporate Headquarters"
+msgstr "நிறுவன தலைமையகம்"
+
+msgid "Phone Number"
+msgstr "தொலைபேசி எண்"
+
+msgid "Email Address"
+msgstr "மின்னஞ்சல் முகவரி"
+
+msgid "Business Hours"
+msgstr "வேலை நேரம்"
+
+msgid "Monday - Friday: 9:00 AM - 6:00 PM"
+msgstr "திங்கள் - வெள்ளி: காலை 9:00 - மாலை 6:00"
+
+msgid "Saturday: 9:00 AM - 2:00 PM"
+msgstr "சனி: காலை 9:00 - மதியம் 2:00"
+
+msgid "Sunday: Closed"
+msgstr "ஞாயிறு: மூடப்பட்டது"
+
+msgid "Send Us a Message"
+msgstr "எங்களுக்கு ஒரு செய்தி அனுப்புங்கள்"
+
+msgid "Your Name"
+msgstr "உங்கள் பெயர்"
+
+msgid "Your Email"
+msgstr "உங்கள் மின்னஞ்சல்"
+
+msgid "Your Phone"
+msgstr "உங்கள் தொலைபேசி"
+
+msgid "General Inquiry"
+msgstr "பொது விசாரணை"
+
+msgid "Product Information"
+msgstr "தயாரிப்பு தகவல்"
+
+msgid "Business Partnership"
+msgstr "வணிக கூட்டாண்மை"
+
+msgid "Global Distribution"
+msgstr "உலகளாவிய விநியோகம்"
+
+msgid "Career Opportunities"
+msgstr "வேலை வாய்ப்புகள்"
+
+msgid "Subject"
+msgstr "பொருள்"
+
+msgid "Leave a message here"
+msgstr "இங்கே ஒரு செய்தியை எழுதுங்கள்"
+
+msgid "Your Message"
+msgstr "உங்கள் செய்தி"
+
+msgid "Send Message"
+msgstr "செய்தி அனுப்பு"
+
+msgid ""
+"Message sent successfully! We'll contact you soon via email and WhatsApp."
+msgstr ""
+"செய்தி வெற்றிகரமாக அனுப்பப்பட்டது! மின்னஞ்சல் மற்றும் வாட்ஸ்அப் மூலம் "
+"விரைவில் உங்களை தொடர்பு கொள்வோம்."
+
+msgid "Error sending message. Please try again."
+msgstr "செய்தி அனுப்புவதில் பிழை. தயவுசெய்து மீண்டும் முயற்சிக்கவும்."
+
+msgid "Find Our Location"
+msgstr "எங்கள் இருப்பிடத்தை கண்டறியுங்கள்"
+
+msgid "Visit our corporate headquarters in Chennai, India"
+msgstr ""
+"இந்தியாவின் சென்னை நகரில் உள்ள எங்கள் நிறுவன தலைமையகத்தை பார்வையிடுங்கள்"
+
+msgid "Global Operations"
+msgstr "உலகளாவிய செயல்பாடுகள்"
+
+msgid "Republic of Chad"
+msgstr "சாட் குடியரசு"
+
+msgid "Registered & Operational"
+msgstr "பதிவு செய்யப்பட்டு செயல்பாட்டில் உள்ளது"
+
+msgid "Central Africa Operations"
+msgstr "மத்திய ஆப்பிரிக்க செயல்பாடுகள்"
+
+msgid "Established Presence"
+msgstr "நிறுவப்பட்ட இருப்பு"
+
+msgid "Horn of Africa Operations"
+msgstr "ஹார்ன் ஆப் ஆப்பிரிக்கா செயல்பாடுகள்"
+
+msgid "Expanding Markets"
+msgstr "விரிவாகும் சந்தைகள்"
+
+msgid "Coming Soon:"
+msgstr "விரைவில் வருகிறது:"
+
+msgid "View Global Operations"
+msgstr "உலகளாவிய செயல்பாடுகளை பார்க்க"
+
+msgid "New Contact Form Submission - Avin Shukri Pharmaceuticals"
+msgstr "புதிய தொடர்பு படிவ சமர்ப்பிப்பு - அவின் சுக்ரி பார்மாசியூட்டிக்கல்ஸ்"
+
+msgid "Name:"
+msgstr "பெயர்:"
+
+msgid "Email:"
+msgstr "மின்னஞ்சல்:"
+
+msgid "Phone:"
+msgstr "தொலைபேசி:"
+
+msgid "Subject:"
+msgstr "பொருள்:"
+
+msgid "Message:"
+msgstr "செய்தி:"
+
+msgid "Network error. Please try again."
+msgstr "நெட்வொர்க் பிழை. தயவுசெய்து மீண்டும் முயற்சிக்கவும்."

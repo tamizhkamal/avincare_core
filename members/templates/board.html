@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load i18n %}
 
 {% block content %}
 
@@ -11,16 +12,12 @@
                 <img class="img-fluid w-100" src="{% static 'img/team-1.jpg' %}" alt="">
             </div>
             <div class="col-md-6 wow fadeIn" data-wow-delay="0.5s">
-                <h1 class="display-6 mb-3">Dr. John Martin</h1>
-                <p class="mb-1">CEO & Founder</p>
-                <p class="mb-5">Labsky, New York, USA</p>
-                <h3 class="mb-3">Biography</h3>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis
-                    id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla
-                    risus. Pellentesque eu consequat augue.</p>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis
-                    id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla
-                    risus. Pellentesque eu consequat augue.</p>
+                <h1 class="display-6 mb-3">{% trans "Dr. John Martin" %}</h1>
+                <p class="mb-1">{% trans "CEO & Founder" %}</p>
+                <p class="mb-5">{% trans "Labsky, New York, USA" %}</p>
+                <h3 class="mb-3">{% trans "Biography" %}</h3>
+                <p class="mb-4">{% blocktrans %}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.{% endblocktrans %}</p>
+                <p class="mb-4">{% blocktrans %}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.{% endblocktrans %}</p>
                 <div class="d-flex">
                     <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-lg-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
@@ -42,8 +39,8 @@
                         </div>
                     </div>
                     <div class="text-center p-4">
-                        <h5 class="mb-1">Alex Robin</h5>
-                        <span>Lab Assistant</span>
+                        <h5 class="mb-1">{% trans "Alex Robin" %}</h5>
+                        <span>{% trans "Lab Assistant" %}</span>
                     </div>
                 </div>
             </div>
@@ -59,8 +56,8 @@
                         </div>
                     </div>
                     <div class="text-center p-4">
-                        <h5 class="mb-1">Andrew Bon</h5>
-                        <span>Lab Assistant</span>
+                        <h5 class="mb-1">{% trans "Andrew Bon" %}</h5>
+                        <span>{% trans "Lab Assistant" %}</span>
                     </div>
                 </div>
             </div>
@@ -76,8 +73,8 @@
                         </div>
                     </div>
                     <div class="text-center p-4">
-                        <h5 class="mb-1">Martin Tompson</h5>
-                        <span>Lab Assistant</span>
+                        <h5 class="mb-1">{% trans "Martin Tompson" %}</h5>
+                        <span>{% trans "Lab Assistant" %}</span>
                     </div>
                 </div>
             </div>
@@ -93,8 +90,8 @@
                         </div>
                     </div>
                     <div class="text-center p-4">
-                        <h5 class="mb-1">Clarabelle Samber</h5>
-                        <span>Lab Assistant</span>
+                        <h5 class="mb-1">{% trans "Clarabelle Samber" %}</h5>
+                        <span>{% trans "Lab Assistant" %}</span>
                     </div>
                 </div>
             </div>

@@ -122,3 +122,794 @@ msgstr "هل تريد الشراكة معنا؟"
 
 msgid "Contact Us Today"
 msgstr "اتصل بنا اليوم"
+
+msgid ""
+msgstr ""
+"Language: ar\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "ENDURING GOODNESS"
+msgstr "خير دائم"
+
+msgid "IN EVERY DOSE"
+msgstr "في كل جرعة"
+
+msgid "Avin Shukri Pharmaceuticals Private Limited is a rapidly growing pharmaceutical company, specializing in the marketing and distribution of high-quality affordable medicines, cosmetics and surgical products."
+msgstr "أفين شكري فارماسيوتيكالز شركة دوائية سريعة النمو، متخصصة في تسويق وتوزيع الأدوية عالية الجودة وبأسعار مناسبة، ومستحضرات التجميل والمستلزمات الجراحية."
+
+msgid "Learn More"
+msgstr "اعرف المزيد"
+
+msgid "Explore Products"
+msgstr "استكشف المنتجات"
+
+msgid "15+ Pharmaceutical"
+msgstr "15+ علامة دوائية"
+
+msgid "Brands & Global Presence"
+msgstr "العلامات التجارية والحضور العالمي"
+
+msgid "Established in 2023 with operations in Republic of Chad, Djibouti, and expanding to Sudan, Bangladesh, Seychelles, Egypt, and Yemen. Delivering quality healthcare solutions worldwide."
+msgstr "تأسست عام 2023 وتعمل في جمهورية تشاد وجيبوتي، وتتوسع إلى السودان وبنغلاديش وسيشل ومصر واليمن، لتقديم حلول رعاية صحية عالية الجودة حول العالم."
+
+msgid "Our Global Operations"
+msgstr "عملياتنا العالمية"
+
+msgid "AVIN SHUKRI PHARMACEUTICALS PRIVATE LIMITED"
+msgstr "أفين شكري فارماسيوتيكالز شركة خاصة محدودة"
+
+msgid "Our comprehensive product portfolio includes Injections, tablets, capsules, ointments, creams, dry syrups, and oral suspensions - serving both generic and branded markets with a strong presence in India and strategic international markets."
+msgstr "تشمل مجموعة منتجاتنا الحقن، الأقراص، الكبسولات، المراهم، الكريمات، الشرابات الجافة والمعلقات الفموية، لخدمة الأسواق العامة والعلامات التجارية مع حضور قوي في الهند والأسواق الدولية."
+
+msgid "We are committed to addressing global healthcare needs across two continents backed by a focus on quality, regulatory compliance, and customer trust."
+msgstr "نحن ملتزمون بتلبية احتياجات الرعاية الصحية العالمية عبر قارتين مع التركيز على الجودة والامتثال التنظيمي وثقة العملاء."
+
+msgid "Avin shukri pharmaceuticals Pvt.Ltd, is highly committed to delivering high-quality pharmaceutical solutions with uncompromising standards guided by our philosophy of \"Imperishable Goodness\". We continuously strive to expand our reach and bring reliable healthcare solution to the universal markets."
+msgstr "شركة أفين شكري فارماسيوتيكالز ملتزمة بتقديم حلول دوائية عالية الجودة بمعايير صارمة مسترشدة بفلسفة \"الخير الدائم\"، ونسعى باستمرار لتوسيع نطاقنا وتقديم حلول رعاية صحية موثوقة للأسواق العالمية."
+
+msgid "Company Highlights"
+msgstr "أبرز مميزات الشركة"
+
+msgid "A pharmaceutical marketing and export company established in 2023. With a strong commitment to quality, innovation, and accessibility, we are dedicated to delivering reliable pharmaceutical products across domestic and international markets."
+msgstr "شركة تسويق وتصدير دوائي تأسست عام 2023، ملتزمة بالجودة والابتكار وإتاحة المنتجات، ونسعى لتقديم منتجات دوائية موثوقة محلياً وعالمياً."
+
+msgid "Established Year"
+msgstr "سنة التأسيس"
+
+msgid "Pharmaceutical Brands"
+msgstr "العلامات الدوائية"
+
+msgid "New Products Launching Soon"
+msgstr "منتجات جديدة قريباً"
+
+msgid "Countries Presence"
+msgstr "الدول المتواجدة"
+
+msgid "Our Global Presence"
+msgstr "تواجدنا العالمي"
+
+msgid "With a portfolio of 15 pharmaceutical brands and 10 additional brands launching soon, we are expanding across multiple therapeutic segments to support healthcare professionals and patients worldwide."
+msgstr "لدينا 15 علامة دوائية و10 منتجات قادمة قريباً، ونتوسع عبر قطاعات علاجية متعددة لدعم العاملين في القطاع الصحي والمرضى حول العالم."
+
+msgid "Current Market Presence"
+msgstr "الحضور الحالي في السوق"
+
+msgid "Upcoming Markets"
+msgstr "الأسواق القادمة"
+
+msgid "Republic of Chad (Registered & Operational)"
+msgstr "جمهورية تشاد (مسجلة وتعمل)"
+
+msgid "Djibouti"
+msgstr "جيبوتي"
+
+msgid "Sudan"
+msgstr "السودان"
+
+msgid "Bangladesh"
+msgstr "بنغلاديش"
+
+msgid "Seychelles"
+msgstr "سيشل"
+
+msgid "Egypt"
+msgstr "مصر"
+
+msgid "Yemen"
+msgstr "اليمن"
+
+msgid "Our Products"
+msgstr "منتجاتنا"
+
+msgid "Antibiotics"
+msgstr "المضادات الحيوية"
+
+msgid "Quality antibiotic medications for various infections"
+msgstr "أدوية مضادة حيوية عالية الجودة لعلاج مختلف الالتهابات"
+
+msgid "Anti-inflammatory"
+msgstr "مضادات الالتهاب"
+
+msgid "Effective pain and inflammation management solutions"
+msgstr "حلول فعالة لتخفيف الألم والالتهابات"
+
+msgid "Gastrointestinal"
+msgstr "الجهاز الهضمي"
+
+msgid "Comprehensive GI tract treatment medications"
+msgstr "أدوية شاملة لعلاج الجهاز الهضمي"
+
+msgid "Vitamins & Supplements"
+msgstr "الفيتامينات والمكملات الغذائية"
+
+msgid "Essential nutrients for overall health and wellness"
+msgstr "مغذيات أساسية للصحة والعافية العامة"
+
+msgid "All products are sourced from WHO-GMP certified manufacturing partners."
+msgstr "جميع المنتجات مستوردة من شركاء تصنيع معتمدين من منظمة الصحة العالمية (WHO-GMP)."
+
+msgid "Our Vision"
+msgstr "رؤيتنا"
+
+msgid "To become a globally recognized pharmaceutical company delivering high-quality, affordable medicines while contributing to improved healthcare outcomes across emerging and developing markets."
+msgstr "أن نصبح شركة دوائية معترف بها عالمياً تقدم أدوية عالية الجودة وبأسعار مناسبة، مع تحسين نتائج الرعاية الصحية في الأسواق الناشئة."
+
+msgid "Our Mission"
+msgstr "رسالتنا"
+
+msgid "Provide high-quality and affordable pharmaceutical products"
+msgstr "تقديم منتجات دوائية عالية الجودة وبأسعار مناسبة"
+
+msgid "Expand presence across global healthcare markets"
+msgstr "توسيع الحضور في أسواق الرعاية الصحية العالمية"
+
+msgid "Build strong partnerships with reliable manufacturers and distributors"
+msgstr "بناء شراكات قوية مع المصنعين والموزعين الموثوقين"
+
+msgid "Ensure ethical marketing and responsible business practices"
+msgstr "ضمان تسويق أخلاقي وممارسات تجارية مسؤولة"
+
+msgid "Establish our own pharmaceutical manufacturing facilities in the future"
+msgstr "إنشاء مرافق تصنيع دوائية خاصة بنا في المستقبل"
+
+msgid "Core Values"
+msgstr "القيم الأساسية"
+
+msgid "Quality"
+msgstr "الجودة"
+
+msgid "Ensuring high pharmaceutical standards"
+msgstr "ضمان أعلى معايير الجودة الدوائية"
+
+msgid "Integrity"
+msgstr "النزاهة"
+
+msgid "Transparent and ethical business practices"
+msgstr "ممارسات تجارية شفافة وأخلاقية"
+
+msgid "Innovation"
+msgstr "الابتكار"
+
+msgid "Continuous improvement and expansion"
+msgstr "التطوير والتوسع المستمر"
+
+msgid "Global Responsibility"
+msgstr "المسؤولية العالمية"
+
+msgid "Improving access to medicines worldwide"
+msgstr "تحسين الوصول إلى الأدوية حول العالم"
+
+msgid "Ready to Partner With Us?"
+msgstr "هل أنت مستعد للشراكة معنا؟"
+
+msgid "Join us in our mission to deliver quality healthcare solutions worldwide."
+msgstr "انضم إلينا في مهمتنا لتقديم حلول رعاية صحية عالية الجودة حول العالم."
+
+msgid "Contact Us Today"
+msgstr "اتصل بنا اليوم"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+msgid ""
+msgstr ""
+"Language: ar\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Years Experience"
+msgstr "سنوات الخبرة"
+
+msgid "About Avin Shukri Pharmaceuticals"
+msgstr "عن أفين شكري فارماسيوتيكالز"
+
+msgid "Avin Shukri Pharmaceuticals Private Limited is an emerging pharmaceutical marketing and export company headquartered in India. Founded in 2023, the company is focused on delivering high-quality pharmaceutical products through strong partnerships with certified manufacturers."
+msgstr "أفين شكري فارماسيوتيكالز شركة تسويق وتصدير دوائية ناشئة مقرها الهند. تأسست عام 2023 وتركز على تقديم منتجات دوائية عالية الجودة من خلال شراكات قوية مع مصنعين معتمدين."
+
+msgid "Our Comprehensive Product Portfolio:"
+msgstr "محفظة منتجاتنا الشاملة:"
+
+msgid "Injections"
+msgstr "الحقن"
+
+msgid "Tablets"
+msgstr "الأقراص"
+
+msgid "Capsules"
+msgstr "الكبسولات"
+
+msgid "Ointments"
+msgstr "المراهم"
+
+msgid "Creams"
+msgstr "الكريمات"
+
+msgid "Dry Syrups"
+msgstr "الشرابات الجافة"
+
+msgid "Oral Suspensions"
+msgstr "المعلقات الفموية"
+
+msgid "The company currently manages a growing portfolio of pharmaceutical brands across multiple therapeutic segments and is steadily expanding its presence in international markets. With operations already established in the Republic of Chad and export activities expanding into several global regions."
+msgstr "تدير الشركة حالياً محفظة متنامية من العلامات الدوائية عبر قطاعات علاجية متعددة، وتواصل توسيع حضورها في الأسواق العالمية، مع وجود عمليات قائمة في جمهورية تشاد وتوسع في عدة مناطق دولية."
+
+msgid "We are committed to addressing global healthcare needs across two continents backed by a focus on quality, regulatory compliance, and customer trust, guided by our philosophy of \"Imperishable Goodness\"."
+msgstr "نحن ملتزمون بتلبية احتياجات الرعاية الصحية العالمية عبر قارتين، مع التركيز على الجودة والامتثال التنظيمي وثقة العملاء، مسترشدين بفلسفة \"الخير الدائم\"."
+
+msgid "Countries Served"
+msgstr "الدول المخدومة"
+
+msgid "Product Range"
+msgstr "نطاق المنتجات"
+
+msgid "Quality Standards"
+msgstr "معايير الجودة"
+
+msgid "Our Vision, Mission & Values"
+msgstr "رؤيتنا ورسالتنا وقيمنا"
+
+msgid "Vision"
+msgstr "الرؤية"
+
+msgid "Mission"
+msgstr "الرسالة"
+
+msgid "Core Values"
+msgstr "القيم الأساسية"
+
+msgid "To become a globally recognized pharmaceutical company delivering high-quality, affordable medicines while contributing to improved healthcare outcomes across emerging and developing markets."
+msgstr "أن نصبح شركة دوائية معترف بها عالمياً تقدم أدوية عالية الجودة وبأسعار مناسبة مع المساهمة في تحسين نتائج الرعاية الصحية في الأسواق الناشئة والنامية."
+
+msgid "Provide high-quality and affordable pharmaceutical products"
+msgstr "تقديم منتجات دوائية عالية الجودة وبأسعار مناسبة"
+
+msgid "Expand presence across global healthcare markets"
+msgstr "توسيع الحضور في أسواق الرعاية الصحية العالمية"
+
+msgid "Build strong partnerships with reliable manufacturers and distributors"
+msgstr "بناء شراكات قوية مع المصنعين والموزعين الموثوقين"
+
+msgid "Ensure ethical marketing and responsible business practices"
+msgstr "ضمان التسويق الأخلاقي والممارسات التجارية المسؤولة"
+
+msgid "Establish our own pharmaceutical manufacturing facilities in the future"
+msgstr "إنشاء مرافق تصنيع دوائية خاصة بنا في المستقبل"
+
+msgid "Quality"
+msgstr "الجودة"
+
+msgid "Ensuring high pharmaceutical standards"
+msgstr "ضمان أعلى معايير الجودة الدوائية"
+
+msgid "Integrity"
+msgstr "النزاهة"
+
+msgid "Transparent and ethical business practices"
+msgstr "ممارسات تجارية شفافة وأخلاقية"
+
+msgid "Innovation"
+msgstr "الابتكار"
+
+msgid "Continuous improvement and expansion"
+msgstr "التطوير والتوسع المستمر"
+
+msgid "Global Responsibility"
+msgstr "المسؤولية العالمية"
+
+msgid "Improving access to medicines worldwide"
+msgstr "تحسين الوصول إلى الأدوية حول العالم"
+
+msgid "Partnership"
+msgstr "الشراكة"
+
+msgid "Strong collaborations with manufacturers and distributors"
+msgstr "تعاون قوي مع المصنعين والموزعين"
+
+msgid "Market Challenges & Our Solutions"
+msgstr "تحديات السوق وحلولنا"
+
+msgid "Market Problems"
+msgstr "مشاكل السوق"
+
+msgid "Regulatory and Market Entry Barriers"
+msgstr "العوائق التنظيمية ودخول الأسواق"
+
+msgid "Entering international markets requires navigating complex compliance standards and local regulations."
+msgstr "دخول الأسواق العالمية يتطلب التعامل مع معايير امتثال معقدة ولوائح محلية مختلفة."
+
+msgid "Supply Chain Inefficiencies"
+msgstr "عدم كفاءة سلسلة التوريد"
+
+msgid "Delays, poor storage, and distribution issues affect timely delivery and medicine efficacy."
+msgstr "التأخير وسوء التخزين ومشاكل التوزيع تؤثر على سرعة التسليم وفعالية الدواء."
+
+msgid "Inconsistent Quality Standards"
+msgstr "عدم اتساق معايير الجودة"
+
+msgid "Substandard or counterfeit drugs pose serious risks to patient health and undermine trust in healthcare."
+msgstr "الأدوية غير المطابقة أو المقلدة تشكل خطراً على صحة المرضى وتضعف الثقة في قطاع الرعاية الصحية."
+
+msgid "Lack of Access to Affordable Medicines"
+msgstr "نقص الوصول إلى الأدوية بأسعار مناسبة"
+
+msgid "Many regions, especially in developing countries, face shortages or unaffordable pricing for essential medicines."
+msgstr "العديد من المناطق، خاصة في الدول النامية، تعاني من نقص أو ارتفاع أسعار الأدوية الأساسية."
+
+msgid "Our Solutions"
+msgstr "حلولنا"
+
+msgid "Offering Cost-Effective, High-Quality Products"
+msgstr "تقديم منتجات عالية الجودة وفعالة من حيث التكلفة"
+
+msgid "We manufacture affordable generic and branded medicines without compromising quality, increasing access in underserved regions."
+msgstr "نقوم بتصنيع أدوية جنيسة وعلامات تجارية بأسعار مناسبة دون المساس بالجودة لزيادة الوصول في المناطق المحرومة."
+
+msgid "Maintaining Stringent Quality Control"
+msgstr "الحفاظ على رقابة جودة صارمة"
+
+msgid "Our manufacturing complies with national and international quality norms, ensuring safety, consistency, and reliability in all products."
+msgstr "تلتزم عمليات التصنيع لدينا بالمعايير الوطنية والدولية لضمان السلامة والاتساق والموثوقية."
+
+msgid "Streamlining Distribution Networks"
+msgstr "تطوير شبكات التوزيع"
+
+msgid "We've developed efficient domestic and global supply chains that reduce lead times and maintain product integrity."
+msgstr "قمنا بتطوير سلاسل توريد محلية وعالمية فعالة تقلل وقت التسليم وتحافظ على جودة المنتج."
+
+msgid "Navigating Global Compliance"
+msgstr "التعامل مع الامتثال العالمي"
+
+msgid "With experienced regulatory teams, we meet market-specific legal and medical standards, enabling smooth entry into countries like Chad, Sudan, and Bangladesh."
+msgstr "بفضل فرق تنظيمية ذات خبرة، نلتزم بالمعايير القانونية والطبية الخاصة بكل سوق، مما يسهل الدخول إلى دول مثل تشاد والسودان وبنغلاديش."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+msgid "Corporate Social Responsibility"
+msgstr "المسؤولية الاجتماعية للشركات"
+
+msgid "Our Commitment to Sustainable Healthcare Development"
+msgstr "التزامنا بالتنمية المستدامة للرعاية الصحية"
+
+msgid "Our CSR Philosophy"
+msgstr "فلسفتنا في المسؤولية الاجتماعية للشركات"
+
+msgid "At Avin Shukri Pharmaceuticals, we believe that corporate success and social responsibility go hand in hand. Our commitment to ethical business practices extends beyond compliance to encompass our broader responsibility to society and the environment."
+msgstr "في أفين شكري فارماسيوتيكالز، نؤمن بأن نجاح الشركة والمسؤولية الاجتماعية يسيران جنبًا إلى جنب. إن التزامنا بالممارسات التجارية الأخلاقية يتجاوز الامتثال للوائح ليشمل مسؤوليتنا الأوسع تجاه المجتمع والبيئة."
+
+msgid "Healthcare Access"
+msgstr "إمكانية الوصول إلى الرعاية الصحية"
+
+msgid "Ensuring affordable, high-quality medicines reach underserved populations and communities in need. We implement pricing strategies and distribution models that improve healthcare accessibility."
+msgstr "نضمن وصول الأدوية عالية الجودة وبأسعار مناسبة إلى الفئات والمجتمعات المحتاجة. كما نطبق استراتيجيات تسعير ونماذج توزيع تعزز إمكانية الوصول إلى الرعاية الصحية."
+
+msgid "Environmental Stewardship"
+msgstr "المسؤولية البيئية"
+
+msgid "Minimizing our environmental footprint through sustainable manufacturing practices, waste reduction, and eco-friendly packaging solutions."
+msgstr "تقليل أثرنا البيئي من خلال ممارسات تصنيع مستدامة، وتقليل النفايات، واستخدام حلول تغليف صديقة للبيئة."
+
+msgid "Key Initiatives"
+msgstr "المبادرات الرئيسية"
+
+msgid "Our comprehensive CSR programs focus on creating sustainable value for all stakeholders while addressing critical healthcare challenges."
+msgstr "تركز برامجنا الشاملة للمسؤولية الاجتماعية على خلق قيمة مستدامة لجميع أصحاب المصلحة مع معالجة التحديات الصحية الأساسية."
+
+msgid "Community Health Programs"
+msgstr "برامج الصحة المجتمعية"
+
+msgid "Organizing health camps, medical awareness programs, and free health check-ups in local communities. Providing preventive care and health education to improve public health outcomes."
+msgstr "تنظيم المخيمات الصحية وبرامج التوعية الطبية والفحوصات الصحية المجانية في المجتمعات المحلية، مع تقديم الرعاية الوقائية والتثقيف الصحي لتحسين نتائج الصحة العامة."
+
+msgid "Education & Training"
+msgstr "التعليم والتدريب"
+
+msgid "Supporting medical education through scholarships, training programs for healthcare professionals, and knowledge sharing initiatives."
+msgstr "دعم التعليم الطبي من خلال المنح الدراسية وبرامج التدريب للمتخصصين في الرعاية الصحية ومبادرات تبادل المعرفة."
+
+msgid "Global Health Partnerships"
+msgstr "الشراكات الصحية العالمية"
+
+msgid "Collaborating with international health organizations, NGOs, and government bodies to address global health challenges and improve healthcare access worldwide."
+msgstr "التعاون مع المنظمات الصحية الدولية والمنظمات غير الحكومية والجهات الحكومية لمواجهة التحديات الصحية العالمية وتحسين الوصول إلى الرعاية الصحية في جميع أنحاء العالم."
+
+msgid "Our Impact"
+msgstr "أثرنا"
+
+msgid "Measuring our contribution to society through quantifiable metrics and transparent reporting of our CSR activities."
+msgstr "قياس مساهمتنا في المجتمع من خلال مؤشرات قابلة للقياس وتقارير شفافة عن أنشطة المسؤولية الاجتماعية للشركات."
+
+msgid "Lives Impacted"
+msgstr "عدد المستفيدين"
+
+msgid "Millions of patients benefit from our affordable medicines and healthcare programs across India, Chad, Sudan, Egypt, and Bangladesh."
+msgstr "يستفيد ملايين المرضى من أدويتنا الميسورة التكلفة وبرامج الرعاية الصحية الخاصة بنا في الهند وتشاد والسودان ومصر وبنغلاديش."
+
+msgid "Economic Value"
+msgstr "القيمة الاقتصادية"
+
+msgid "Creating employment opportunities and contributing to local economies through our manufacturing facilities and supply chain operations."
+msgstr "خلق فرص عمل والمساهمة في دعم الاقتصادات المحلية من خلال مرافق التصنيع وعمليات سلسلة التوريد الخاصة بنا."
+
+msgid "Future Commitments"
+msgstr "التزاماتنا المستقبلية"
+
+msgid "Our ongoing dedication to expanding our positive impact while maintaining the highest standards of corporate governance and ethical business practices."
+msgstr "التزامنا المستمر بتوسيع أثرنا الإيجابي مع الحفاظ على أعلى معايير الحوكمة المؤسسية والممارسات التجارية الأخلاقية."
+
+msgid "Sustainability Goals"
+msgstr "أهداف الاستدامة"
+
+msgid "Achieving carbon neutrality, implementing circular economy principles, and ensuring sustainable resource management in all operations by 2030."
+msgstr "تحقيق الحياد الكربوني، وتطبيق مبادئ الاقتصاد الدائري، وضمان الإدارة المستدامة للموارد في جميع العمليات بحلول عام 2030."
+
+
+
+
+
+
+msgid "Our Product Portfolio"
+msgstr "محفظة منتجاتنا"
+
+msgid "15+ Pharmaceutical Brands Across Multiple Therapeutic Segments"
+msgstr "أكثر من 15 علامة تجارية دوائية عبر مجالات علاجية متعددة"
+
+msgid "Featured Products"
+msgstr "المنتجات المميزة"
+
+msgid "Our flagship pharmaceutical products serving diverse therapeutic segments with WHO-GMP certification"
+msgstr "منتجاتنا الدوائية الرائدة التي تخدم مختلف المجالات العلاجية مع اعتماد ممارسات التصنيع الجيدة من منظمة الصحة العالمية"
+
+msgid "Category:"
+msgstr "الفئة:"
+
+msgid "Type:"
+msgstr "النوع:"
+
+msgid "Strength:"
+msgstr "التركيز:"
+
+msgid "MRP:"
+msgstr "السعر:"
+
+msgid "Antibiotics"
+msgstr "المضادات الحيوية"
+
+msgid "Pain Management"
+msgstr "إدارة الألم"
+
+msgid "Tablet"
+msgstr "أقراص"
+
+msgid "Injection"
+msgstr "حقن"
+
+msgid "Dry Syrup"
+msgstr "شراب جاف"
+
+msgid "Product Features:"
+msgstr "مميزات المنتج:"
+
+msgid "High Quality"
+msgstr "جودة عالية"
+
+msgid "WHO-GMP Certified"
+msgstr "معتمد وفق معايير WHO-GMP"
+
+msgid "Effective"
+msgstr "فعال"
+
+msgid "Broad spectrum antibiotic"
+msgstr "مضاد حيوي واسع الطيف"
+
+msgid "Fast pain relief"
+msgstr "تخفيف سريع للألم"
+
+msgid "Pediatric friendly"
+msgstr "مناسب للأطفال"
+
+msgid "Available"
+msgstr "متوفر"
+
+msgid "Ready for dispatch"
+msgstr "جاهز للشحن"
+
+msgid "Innovation Products"
+msgstr "المنتجات المبتكرة"
+
+msgid "10+ Upcoming Products in Our Pipeline - Advanced Formulations for Better Healthcare"
+msgstr "أكثر من 10 منتجات قادمة ضمن خط التطوير لدينا - تركيبات متقدمة لرعاية صحية أفضل"
+
+msgid "Gastrointestinal"
+msgstr "الجهاز الهضمي"
+
+msgid "Capsule"
+msgstr "كبسولة"
+
+msgid "Status:"
+msgstr "الحالة:"
+
+msgid "Coming Soon"
+msgstr "قريباً"
+
+msgid "Advanced PPI with dual action"
+msgstr "مثبط مضخة البروتون متطور بآلية مزدوجة"
+
+msgid "Cardiovascular"
+msgstr "أمراض القلب والأوعية الدموية"
+
+msgid "Next-gen antihypertensive"
+msgstr "دواء متطور لعلاج ارتفاع ضغط الدم"
+
+msgid "Respiratory"
+msgstr "الجهاز التنفسي"
+
+msgid "Inhaler"
+msgstr "بخاخ"
+
+msgid "Advanced bronchodilator"
+msgstr "موسع قصبي متطور"
+
+msgid "Neurology"
+msgstr "الأعصاب"
+
+msgid "Neuroprotective agent"
+msgstr "عامل واقٍ للأعصاب"
+
+msgid "Product Categories"
+msgstr "فئات المنتجات"
+
+msgid "Comprehensive Pharmaceutical Solutions Across Multiple Therapeutic Segments"
+msgstr "حلول دوائية شاملة عبر مجالات علاجية متعددة"
+
+msgid "Tablets & Capsules"
+msgstr "الأقراص والكبسولات"
+
+msgid "Popular Products:"
+msgstr "المنتجات الشائعة:"
+
+msgid "Injectables"
+msgstr "الحقن"
+
+msgid "Pediatric Formulations"
+msgstr "التركيبات الخاصة بالأطفال"
+
+msgid "Topical Products"
+msgstr "المنتجات الموضعية"
+
+msgid "Quality Assurance & Compliance"
+msgstr "ضمان الجودة والامتثال"
+
+msgid "Every product meets international standards and regulatory requirements"
+msgstr "كل منتج يفي بالمعايير الدولية والمتطلبات التنظيمية"
+
+msgid "WHO-GMP Compliance"
+msgstr "الامتثال لمعايير WHO-GMP"
+
+msgid "World Health Organization Good Manufacturing Practices compliance ensuring product safety and efficacy."
+msgstr "الالتزام بممارسات التصنيع الجيدة لمنظمة الصحة العالمية لضمان سلامة وفعالية المنتجات."
+
+msgid "International Standards"
+msgstr "المعايير الدولية"
+
+msgid "Compliance with global regulatory requirements across all operational markets including Chad, Djibouti, and expanding markets."
+msgstr "الامتثال للمتطلبات التنظيمية العالمية في جميع الأسواق التشغيلية بما في ذلك تشاد وجيبوتي والأسواق المتوسعة."
+
+msgid "Certifications"
+msgstr "الشهادات"
+
+msgid "Recognized certifications from national and international regulatory bodies ensuring product quality and safety."
+msgstr "شهادات معترف بها من الهيئات التنظيمية الوطنية والدولية لضمان جودة وسلامة المنتجات."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+msgid "Contact Us"
+msgstr "اتصل بنا"
+
+msgid "Get in touch with Avin Shukri Pharmaceuticals Private Limited for business inquiries and partnerships"
+msgstr "تواصل مع شركة أفين شكري للأدوية الخاصة المحدودة للاستفسارات التجارية والشراكات"
+
+msgid "Get In Touch With Us"
+msgstr "تواصل معنا"
+
+msgid "We're here to help you with all your pharmaceutical needs. Whether you're looking for product information, business partnerships, or have questions about our global operations, our team is ready to assist you."
+msgstr "نحن هنا لمساعدتك في جميع احتياجاتك الدوائية. سواء كنت تبحث عن معلومات حول المنتجات أو الشراكات التجارية أو لديك استفسارات حول عملياتنا العالمية، فإن فريقنا جاهز لمساعدتك."
+
+msgid "Corporate Headquarters"
+msgstr "المقر الرئيسي للشركة"
+
+msgid "Phone Number"
+msgstr "رقم الهاتف"
+
+msgid "Email Address"
+msgstr "البريد الإلكتروني"
+
+msgid "Business Hours"
+msgstr "ساعات العمل"
+
+msgid "Monday - Friday: 9:00 AM - 6:00 PM"
+msgstr "الإثنين - الجمعة: 9:00 صباحًا - 6:00 مساءً"
+
+msgid "Saturday: 9:00 AM - 2:00 PM"
+msgstr "السبت: 9:00 صباحًا - 2:00 مساءً"
+
+msgid "Sunday: Closed"
+msgstr "الأحد: مغلق"
+
+msgid "Send Us a Message"
+msgstr "أرسل لنا رسالة"
+
+msgid "Your Name"
+msgstr "اسمك"
+
+msgid "Your Email"
+msgstr "بريدك الإلكتروني"
+
+msgid "Your Phone"
+msgstr "رقم هاتفك"
+
+msgid "General Inquiry"
+msgstr "استفسار عام"
+
+msgid "Product Information"
+msgstr "معلومات المنتج"
+
+msgid "Business Partnership"
+msgstr "شراكة تجارية"
+
+msgid "Global Distribution"
+msgstr "التوزيع العالمي"
+
+msgid "Career Opportunities"
+msgstr "فرص العمل"
+
+msgid "Subject"
+msgstr "الموضوع"
+
+msgid "Leave a message here"
+msgstr "اترك رسالتك هنا"
+
+msgid "Your Message"
+msgstr "رسالتك"
+
+msgid "Send Message"
+msgstr "إرسال الرسالة"
+
+msgid "Message sent successfully! We'll contact you soon via email and WhatsApp."
+msgstr "تم إرسال الرسالة بنجاح! سنتواصل معك قريبًا عبر البريد الإلكتروني وواتساب."
+
+msgid "Error sending message. Please try again."
+msgstr "حدث خطأ أثناء إرسال الرسالة. يرجى المحاولة مرة أخرى."
+
+msgid "Find Our Location"
+msgstr "اعثر على موقعنا"
+
+msgid "Visit our corporate headquarters in Chennai, India"
+msgstr "قم بزيارة مقرنا الرئيسي في تشيناي، الهند"
+
+msgid "Global Operations"
+msgstr "العمليات العالمية"
+
+msgid "Republic of Chad"
+msgstr "جمهورية تشاد"
+
+msgid "Registered & Operational"
+msgstr "مسجلة وتعمل"
+
+msgid "Central Africa Operations"
+msgstr "عمليات أفريقيا الوسطى"
+
+msgid "Djibouti"
+msgstr "جيبوتي"
+
+msgid "Established Presence"
+msgstr "وجود قائم"
+
+msgid "Horn of Africa Operations"
+msgstr "عمليات القرن الأفريقي"
+
+msgid "Expanding Markets"
+msgstr "الأسواق المتوسعة"
+
+msgid "Coming Soon:"
+msgstr "قريباً:"
+
+msgid "Sudan"
+msgstr "السودان"
+
+msgid "Bangladesh"
+msgstr "بنغلاديش"
+
+msgid "Seychelles"
+msgstr "سيشل"
+
+msgid "Egypt"
+msgstr "مصر"
+
+msgid "Yemen"
+msgstr "اليمن"
+
+msgid "View Global Operations"
+msgstr "عرض العمليات العالمية"
+
+msgid "New Contact Form Submission - Avin Shukri Pharmaceuticals"
+msgstr "إرسال نموذج اتصال جديد - أفين شكري للأدوية"
+
+msgid "Name:"
+msgstr "الاسم:"
+
+msgid "Email:"
+msgstr "البريد الإلكتروني:"
+
+msgid "Phone:"
+msgstr "الهاتف:"
+
+msgid "Message:"
+msgstr "الرسالة:"
+
+msgid "Network error. Please try again."
+msgstr "خطأ في الشبكة. يرجى المحاولة مرة أخرى."
