@@ -42,6 +42,11 @@
             background: white !important;
             overflow: visible !important;
         }
+
+        .ms-auto{
+            margin-left: auto !important;
+            margin-right: 70px !important;
+        }
         
         .navbar {
             z-index: 999999 !important;
@@ -100,6 +105,23 @@
         
         .nav-link.dropdown-toggle:hover {
             color: #007bff !important;
+        }
+
+        /* Ensure desktop dropdown behavior is hover-open and leave-close */
+        @media (min-width: 992px) {
+            .navbar .nav-item.dropdown > .dropdown-menu {
+                display: block;
+                top: 150%;
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.2s ease;
+            }
+
+            .navbar .nav-item.dropdown:hover > .dropdown-menu {
+                top: 100%;
+                opacity: 1;
+                visibility: visible;
+            }
         }
         
         /* Lower z-index for carousel/slider */
@@ -312,6 +334,40 @@ SAIDAPET , CHENNAI, Tamil Nadu, India - 600035</p>
 
     <!-- Template Javascript -->
     <script src="{% static 'js/main.js' %}"></script>
+
+    <script>
+        // Keep language dropdown consistent on desktop across environments.
+        (function () {
+            if (window.innerWidth < 992) {
+                return;
+            }
+
+            var desktopDropdowns = document.querySelectorAll('.navbar .nav-item.dropdown');
+            desktopDropdowns.forEach(function (item) {
+                item.addEventListener('mouseenter', function () {
+                    var menu = item.querySelector('.dropdown-menu');
+                    var toggle = item.querySelector('[data-bs-toggle="dropdown"]');
+                    if (!menu || !toggle) {
+                        return;
+                    }
+                    menu.classList.add('show');
+                    toggle.classList.add('show');
+                    toggle.setAttribute('aria-expanded', 'true');
+                });
+
+                item.addEventListener('mouseleave', function () {
+                    var menu = item.querySelector('.dropdown-menu');
+                    var toggle = item.querySelector('[data-bs-toggle="dropdown"]');
+                    if (!menu || !toggle) {
+                        return;
+                    }
+                    menu.classList.remove('show');
+                    toggle.classList.remove('show');
+                    toggle.setAttribute('aria-expanded', 'false');
+                });
+            });
+        })();
+    </script>
 </body>
 
 </html>

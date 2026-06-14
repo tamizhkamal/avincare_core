@@ -1,11 +1,12 @@
 from django.urls import include, path
+from django.views.generic import RedirectView
 
 from members import views
 from members import contact_views
 
 urlpatterns = [
-    path('', views.members, name='dashboard'),
-    path('dashboard/', views.dashboard, name='dashboard'),
+    path('', views.dashboard, name='dashboard'),
+    path('dashboard/', RedirectView.as_view(url='/', permanent=False)),
     path('about/', views.about, name='about'),
     path('vision/', views.vision, name='vision'),
     path('board/', views.board, name='board'),
