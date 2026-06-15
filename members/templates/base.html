@@ -106,20 +106,20 @@
             color: #007bff !important;
         }
 
-        /* Ensure desktop dropdown behavior is hover-open and leave-close */
+        /* Desktop: pure CSS hover — forcefully override Bootstrap .show class */
         @media (min-width: 992px) {
-            .navbar .nav-item.dropdown > .dropdown-menu {
-                display: block;
-                top: 150%;
-                opacity: 0;
-                visibility: hidden;
-                transition: all 0.2s ease;
+            .navbar .nav-item.dropdown > .dropdown-menu,
+            .navbar .nav-item.dropdown > .dropdown-menu.show {
+                display: none !important;
+                opacity: 0 !important;
+                visibility: hidden !important;
             }
 
-            .navbar .nav-item.dropdown:hover > .dropdown-menu {
-                top: 100%;
-                opacity: 1;
-                visibility: visible;
+            .navbar .nav-item.dropdown:hover > .dropdown-menu,
+            .navbar .nav-item.dropdown:hover > .dropdown-menu.show {
+                display: block !important;
+                opacity: 1 !important;
+                visibility: visible !important;
             }
         }
         
@@ -335,75 +335,18 @@ SAIDAPET , CHENNAI, Tamil Nadu, India - 600035</p>
     <script src="{% static 'js/main.js' %}"></script>
 
     <script>
-        // Use Bootstrap's own API to avoid class/state mismatch across environments.
+        // Desktop: prevent Bootstrap click handler from opening dropdown.
+        // CSS :hover handles visibility on desktop. Mobile uses Bootstrap default.
         (function () {
             var desktopQuery = window.matchMedia('(min-width: 992px)');
-
-            function initDesktopHoverDropdowns() {
-                if (!desktopQuery.matches || typeof bootstrap === 'undefined') {
-                    return;
-                }
-
-                document.querySelectorAll('.navbar .nav-item.dropdown').forEach(function (item) {
-                    if (item.dataset.hoverReady === '1') {
-                        return;
+            document.querySelectorAll('.navbar [data-bs-toggle="dropdown"]').forEach(function (toggle) {
+                toggle.addEventListener('click', function (event) {
+                    if (desktopQuery.matches) {
+                        event.preventDefault();
+                        event.stopPropagation();
                     }
-
-                    var toggle = item.querySelector('[data-bs-toggle="dropdown"]');
-                    var menu = item.querySelector('.dropdown-menu');
-                    if (!toggle || !menu) {
-                        return;
-                    }
-
-                    var dropdown;
-                    if (typeof bootstrap.Dropdown.getOrCreateInstance === 'function') {
-                        dropdown = bootstrap.Dropdown.getOrCreateInstance(toggle, {
-                            autoClose: true
-                        });
-                    } else {
-                        // Bootstrap <= 5.0 fallback
-                        dropdown = bootstrap.Dropdown.getInstance(toggle) || new bootstrap.Dropdown(toggle, {
-                            autoClose: true
-                        });
-                    }
-
-                    var hideTimer;
-                    function showMenu() {
-                        clearTimeout(hideTimer);
-                        dropdown.show();
-                    }
-
-                    function hideMenu() {
-                        clearTimeout(hideTimer);
-                        hideTimer = setTimeout(function () {
-                            dropdown.hide();
-                        }, 120);
-                    }
-
-                    // Desktop uses hover; click is ignored to prevent sticky state.
-                    toggle.addEventListener('click', function (event) {
-                        if (desktopQuery.matches) {
-                            event.preventDefault();
-                        }
-                    });
-
-                    item.addEventListener('mouseenter', showMenu);
-                    item.addEventListener('mouseleave', hideMenu);
-                    menu.addEventListener('mouseenter', showMenu);
-                    menu.addEventListener('mouseleave', hideMenu);
-
-                    item.addEventListener('focusout', function (event) {
-                        if (!item.contains(event.relatedTarget)) {
-                            hideMenu();
-                        }
-                    });
-
-                    item.dataset.hoverReady = '1';
-                });
-            }
-
-            initDesktopHoverDropdowns();
-            desktopQuery.addEventListener('change', initDesktopHoverDropdowns);
+                }, true);
+            });
         })();
     </script>
 </body>
